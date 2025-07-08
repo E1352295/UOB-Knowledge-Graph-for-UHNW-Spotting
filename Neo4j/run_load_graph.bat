@@ -8,7 +8,7 @@ REM Call Python script with the same arguments
 python load_graph.py ^
   --neo4j_export "../SGX Annual Reports/Case Study/Venture Corporation Limited/neo4j_query_table_data_2025-6-26.json" ^
   --wikidata_json "../WikiData/data.json" ^
-  --mas_personnel_csv "../MAS/MAS_merged_nodes.json"
+  --mas_personnel_json "../MAS/MAS_merged_nodes.json"
 
 REM Optional: pause to see output
 pause
