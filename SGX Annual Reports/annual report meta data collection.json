@@ -1,0 +1,1263 @@
+{
+  "name": "bridged http with download",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1080,
+        750
+      ],
+      "id": "a1c13c05-6b17-4105-9cb9-933edc224f9d",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=0&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        300
+      ],
+      "id": "49e6799a-a685-489d-8627-1b3151fe7435",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        300
+      ],
+      "id": "c5cfac09-504c-4ad0-8ae3-bf022b97150a",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "numberInputs": 7
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        20,
+        841
+      ],
+      "id": "e2ce43f6-3b95-4447-8a0e-6b9261dd1d8d",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=1&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        500
+      ],
+      "id": "b91249ba-06b3-4269-8f03-941e535ba2a1",
+      "name": "HTTP Request2"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        500
+      ],
+      "id": "5aa55d14-967b-48ad-a889-7806e15c21b6",
+      "name": "Split Out1"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=2&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        700
+      ],
+      "id": "6158469b-eb64-4e4e-a0ed-aa19595edf92",
+      "name": "HTTP Request3"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        700
+      ],
+      "id": "dcace6a1-b007-452e-8a8c-4e1d4e075ccc",
+      "name": "Split Out2"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=3&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        900
+      ],
+      "id": "3cbe5b65-082c-4b00-8b23-d8cb08d35fae",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        900
+      ],
+      "id": "18b72e29-5835-49cc-ab55-427fe2601dc7",
+      "name": "Split Out3"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=4&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        1100
+      ],
+      "id": "4cde6fc2-a564-4ea3-9815-b6dd1fb04413",
+      "name": "HTTP Request4"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        1100
+      ],
+      "id": "00c7a87a-18fc-43ab-9011-6b3587c36793",
+      "name": "Split Out4"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=5&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        1300
+      ],
+      "id": "119705a7-d077-4455-b530-17faae9b661f",
+      "name": "HTTP Request5"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        1300
+      ],
+      "id": "10ce37f0-e1da-408e-8c20-51b5c00451ad",
+      "name": "Split Out5"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.sgx.com/financialreports/v1.0?pagestart=6&pagesize=2000&params=id%2CcompanyName%2CdocumentDate%2CsecurityName%2Ctitle%2Curl",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        1500
+      ],
+      "id": "43f9b955-e9e1-4222-9147-679c737b8b8a",
+      "name": "HTTP Request6"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        1500
+      ],
+      "id": "e8d551fc-347a-49d7-9f87-015adb015fa4",
+      "name": "Split Out6"
+    },
+    {
+      "parameters": {
+        "operation": "extractHtmlContent",
+        "extractionValues": {
+          "values": [
+            {
+              "cssSelector": ".announcement-attachment",
+              "returnValue": "attribute"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        1340,
+        875
+      ],
+      "id": "7ef6a5ef-f3d9-4330-bf1b-a1decfc0df4f",
+      "name": "HTML"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/files/{{ $json[''].href.split('/')[4] }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -1080,
+        -160
+      ],
+      "id": "20caef36-626a-4964-a08e-f4622d09da09",
+      "name": "Read/Write Files from Disk1",
+      "alwaysOutputData": false,
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        680,
+        925
+      ],
+      "id": "1c0d1439-cab5-42c7-b8f1-262ca8cdded9",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        875
+      ],
+      "id": "4dc303af-9282-45c6-a30c-3c78d2dd8f1d",
+      "name": "HTTP Request7",
+      "retryOnFail": true,
+      "alwaysOutputData": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "=https://links.sgx.com{{ $json[''].href }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1560,
+        750
+      ],
+      "id": "44ac7b13-8450-4eea-a50d-ea6b062e8495",
+      "name": "HTTP Request8",
+      "alwaysOutputData": false,
+      "retryOnFail": true,
+      "disabled": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "interval": 1
+      },
+      "type": "n8n-nodes-throttle.throttle",
+      "typeVersion": 1,
+      "position": [
+        900,
+        950
+      ],
+      "id": "b31cbc6a-d852-4507-94ad-bdf870c2803f",
+      "name": "Throttle",
+      "notesInFlow": false,
+      "alwaysOutputData": false,
+      "retryOnFail": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        900,
+        675
+      ],
+      "id": "4db165fc-536d-434d-b051-4e773ae84a76",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        1780,
+        1050
+      ],
+      "id": "37f1c805-d7c3-4fdf-8d7a-aa9090ea8ead",
+      "name": "Merge1",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{filepath: '/files/files/'+$input.first().json[''].href.split('/')[4]}]"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1560,
+        950
+      ],
+      "id": "d7a69694-351a-4ebc-97ac-77c3f19848cf",
+      "name": "Code1",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    \"documentDate\": 1750348800000,\n    \"securityName\": \"MULTIPLE\",\n    \"companyName\": \"MITSUBISHI CORPORATION\",\n    \"id\": \"K2U12FQSG7VXTR0C\",\n    \"title\": \"Annual Report\",\n    \"url\": \"https://links.sgx.com/1.0.0/corporate-announcements/K2U12FQSG7VXTR0C/b1975e5c45dd0fc42f29dfc759a65a839a6216a7e73cd4e709503a9b5187c671\"\n  }\n]"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -860,
+        100
+      ],
+      "id": "d7af6d7f-9719-4a1a-92a1-3ecb43ffa31f",
+      "name": "Code2",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "jsCode": "/**\n * n8n Code node - transform announcement JSON\n *\n * Input  : 1 item / announcement (示例字段见问题)\n * Output : 1 item / row with keys: No, Category, Entity, Period, Data\n *          方便后续 “Spreadsheet-File” 或 “Write Binary File” 节点直接导出 CSV\n */\nreturn items.map((item, index) => {\n  const {\n    filepath,\n    documentDate,\n    companyName,\n    title            // e.g. \"Annual Report\"\n  } = item.json;\n\n  // ── Period ────────────────────────────────────────────────\n  const d        = new Date(Number(documentDate));           // ms → Date\n  const period   = d.toISOString().slice(0, 10).replace(/-/g, ''); // YYYYMMDD\n  const year     = d.getUTCFullYear();                       // for “Entity”\n\n  // ── Data (file name only) ─────────────────────────────────\n  const dataFile = filepath.split('/').pop();                // trim path\n\n  // ── Assemble row ─────────────────────────────────────────\n  return {\n    json: {\n      No:       index + 1,                  // start at 1\n      Category: title || 'Annual Report',   // fallback just in case\n      Entity:   `${companyName} ${year}`,   // e.g. \"MITSUBISHI CORPORATION 2025\"\n      Period:   period,                     // 20250719\n      Data:     dataFile                    // 849399_Corporate Governance Report 2025.pdf\n    }\n  };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        1125
+      ],
+      "id": "3f67091d-3f2d-434a-bd7a-00b242a24fb7",
+      "name": "Code",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/files/files/FilesTrack.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        675
+      ],
+      "id": "a52cc9b0-20ac-440c-ba29-018cf578fdf1",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "maxItems": 2
+      },
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        280,
+        920
+      ],
+      "id": "1b9fcd7e-e9d9-4155-93cf-f88d4d058bb6",
+      "name": "Limit1",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "maxItems": 10
+      },
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        300
+      ],
+      "id": "6e97e14b-8316-4990-8586-221636a5fa24",
+      "name": "Limit",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        500
+      ],
+      "id": "690917f3-e441-44ae-ab7d-1a014c1ef0e6",
+      "name": "Limit2",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        700
+      ],
+      "id": "33e13478-60f5-49fa-be0b-48c5e1800d75",
+      "name": "Limit3",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        900
+      ],
+      "id": "6eeccb8f-754d-4ac5-9a28-188aab0a92fd",
+      "name": "Limit4",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        1100
+      ],
+      "id": "0d62f06c-3ae6-486e-94d8-95569b53a33f",
+      "name": "Limit5",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        1300
+      ],
+      "id": "d9c23149-0cc1-43cc-948d-980a69e3188e",
+      "name": "Limit6",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        1500
+      ],
+      "id": "b41af32a-df73-4f9a-8c07-43dec7bb8809",
+      "name": "Limit7",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        300
+      ],
+      "id": "6db4db17-d5c3-4eef-a3db-4e1a429f62a5",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        500
+      ],
+      "id": "4a086536-37be-445e-84f9-7d91922ec4a4",
+      "name": "If2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        700
+      ],
+      "id": "f14237d5-3f27-44e8-a89b-f09e0a03242f",
+      "name": "If3"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        900
+      ],
+      "id": "cf25a9b6-73c9-46d7-b8c4-37496b8bb707",
+      "name": "If4"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        1100
+      ],
+      "id": "d9c3d415-3194-4af8-98ad-b9179e3bba65",
+      "name": "If5"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        1300
+      ],
+      "id": "6e052089-353c-4779-9f3d-7b99ddcaa6a8",
+      "name": "If6"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bf0a8d08-d2fc-41e0-bfd5-847e97710056",
+              "leftValue": "={{ $json.title }}",
+              "rightValue": "Annual Report",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        1500
+      ],
+      "id": "c43a4f97-e34b-4aba-9d10-6c24a4a00298",
+      "name": "If7"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request3",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request4",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request6",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Limit1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request2": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "Limit2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request3": {
+      "main": [
+        [
+          {
+            "node": "Split Out2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out2": {
+      "main": [
+        [
+          {
+            "node": "Limit3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Split Out3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request4": {
+      "main": [
+        [
+          {
+            "node": "Split Out4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request5": {
+      "main": [
+        [
+          {
+            "node": "Split Out5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out3": {
+      "main": [
+        [
+          {
+            "node": "Limit4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out4": {
+      "main": [
+        [
+          {
+            "node": "Limit5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out5": {
+      "main": [
+        [
+          {
+            "node": "Limit6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request6": {
+      "main": [
+        [
+          {
+            "node": "Split Out6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out6": {
+      "main": [
+        [
+          {
+            "node": "Limit7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request8",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk1": {
+      "main": [
+        []
+      ]
+    },
+    "HTTP Request7": {
+      "main": [
+        [
+          {
+            "node": "HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request8": {
+      "main": [
+        []
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Throttle",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Throttle": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request7",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code2": {
+      "main": [
+        []
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit2": {
+      "main": [
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit3": {
+      "main": [
+        [
+          {
+            "node": "If3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit4": {
+      "main": [
+        [
+          {
+            "node": "If4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit5": {
+      "main": [
+        [
+          {
+            "node": "If5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit6": {
+      "main": [
+        [
+          {
+            "node": "If6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit7": {
+      "main": [
+        [
+          {
+            "node": "If7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "If3": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "If4": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 3
+          }
+        ]
+      ]
+    },
+    "If5": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 4
+          }
+        ]
+      ]
+    },
+    "If6": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 5
+          }
+        ]
+      ]
+    },
+    "If7": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 6
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "b9a31e19-1730-4964-87c8-389af07575eb",
+  "meta": {
+    "instanceId": "70232b1931410b16ff30066cebf27f070772e4fb9654f8dda3bb39f2d0a7022c"
+  },
+  "id": "pLAEL1nErPDdxsqi",
+  "tags": []
+}

@@ -1,0 +1,6507 @@
+[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1152921504606846976,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "executive chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846976",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1155173304420532224,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "managing director",
+        "endDate": 2023,
+        "startDate": 1989
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532224",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1157425104234217472,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "ceo",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217472",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1159676904047902720,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "endDate": 2023,
+        "startDate": 1989
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902720",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1161928703861587968,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, nominating committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1161928703861587968",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1164180503675273216,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman, investment committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1164180503675273216",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1166432303488958464,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman, science, technology & innovation committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1166432303488958464",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 1168684103302643712,
+      "start": 0,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1168684103302643712",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081862,
+      "start": 0,
+      "end": 6,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "management positions",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081862",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hewlett-Packard Company"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081863,
+      "start": 0,
+      "end": 7,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081863",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Exchange Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081864,
+      "start": 0,
+      "end": 8,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081864",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:8"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "DBS Bank Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081865,
+      "start": 0,
+      "end": 9,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081865",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:9"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Economic Development Board of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081866,
+      "start": 0,
+      "end": 10,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081866",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Enterprise Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ngit Liong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0"
+    },
+    "r": {
+      "identity": 6917529027641081867,
+      "start": 0,
+      "end": 11,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman of the board of trustees",
+        "startDate": 2004
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081867",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:0",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "National University of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Chorh Chuan"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:2"
+    },
+    "r": {
+      "identity": 1152921504606846978,
+      "start": 2,
+      "end": 3,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846978",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:2",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "A*Star"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "A*Star"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:3"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 1152921504606846980,
+      "start": 4,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "group ceo",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846980",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 1155173304420532228,
+      "start": 4,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "group chief executive officer",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532228",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 1157425104234217476,
+      "start": 4,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chief executive officer (advanced manufacturing & design solutions)",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217476",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 1159676904047902724,
+      "start": 4,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chief operating officer",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902724",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 6917529027641081937,
+      "start": 4,
+      "end": 81,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "management positions",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081937",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:81"
+    },
+    "m": {
+      "identity": 81,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Agilent Technologies"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:81"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 6917529027641081938,
+      "start": 4,
+      "end": 82,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "management positions",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081938",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:82"
+    },
+    "m": {
+      "identity": 82,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hewlett Packard"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:82"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 6917529027641081939,
+      "start": 4,
+      "end": 83,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "other roles",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081939",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:83"
+    },
+    "m": {
+      "identity": 83,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Unisys Corporation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:83"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Chee Kheong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4"
+    },
+    "r": {
+      "identity": 6917529027641081940,
+      "start": 4,
+      "end": 84,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "other roles",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081940",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:4",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:84"
+    },
+    "m": {
+      "identity": 84,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chartered Industries Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:84"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 1152921504606846981,
+      "start": 5,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent non-executive director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846981",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 1155173304420532229,
+      "start": 5,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532229",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 1159676904047902725,
+      "start": 5,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, audit & risk committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902725",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 1161928703861587973,
+      "start": 5,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, nominating committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1161928703861587973",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6919780827454767129,
+      "start": 5,
+      "end": 25,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, yale-nus college governing board",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767129",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:25"
+    },
+    "m": {
+      "identity": 25,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yale-NUS College"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:25"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 1157425104234217477,
+      "start": 5,
+      "end": 60,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "non-executive and lead independent director",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217477",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:60"
+    },
+    "m": {
+      "identity": 60,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yongmao Holdings Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:60"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6919780827454767165,
+      "start": 5,
+      "end": 61,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767165",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:61"
+    },
+    "m": {
+      "identity": 61,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Technology Acquisition Corporation Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:61"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081921,
+      "start": 5,
+      "end": 65,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member of board of trustees",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081921",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:65"
+    },
+    "m": {
+      "identity": 65,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "University of the Arts Singapore Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:65"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081922,
+      "start": 5,
+      "end": 66,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairperson, yong siew toh conservatory of music governing board",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081922",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:66"
+    },
+    "m": {
+      "identity": 66,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yong Siew Toh Conservatory of Music"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:66"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081923,
+      "start": 5,
+      "end": 67,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member of the board",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081923",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:67"
+    },
+    "m": {
+      "identity": 67,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Land Authority"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:67"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081924,
+      "start": 5,
+      "end": 68,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "deputy chairperson",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081924",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:68"
+    },
+    "m": {
+      "identity": 68,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Mandai Park Holdings Pte. Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:68"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081925,
+      "start": 5,
+      "end": 69,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081925",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:69"
+    },
+    "m": {
+      "identity": 69,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Sankyo Frontier Co., Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:69"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081926,
+      "start": 5,
+      "end": 70,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "singapore’s non-resident ambassador",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081926",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:70"
+    },
+    "m": {
+      "identity": 70,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Chile"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:70"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081927,
+      "start": 5,
+      "end": 71,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081927",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:71"
+    },
+    "m": {
+      "identity": 71,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "3Fleur Pte. Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:71"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081928,
+      "start": 5,
+      "end": 72,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chief executive officer",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081928",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:72"
+    },
+    "m": {
+      "identity": 72,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "National Gallery Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:72"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081929,
+      "start": 5,
+      "end": 73,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "head of the visual arts cluster",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081929",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:73"
+    },
+    "m": {
+      "identity": 73,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Visual Arts Cluster Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:73"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081930,
+      "start": 5,
+      "end": 74,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081930",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:74"
+    },
+    "m": {
+      "identity": 74,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Art Museum"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:74"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081931,
+      "start": 5,
+      "end": 75,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081931",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:75"
+    },
+    "m": {
+      "identity": 75,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Tyler Print Institute"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:75"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081932,
+      "start": 5,
+      "end": 76,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081932",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:76"
+    },
+    "m": {
+      "identity": 76,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore-India Partnership Foundation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:76"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081933,
+      "start": 5,
+      "end": 77,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "president and ceo",
+        "startDate": 2013
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081933",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:77"
+    },
+    "m": {
+      "identity": 77,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Ascendas Group"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:77"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081934,
+      "start": 5,
+      "end": 78,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "deputy ceo",
+        "startDate": 2001
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081934",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:78"
+    },
+    "m": {
+      "identity": 78,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "JTC Corporation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:78"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081935,
+      "start": 5,
+      "end": 79,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "deputy chairman",
+        "startDate": 2014
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081935",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:79"
+    },
+    "m": {
+      "identity": 79,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "SPRING Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:79"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chong Siak Ching"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5"
+    },
+    "r": {
+      "identity": 6917529027641081936,
+      "start": 5,
+      "end": 80,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "representative",
+        "startDate": 2010
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081936",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:5",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:80"
+    },
+    "m": {
+      "identity": 80,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "APEC Business Advisory Council"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:80"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hewlett-Packard Company"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:6"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Exchange Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:7"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "DBS Bank Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:8"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Economic Development Board of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:9"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Enterprise Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:10"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "National University of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:11"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 1152921504606846988,
+      "start": 12,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent non-executive director",
+        "endDate": 2023,
+        "startDate": 2018
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846988",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 1155173304420532236,
+      "start": 12,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "lead independent director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532236",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 1157425104234217484,
+      "start": 12,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairperson, audit & risk committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217484",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 1159676904047902732,
+      "start": 12,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, remuneration committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902732",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 1161928703861587980,
+      "start": 12,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1161928703861587980",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081869,
+      "start": 12,
+      "end": 13,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "market head, chairman and ceo",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081869",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nestlé Group"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081870,
+      "start": 12,
+      "end": 14,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081870",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nestlé ROH (Thailand) Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081871,
+      "start": 12,
+      "end": 15,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "advisory committee member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081871",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tanjong Katong Girls’ School"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081872,
+      "start": 12,
+      "end": 16,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081872",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hyphens Pharma International Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081873,
+      "start": 12,
+      "end": 17,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081873",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Heliconia Capital Management Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Seok Hoong @Mrs Audrey Liow"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12"
+    },
+    "r": {
+      "identity": 6917529027641081874,
+      "start": 12,
+      "end": 18,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081874",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:12",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:18"
+    },
+    "m": {
+      "identity": 18,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "C-Quest Capital SGT Asia Stoves Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nestlé Group"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:13"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nestlé ROH (Thailand) Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:14"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tanjong Katong Girls’ School"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:15"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hyphens Pharma International Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:16"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Heliconia Capital Management Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:17"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "C-Quest Capital SGT Asia Stoves Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:18"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 1152921504606846995,
+      "start": 19,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent non-executive director",
+        "endDate": 2023,
+        "startDate": 2018
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606846995",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 1155173304420532243,
+      "start": 19,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairperson, nominating committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532243",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 1157425104234217491,
+      "start": 19,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairperson, remuneration committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217491",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 1159676904047902739,
+      "start": 19,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902739",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6919780827454767115,
+      "start": 19,
+      "end": 11,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board of trustees member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767115",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "National University of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081876,
+      "start": 19,
+      "end": 20,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081876",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:20"
+    },
+    "m": {
+      "identity": 20,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotel Limited (Singapore)"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081877,
+      "start": 19,
+      "end": 21,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081877",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:21"
+    },
+    "m": {
+      "identity": 21,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok (Singapore) Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081878,
+      "start": 19,
+      "end": 22,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "executive chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081878",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:22"
+    },
+    "m": {
+      "identity": 22,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Allgreen Properties Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081879,
+      "start": 19,
+      "end": 23,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "managing director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081879",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:23"
+    },
+    "m": {
+      "identity": 23,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotels (Malaysia) Berhad"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081880,
+      "start": 19,
+      "end": 24,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081880",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:24"
+    },
+    "m": {
+      "identity": 24,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Brothers Sdn Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:24"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081881,
+      "start": 19,
+      "end": 25,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman, governing board",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081881",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:25"
+    },
+    "m": {
+      "identity": 25,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yale-NUS College"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:25"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081882,
+      "start": 19,
+      "end": 26,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board of trustees member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081882",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:26"
+    },
+    "m": {
+      "identity": 26,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Business Federation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:26"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081883,
+      "start": 19,
+      "end": 27,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081883",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:27"
+    },
+    "m": {
+      "identity": 27,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Hotels Association"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:27"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081884,
+      "start": 19,
+      "end": 28,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081884",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:28"
+    },
+    "m": {
+      "identity": 28,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Resilience Collective Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:28"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081885,
+      "start": 19,
+      "end": 29,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081885",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:29"
+    },
+    "m": {
+      "identity": 29,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "First Property Holdings Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:29"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081886,
+      "start": 19,
+      "end": 30,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081886",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:30"
+    },
+    "m": {
+      "identity": 30,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Foundation Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:30"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081887,
+      "start": 19,
+      "end": 31,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081887",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:31"
+    },
+    "m": {
+      "identity": 31,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Orange Grove Holdings Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:31"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Oon Kwong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19"
+    },
+    "r": {
+      "identity": 6917529027641081888,
+      "start": 19,
+      "end": 32,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081888",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:19",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:32"
+    },
+    "m": {
+      "identity": 32,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Sentosa Beach Resort Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:32"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotel Limited (Singapore)"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:20"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok (Singapore) Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:21"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Allgreen Properties Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:22"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotels (Malaysia) Berhad"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:23"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Brothers Sdn Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:24"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yale-NUS College"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:25"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Business Federation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:26"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Hotels Association"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:27"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Resilience Collective Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:28"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "First Property Holdings Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:29"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kuok Foundation Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:30"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Orange Grove Holdings Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:31"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Sentosa Beach Resort Pte Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:32"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 1152921504606847009,
+      "start": 33,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847009",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 1155173304420532257,
+      "start": 33,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent non-executive director",
+        "endDate": 2023,
+        "startDate": 2016
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532257",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 1157425104234217505,
+      "start": 33,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, audit & risk committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217505",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 1159676904047902753,
+      "start": 33,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, nominating committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902753",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 1161928703861588001,
+      "start": 33,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, science, technology & innovation committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1161928703861588001",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Han Thong Kwang"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33"
+    },
+    "r": {
+      "identity": 6919780827454767110,
+      "start": 33,
+      "end": 6,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "vice president of the business printing division",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767110",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:33",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hewlett-Packard Company"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 1152921504606847010,
+      "start": 34,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847010",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 1155173304420532258,
+      "start": 34,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "non-independent non-executive director",
+        "endDate": 2023,
+        "startDate": 2009
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532258",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 1157425104234217506,
+      "start": 34,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, remuneration committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217506",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 1159676904047902754,
+      "start": 34,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, investment committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902754",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6919780827454767124,
+      "start": 34,
+      "end": 20,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767124",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:20"
+    },
+    "m": {
+      "identity": 20,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotel Limited (Singapore)"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6919780827454767126,
+      "start": 34,
+      "end": 22,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "executive chairman",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6919780827454767126",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:22"
+    },
+    "m": {
+      "identity": 22,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Allgreen Properties Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081892,
+      "start": 34,
+      "end": 36,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "managing director",
+        "startDate": 2022
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081892",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:36"
+    },
+    "m": {
+      "identity": 36,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotels (Malaysia) Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:36"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081893,
+      "start": 34,
+      "end": 37,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "vice-chair",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081893",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:37"
+    },
+    "m": {
+      "identity": 37,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "VIVA Foundation for Children with Cancer"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:37"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081894,
+      "start": 34,
+      "end": 38,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081894",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:38"
+    },
+    "m": {
+      "identity": 38,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "The Courage Fund Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:38"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081895,
+      "start": 34,
+      "end": 39,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081895",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:39"
+    },
+    "m": {
+      "identity": 39,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "TTSH Community Fund"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:39"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081896,
+      "start": 34,
+      "end": 40,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "council member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081896",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:40"
+    },
+    "m": {
+      "identity": 40,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "The Council for Board Diversity"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:40"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081897,
+      "start": 34,
+      "end": 41,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081897",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:41"
+    },
+    "m": {
+      "identity": 41,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Deposit Insurance Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:41"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081898,
+      "start": 34,
+      "end": 42,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "audit-partner",
+        "startDate": 2008
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081898",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:42"
+    },
+    "m": {
+      "identity": 42,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "PricewaterhouseCoopers"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:42"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081899,
+      "start": 34,
+      "end": 43,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081899",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:43"
+    },
+    "m": {
+      "identity": 43,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Health Promotion Board"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:43"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081900,
+      "start": 34,
+      "end": 44,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081900",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:44"
+    },
+    "m": {
+      "identity": 44,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore National Eye Centre"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:44"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081901,
+      "start": 34,
+      "end": 45,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081901",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:45"
+    },
+    "m": {
+      "identity": 45,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Eye Research Institute"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:45"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081902,
+      "start": 34,
+      "end": 46,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081902",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:46"
+    },
+    "m": {
+      "identity": 46,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kidney Dialysis Foundation Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:46"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081903,
+      "start": 34,
+      "end": 47,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081903",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:47"
+    },
+    "m": {
+      "identity": 47,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Ascendas Funds Management (S) Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:47"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081904,
+      "start": 34,
+      "end": 48,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081904",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:48"
+    },
+    "m": {
+      "identity": 48,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "People’s Association"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:48"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081905,
+      "start": 34,
+      "end": 49,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081905",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:49"
+    },
+    "m": {
+      "identity": 49,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Public Utilities Board"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:49"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081906,
+      "start": 34,
+      "end": 50,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081906",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:50"
+    },
+    "m": {
+      "identity": 50,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Land Transport Authority of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:50"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081907,
+      "start": 34,
+      "end": 51,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board member",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081907",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:51"
+    },
+    "m": {
+      "identity": 51,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Competition and Consumer Commission of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:51"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Yew Meng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34"
+    },
+    "r": {
+      "identity": 6917529027641081908,
+      "start": 34,
+      "end": 52,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "board of trustees",
+        "startDate": 2022
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081908",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:34",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:52"
+    },
+    "m": {
+      "identity": 52,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nanyang Technological University"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:52"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 1152921504606847011,
+      "start": 35,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847011",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 1155173304420532259,
+      "start": 35,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent non-executive director",
+        "endDate": 2023,
+        "startDate": 2021
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532259",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 1157425104234217507,
+      "start": 35,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, audit & risk committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1157425104234217507",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 1159676904047902755,
+      "start": 35,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, investment committee",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1159676904047902755",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081909,
+      "start": 35,
+      "end": 53,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "group president & ceo",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081909",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:53"
+    },
+    "m": {
+      "identity": 53,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Venture Holdings Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:53"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081910,
+      "start": 35,
+      "end": 54,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "managing partner",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081910",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:54"
+    },
+    "m": {
+      "identity": 54,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Ventures SE Asia & India"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081911,
+      "start": 35,
+      "end": 55,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081911",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:55"
+    },
+    "m": {
+      "identity": 55,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Growth Fund"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:55"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081912,
+      "start": 35,
+      "end": 56,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "co-founder",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081912",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:56"
+    },
+    "m": {
+      "identity": 56,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "MediaRing"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:56"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081913,
+      "start": 35,
+      "end": 57,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "independent director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081913",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:57"
+    },
+    "m": {
+      "identity": 57,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Credit Bureau Asia Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:57"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081914,
+      "start": 35,
+      "end": 58,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081914",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:58"
+    },
+    "m": {
+      "identity": 58,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shenzhen Chipscreen Biosciences"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:58"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081915,
+      "start": 35,
+      "end": 59,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081915",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:59"
+    },
+    "m": {
+      "identity": 59,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Logitech International"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:59"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081916,
+      "start": 35,
+      "end": 60,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "non-executive and lead independent director",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081916",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:60"
+    },
+    "m": {
+      "identity": 60,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yongmao Holdings Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:60"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081917,
+      "start": 35,
+      "end": 61,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081917",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:61"
+    },
+    "m": {
+      "identity": 61,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Technology Acquisition Corporation Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:61"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081918,
+      "start": 35,
+      "end": 62,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "non-resident ambassador",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081918",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:62"
+    },
+    "m": {
+      "identity": 62,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Cuba"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:62"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081919,
+      "start": 35,
+      "end": 63,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "non-resident ambassador",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081919",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:63"
+    },
+    "m": {
+      "identity": 63,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Panama"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:63"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chua Kee Lock"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35"
+    },
+    "r": {
+      "identity": 6917529027641081920,
+      "start": 35,
+      "end": 64,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chairman",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081920",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:35",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:64"
+    },
+    "m": {
+      "identity": 64,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Keppel Technology Advisory Panel"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:64"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shangri-La Hotels (Malaysia) Bhd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:36"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "VIVA Foundation for Children with Cancer"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:37"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "The Courage Fund Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:38"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "TTSH Community Fund"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:39"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "The Council for Board Diversity"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:40"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Deposit Insurance Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:41"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 42,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "PricewaterhouseCoopers"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:42"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 43,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Health Promotion Board"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:43"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 44,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore National Eye Centre"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:44"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 45,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Eye Research Institute"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:45"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Kidney Dialysis Foundation Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:46"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Ascendas Funds Management (S) Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:47"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "People’s Association"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:48"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Public Utilities Board"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:49"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 50,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Land Transport Authority of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:50"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 51,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Competition and Consumer Commission of Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:51"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 52,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nanyang Technological University"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:52"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 53,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Venture Holdings Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:53"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 54,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Ventures SE Asia & India"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:54"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 55,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Growth Fund"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:55"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 56,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "MediaRing"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:56"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 57,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Credit Bureau Asia Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:57"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 58,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Shenzhen Chipscreen Biosciences"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:58"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 59,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Logitech International"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:59"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 60,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yongmao Holdings Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:60"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 61,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Vertex Technology Acquisition Corporation Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:61"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 62,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Cuba"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:62"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 63,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Panama"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:63"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 64,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Keppel Technology Advisory Panel"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:64"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 65,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "University of the Arts Singapore Ltd"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:65"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 66,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Yong Siew Toh Conservatory of Music"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:66"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 67,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Land Authority"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:67"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 68,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Mandai Park Holdings Pte. Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:68"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 69,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Sankyo Frontier Co., Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:69"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 70,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Republic of Chile"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:70"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 71,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "3Fleur Pte. Ltd."
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:71"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 72,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "National Gallery Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:72"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 73,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Visual Arts Cluster Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:73"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Art Museum"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:74"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore Tyler Print Institute"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:75"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Singapore-India Partnership Foundation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:76"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Ascendas Group"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:77"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "JTC Corporation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:78"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "SPRING Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:79"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "APEC Business Advisory Council"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:80"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Agilent Technologies"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:81"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Hewlett Packard"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:82"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Unisys Corporation"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:83"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Chartered Industries Singapore"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:84"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Anthea Ng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85"
+    },
+    "r": {
+      "identity": 1152921504606847061,
+      "start": 85,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chief financial officer",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847061",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Anthea Ng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85"
+    },
+    "r": {
+      "identity": 1155173304420532309,
+      "start": 85,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "group financial controller",
+        "startDate": 2023
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1155173304420532309",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Anthea Ng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85"
+    },
+    "r": {
+      "identity": 6917529027641081942,
+      "start": 85,
+      "end": 86,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chartered accountant",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081942",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:86"
+    },
+    "m": {
+      "identity": 86,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Institute of Singapore Chartered Accountants"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:86"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Anthea Ng"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85"
+    },
+    "r": {
+      "identity": 6917529027641081943,
+      "start": 85,
+      "end": 87,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "chartered accountant",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:6917529027641081943",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:85",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:87"
+    },
+    "m": {
+      "identity": 87,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Association of Certified Chartered Accountants"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:87"
+    }
+  },
+  {
+    "n": {
+      "identity": 86,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Institute of Singapore Chartered Accountants"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:86"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 87,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Association of Certified Chartered Accountants"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:87"
+    },
+    "r": null,
+    "m": null
+  },
+  {
+    "n": {
+      "identity": 88,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tay Chin Yin"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:88"
+    },
+    "r": {
+      "identity": 1152921504606847064,
+      "start": 88,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "head, ncis",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847064",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:88",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 89,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Terry Lim"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:89"
+    },
+    "r": {
+      "identity": 1152921504606847065,
+      "start": 89,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847065",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:89",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 90,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Mohamed Rizwan"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:90"
+    },
+    "r": {
+      "identity": 1152921504606847066,
+      "start": 90,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847066",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:90",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 91,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Rajkumar Somasundaram"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:91"
+    },
+    "r": {
+      "identity": 1152921504606847067,
+      "start": 91,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847067",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:91",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 92,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Murugavhinaren Chelliah"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:92"
+    },
+    "r": {
+      "identity": 1152921504606847068,
+      "start": 92,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847068",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:92",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 93,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Azrin Bin Ahmad"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:93"
+    },
+    "r": {
+      "identity": 1152921504606847069,
+      "start": 93,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847069",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:93",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 94,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Karthi Sundharamurthi"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:94"
+    },
+    "r": {
+      "identity": 1152921504606847070,
+      "start": 94,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847070",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:94",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 95,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Lee Ying Ping"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:95"
+    },
+    "r": {
+      "identity": 1152921504606847071,
+      "start": 95,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847071",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:95",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 96,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wong Ko Mun"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:96"
+    },
+    "r": {
+      "identity": 1152921504606847072,
+      "start": 96,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847072",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:96",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 97,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Mohammad Hafiz Al-Hakim"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:97"
+    },
+    "r": {
+      "identity": 1152921504606847073,
+      "start": 97,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, group facility, safety & security department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847073",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:97",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 98,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Ming Siew"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:98"
+    },
+    "r": {
+      "identity": 1152921504606847074,
+      "start": 98,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "director, total customer satisfaction",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847074",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:98",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 99,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "G Charanjit Singh"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:99"
+    },
+    "r": {
+      "identity": 1152921504606847075,
+      "start": 99,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "manager, compliance",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847075",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:99",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 100,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Imran"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:100"
+    },
+    "r": {
+      "identity": 1152921504606847076,
+      "start": 100,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, amtc department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847076",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:100",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 101,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Tan Boon Teong"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:101"
+    },
+    "r": {
+      "identity": 1152921504606847077,
+      "start": 101,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, amtc department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847077",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:101",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 102,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Cynthia Tan"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:102"
+    },
+    "r": {
+      "identity": 1152921504606847078,
+      "start": 102,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, amtc department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847078",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:102",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 103,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Wang Jung Pin"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:103"
+    },
+    "r": {
+      "identity": 1152921504606847079,
+      "start": 103,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member, amtc department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847079",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:103",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 104,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Normah Shahrom"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:104"
+    },
+    "r": {
+      "identity": 1152921504606847080,
+      "start": 104,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "senior manager, human resource",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847080",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:104",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 105,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Jordan Choo"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:105"
+    },
+    "r": {
+      "identity": 1152921504606847081,
+      "start": 105,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member of the irccs department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847081",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:105",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 106,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Jason Lim"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:106"
+    },
+    "r": {
+      "identity": 1152921504606847082,
+      "start": 106,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member of the irccs department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847082",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:106",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 107,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Nadia Tay"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:107"
+    },
+    "r": {
+      "identity": 1152921504606847083,
+      "start": 107,
+      "end": 1,
+      "type": "HAS_ROLE_AT",
+      "properties": {
+        "role": "member of the irccs department",
+        "startDate": 2024
+      },
+      "elementId": "5:36c64eea-f004-49d2-a8cd-11535e31ae39:1152921504606847083",
+      "startNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:107",
+      "endNodeElementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "lastUpdated": 2024,
+        "name": "Venture Corporation Limited"
+      },
+      "elementId": "4:36c64eea-f004-49d2-a8cd-11535e31ae39:1"
+    }
+  }
+]

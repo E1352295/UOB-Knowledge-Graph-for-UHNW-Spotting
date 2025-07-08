@@ -1,0 +1,23 @@
+EXECUTIONS_DATA_PRUNE=true          # 开启剪枝守护进程
+EXECUTIONS_DATA_MAX_AGE=168         # 168 小时 = 7 天后删除
+EXECUTIONS_DATA_PRUNE_MAX_COUNT=0   # (可选) 保留的最大执行条数；0=无限
+
+services:
+  n8n:
+    image: yl/n8n-alpine-python:20250626
+    container_name: n8n
+    ports:
+      - "5678:5678"
+    deploy:
+      resources:
+        limits:
+          cpus: '8'
+          memory: 24g
+    environment:
+      NODE_OPTIONS: "--max_old_space_size=18432"
+      OPENBLAS_NUM_THREADS: "8"
+      OMP_NUM_THREADS: "8"
+    volumes:
+      - "G:/My Drive/NUS MSBA SEM2/UOB/files:/data/pdfs"
+      - "C:/Users/22601/Downloads/downloads:/data/output"
+      - "C:/Users/22601/.n8n:/home/node/.n8n"

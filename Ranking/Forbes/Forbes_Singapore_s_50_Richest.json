@@ -1,0 +1,324 @@
+{
+  "name": "Forbes Singapore’s 50 Richest",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b3b90991-030d-4209-a21a-e6459c3c7b11",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "html": "<div class=\"csf-block\"><div class=\"table-wrapper\" id=\"table\" data-sort=\"asc\" data-page-number=\"1\"><div class=\"grid-wrapper\"><div class=\"table\"><div class=\"column-group\"><div class=\"column\" style=\"width: 33.333333333333336%;\" width=\"33.333333333333336%\"></div><div class=\"column\" style=\"width: 33.333333333333336%;\" width=\"33.333333333333336%\"></div><div class=\"column\" style=\"width: 33.333333333333336%;\" width=\"33.333333333333336%\"></div><div class=\"column\" style=\"width: 33.333333333333336%;\" width=\"33.333333333333336%\"></div></div><div class=\"header-group\"><div class=\"sort-header first\"><button class=\"table-sort-chevron\"><div class=\"sort-header-content table-header-text\"><span class=\"sort-header-content-text header-content-text\">RANK</span><div class=\"sort-arrow\"><svg version=\"1.1\" class=\"fs-icon fs-icon--chevron-up\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" y=\"0\" viewBox=\"0 0 24 24\" xml:space=\"preserve\"><path d=\"M5.8 14.5L7.2 16l4.8-4.8 4.8 4.8 1.4-1.5L12 8.2z\"></path></svg></div></div></button></div><div class=\"list-header second \"><div class=\"header-content table-header-text\"><span class=\"header-content-text\">NAME</span></div></div><div class=\"list-header  \"><div class=\"header-content table-header-text\"><span class=\"header-content-text\">NET WORTH </span></div></div><div class=\"list-header  \"><div class=\"header-content table-header-text\"><span class=\"header-content-text\">INDUSTRY</span></div></div></div><div class=\"table-row-group\"><a class=\"table-row active   premiumProfile-eduardo-saverin\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"eduardo-saverin\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/eduardo-saverin/?list=singapore-billionaires\" aria-label=\"Eduardo Saverin\" category=\"technology\" searchfilter=\"eduardosaverin\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">1</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Eduardo Saverin</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$29 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Technology</div></div></a><a class=\"table-row active   premiumProfile-robert-philip-ng\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"robert-philip-ng\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/robert-philip-ng/?list=singapore-billionaires\" aria-label=\"Robert &amp; Philip Ng\" category=\"realestate\" searchfilter=\"robertphilipng\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">2</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Robert &amp; Philip Ng</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$14.4 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-li-xiting\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"li-xiting\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/li-xiting/?list=singapore-billionaires\" aria-label=\"Li Xiting\" category=\"healthcare\" searchfilter=\"lixiting\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">3</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Li Xiting</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$13.4 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Healthcare</div></div></a><a class=\"table-row active   premiumProfile-kwek-leng-beng-1\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"kwek-leng-beng-1\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/kwek-leng-beng-1/?list=singapore-billionaires\" aria-label=\"Kwek Leng Beng &amp; family\" category=\"realestate\" searchfilter=\"kweklengbengfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">4</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Kwek Leng Beng &amp; family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$11.5 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-goh-cheng-liang\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"goh-cheng-liang\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/goh-cheng-liang/?list=singapore-billionaires\" aria-label=\"Goh Cheng Liang\" category=\"manufacturing\" searchfilter=\"gohchengliang\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">5</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Goh Cheng Liang</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$10.4 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Manufacturing</div></div></a><a class=\"table-row active   premiumProfile-khoo\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"khoo\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/khoo/?list=singapore-billionaires\" aria-label=\"Khoo family\" category=\"realestate\" searchfilter=\"khoofamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">6</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Khoo family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$9.2 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-wee-1\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"wee-1\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/wee-1/?list=singapore-billionaires\" aria-label=\"Wee family\" category=\"financeinvestments\" searchfilter=\"weefamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">7</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Wee family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$7.8 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-kwee\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"kwee\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/kwee/?list=singapore-billionaires\" aria-label=\"Kwee brothers\" category=\"realestate\" searchfilter=\"kweebrothers\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">8</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Kwee brothers</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$6.8 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-leo-koguan\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"leo-koguan\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/leo-koguan/?list=singapore-billionaires\" aria-label=\"Leo KoGuan\" category=\"technology\" searchfilter=\"leokoguan\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">9</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Leo KoGuan</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$6.7 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Technology</div></div></a><a class=\"table-row active   premiumProfile-zhang-yong-shu-ping\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"zhang-yong-shu-ping\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/zhang-yong-shu-ping/?list=singapore-billionaires\" aria-label=\"Zhang Yong &amp; Shu Ping\" category=\"foodbeverage\" searchfilter=\"zhangyongshuping\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">10</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Zhang Yong &amp; Shu Ping</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$6.5 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Food &amp; Beverage</div></div></a><a class=\"table-row active   premiumProfile-lee-2\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"lee-2\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/lee-2/?list=singapore-billionaires\" aria-label=\"Lee family\" category=\"financeinvestments\" searchfilter=\"leefamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">11</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Lee family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$6.3 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-forrest-li\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"forrest-li\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/forrest-li/?list=singapore-billionaires\" aria-label=\"Forrest Li\" category=\"mediaentertainment\" searchfilter=\"forrestli\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">12</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Forrest Li</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$5 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Media &amp; Entertainment</div></div></a><a class=\"table-row active   premiumProfile-kuok-khoon-hong-1\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"kuok-khoon-hong-1\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/kuok-khoon-hong-1/?list=singapore-billionaires\" aria-label=\"Kuok Khoon Hong &amp; family\" category=\"foodbeverage\" searchfilter=\"kuokkhoonhongfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">13</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Kuok Khoon Hong &amp; family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3.8 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Food &amp; Beverage</div></div></a><a class=\"table-row active   premiumProfile-robert-friedland\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"robert-friedland\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/robert-friedland/?list=singapore-billionaires\" aria-label=\"Robert Friedland\" category=\"metalsmining\" searchfilter=\"robertfriedland\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">14</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Robert Friedland</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3.2 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Metals &amp; Mining</div></div></a><a class=\"table-row active   premiumProfile-raj-kumar-kishin-rk\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"raj-kumar-kishin-rk\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/raj-kumar-kishin-rk/?list=singapore-billionaires\" aria-label=\"Raj Kumar &amp; Kishin RK\" category=\"realestate\" searchfilter=\"rajkumarkishinrk\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">15</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Raj Kumar &amp; Kishin RK</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3.15 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-gang-ye\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"gang-ye\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/gang-ye/?list=singapore-billionaires\" aria-label=\"Gang Ye\" category=\"mediaentertainment\" searchfilter=\"gangye\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">16</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Gang Ye</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3.1 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Media &amp; Entertainment</div></div></a><a class=\"table-row active   premiumProfile-lien\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"lien\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/lien/?list=singapore-billionaires\" aria-label=\"Lien family\" category=\"financeinvestments\" searchfilter=\"lienfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">17</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Lien family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3.05 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-richard-chandler\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"richard-chandler\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/richard-chandler/?list=singapore-billionaires\" aria-label=\"Richard Chandler\" category=\"financeinvestments\" searchfilter=\"richardchandler\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">18</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Richard Chandler</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$3 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-choo-chong-ngen\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"choo-chong-ngen\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/choo-chong-ngen/?list=singapore-billionaires\" aria-label=\"Choo Chong Ngen\" category=\"realestate\" searchfilter=\"choochongngen\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">19</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Choo Chong Ngen</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.7 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-ho\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"ho\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/ho/?list=singapore-billionaires\" aria-label=\"Ho family\" category=\"financeinvestments\" searchfilter=\"hofamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">20</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Ho family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.5 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-sam-goi\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"sam-goi\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/sam-goi/?list=singapore-billionaires\" aria-label=\"Sam Goi\" category=\"foodbeverage\" searchfilter=\"samgoi\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">21</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Sam Goi</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.45 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Food &amp; Beverage</div></div></a><a class=\"table-row active   premiumProfile-arvind-tiku\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"arvind-tiku\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/arvind-tiku/?list=singapore-billionaires\" aria-label=\"Arvind Tiku\" category=\"energy\" searchfilter=\"arvindtiku\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">22</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Arvind Tiku</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.4 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Energy</div></div></a><a class=\"table-row active   premiumProfile-ji-qi\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"ji-qi\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/ji-qi/?list=singapore-billionaires\" aria-label=\"Ji Qi\" category=\"realestate\" searchfilter=\"jiqi\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">23</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Ji Qi</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.35 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-liang-xinjun\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"liang-xinjun\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/liang-xinjun/?list=singapore-billionaires\" aria-label=\"Liang Xinjun\" category=\"financeinvestments\" searchfilter=\"liangxinjun\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">24</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Liang Xinjun</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.3 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-oei-hong-leong\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"oei-hong-leong\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/oei-hong-leong/?list=singapore-billionaires\" aria-label=\"Oei Hong Leong\" category=\"financeinvestments\" searchfilter=\"oeihongleong\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">25</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Oei Hong Leong</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$2.2 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-peter-lim\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"peter-lim\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/peter-lim/?list=singapore-billionaires\" aria-label=\"Peter Lim\" category=\"financeinvestments\" searchfilter=\"peterlim\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">26</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Peter Lim</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.75 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-ong-beng-seng-christina-ong\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"ong-beng-seng-christina-ong\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/ong-beng-seng-christina-ong/?list=singapore-billionaires\" aria-label=\"Ong Beng Seng &amp; Christina Ong\" category=\"diversified\" searchfilter=\"ongbengsengchristinaong\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">27</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Ong Beng Seng &amp; Christina Ong</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.7 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Diversified</div></div></a><a class=\"table-row active   premiumProfile-asok-kumar-hiranandani\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"asok-kumar-hiranandani\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/asok-kumar-hiranandani/?list=singapore-billionaires\" aria-label=\"Asok Kumar Hiranandani\" category=\"realestate\" searchfilter=\"asokkumarhiranandani\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">28</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Asok Kumar Hiranandani</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.65 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-koh-wee-meng\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"koh-wee-meng\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/koh-wee-meng/?list=singapore-billionaires\" aria-label=\"Koh Wee Meng\" category=\"realestate\" searchfilter=\"kohweemeng\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">29</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Koh Wee Meng</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.61 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-ron-sim\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"ron-sim\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/ron-sim/?list=singapore-billionaires\" aria-label=\"Ron Sim\" category=\"fashionretail\" searchfilter=\"ronsim\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">30</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Ron Sim</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.6 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Fashion &amp; Retail</div></div></a><a class=\"table-row active   premiumProfile-min-liang-tan\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"min-liang-tan\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/min-liang-tan/?list=singapore-billionaires\" aria-label=\"Min-Liang Tan\" category=\"mediaentertainment\" searchfilter=\"minliangtan\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">31</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Min-Liang Tan</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.55 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Media &amp; Entertainment</div></div></a><a class=\"table-row active   premiumProfile-tay\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"tay\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/tay/?list=singapore-billionaires\" aria-label=\"Tay family\" category=\"realestate\" searchfilter=\"tayfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">32</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Tay family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.53 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-tang-wee-kit\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"tang-wee-kit\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/tang-wee-kit/?list=singapore-billionaires\" aria-label=\"Tang Wee Kit &amp; family\" category=\"fashionretail\" searchfilter=\"tangweekitfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">33</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Tang Wee Kit &amp; family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.5 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Fashion &amp; Retail</div></div></a><a class=\"table-row active   premiumProfile-binny-bansal\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"binny-bansal\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/binny-bansal/?list=singapore-billionaires\" aria-label=\"Binny Bansal\" category=\"technology\" searchfilter=\"binnybansal\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">34</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Binny Bansal</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.4 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Technology</div></div></a><a class=\"table-row active   premiumProfile-chew-gek-khim\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"chew-gek-khim\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/chew-gek-khim/?list=singapore-billionaires\" aria-label=\"Chew Gek Khim &amp; family\" category=\"diversified\" searchfilter=\"chewgekkhimfamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">35</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Chew Gek Khim &amp; family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.39 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Diversified</div></div></a><a class=\"table-row active   premiumProfile-lim-hock-chee\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"lim-hock-chee\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/lim-hock-chee/?list=singapore-billionaires\" aria-label=\"Lim Hock Chee &amp; family\" category=\"fashionretail\" searchfilter=\"limhockcheefamily\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">36</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Lim Hock Chee &amp; family</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.35 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Fashion &amp; Retail</div></div></a><a class=\"table-row active   premiumProfile-yao-hsiao-tung\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"yao-hsiao-tung\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/yao-hsiao-tung/?list=singapore-billionaires\" aria-label=\"Yao Hsiao Tung\" category=\"manufacturing\" searchfilter=\"yaohsiaotung\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">37</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Yao Hsiao Tung</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.25 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Manufacturing</div></div></a><a class=\"table-row active   premiumProfile-chua-thian-poh\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"chua-thian-poh\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/chua-thian-poh/?list=singapore-billionaires\" aria-label=\"Chua Thian Poh\" category=\"realestate\" searchfilter=\"chuathianpoh\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">38</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Chua Thian Poh</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.21 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-wong\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"wong\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/wong/?list=singapore-billionaires\" aria-label=\"Wong brothers\" category=\"fashionretail\" searchfilter=\"wongbrothers\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">39</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Wong brothers</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.2 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Fashion &amp; Retail</div></div></a><a class=\"table-row active   premiumProfile-michael-kum\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"michael-kum\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/michael-kum/?list=singapore-billionaires\" aria-label=\"Michael Kum\" category=\"realestate\" searchfilter=\"michaelkum\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">40</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Michael Kum</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.15 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-john-lim\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"john-lim\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/john-lim/?list=singapore-billionaires\" aria-label=\"John Lim\" category=\"realestate\" searchfilter=\"johnlim\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">41</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">John Lim</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.1 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-lim-kaling\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"lim-kaling\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/lim-kaling/?list=singapore-billionaires\" aria-label=\"Lim Kaling\" category=\"mediaentertainment\" searchfilter=\"limkaling\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">42</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Lim Kaling</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.08 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Media &amp; Entertainment</div></div></a><a class=\"table-row active   premiumProfile-muhammed-aziz-khan\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"muhammed-aziz-khan\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/muhammed-aziz-khan/?list=singapore-billionaires\" aria-label=\"Muhammed Aziz Khan\" category=\"energy\" searchfilter=\"muhammedazizkhan\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">43</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Muhammed Aziz Khan</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.06 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Energy</div></div></a><a class=\"table-row active   premiumProfile-lim-chap-huat\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"lim-chap-huat\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/lim-chap-huat/?list=singapore-billionaires\" aria-label=\"Lim Chap Huat\" category=\"realestate\" searchfilter=\"limchaphuat\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">44</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Lim Chap Huat</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1.05 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-zhong-sheng-jian\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"zhong-sheng-jian\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/zhong-sheng-jian/?list=singapore-billionaires\" aria-label=\"Zhong Sheng Jian\" category=\"realestate\" searchfilter=\"zhongshengjian\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">45</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Zhong Sheng Jian</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$1 B</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Real Estate</div></div></a><a class=\"table-row active   premiumProfile-david-xueling-li\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"david-xueling-li\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/david-xueling-li/?list=singapore-billionaires\" aria-label=\"David Xueling Li\" category=\"technology\" searchfilter=\"davidxuelingli\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">46</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">David Xueling Li</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$970 M</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Technology</div></div></a><a class=\"table-row active   premiumProfile-saurabh-mittal\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"saurabh-mittal\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/saurabh-mittal/?list=singapore-billionaires\" aria-label=\"Saurabh Mittal\" category=\"financeinvestments\" searchfilter=\"saurabhmittal\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">47</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Saurabh Mittal</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$965 M</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-george-raymond-zage-iii\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"george-raymond-zage-iii\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/george-raymond-zage-iii/?list=singapore-billionaires\" aria-label=\"George Raymond Zage, III.\" category=\"financeinvestments\" searchfilter=\"georgeraymondzageiii\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">48</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">George Raymond Zage, III.</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$900 M</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Finance &amp; Investments</div></div></a><a class=\"table-row active   premiumProfile-laurent-junique\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"laurent-junique\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/laurent-junique/?list=singapore-billionaires\" aria-label=\"Laurent Junique\" category=\"technology\" searchfilter=\"laurentjunique\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">49</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">Laurent Junique</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$895 M</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Technology</div></div></a><a class=\"table-row active   premiumProfile-david-chen\" style=\"background-color: color-mix(in srgb, , transparent 90%);\" uri=\"david-chen\" canexpand=\"\" rel=\"noopener noreferrer\" href=\"https://www.forbes.com/profile/david-chen/?list=singapore-billionaires\" aria-label=\"David Chen\" category=\"mediaentertainment\" searchfilter=\"davidchen\"><div class=\"rank first  table-cell    rank \"><div class=\"row-cell-value\">50</div></div><div class=\"personName second  table-cell    name \"><div class=\"row-cell-value nameField\">David Chen</div></div><div class=\"finalWorth   table-cell    net worth ($) \"><div class=\"row-cell-value\">$870 M</div></div><div class=\"category   table-cell    industry \"><div class=\"row-cell-value\">Media &amp; Entertainment</div></div></a></div></div></div><div class=\"table-footer\"></div></div></div>"
+      },
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        220,
+        0
+      ],
+      "id": "1a52711a-9a28-47d3-a9fd-2541eb558c7d",
+      "name": "HTML"
+    },
+    {
+      "parameters": {
+        "operation": "extractHtmlContent",
+        "dataPropertyName": "html",
+        "extractionValues": {
+          "values": [
+            {
+              "key": "Rank",
+              "cssSelector": ".rank .row-cell-value",
+              "returnArray": true
+            },
+            {
+              "key": "Name",
+              "cssSelector": ".personName .row-cell-value",
+              "returnArray": true
+            },
+            {
+              "key": "Net Worth",
+              "cssSelector": ".finalWorth .row-cell-value",
+              "returnArray": true
+            },
+            {
+              "key": "Category",
+              "cssSelector": ".category .row-cell-value",
+              "returnArray": true
+            },
+            {
+              "key": "Link",
+              "cssSelector": "a.table-row",
+              "returnValue": "attribute",
+              "attribute": "href",
+              "returnArray": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        440,
+        0
+      ],
+      "id": "7268fae2-a671-4ed8-be52-eac1506196ef",
+      "name": "HTML1"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 获取从上一个节点传入的数据\n// $items[0].json 指的是第一个输入项的JSON数据\nconst inputData = $input.all();\n\n// 创建一个空数组用于存放结果\nconst results = [];\n\n// 获取记录的总数 (以Rank数组的长度为准)\nconst count = inputData[0].json.Rank.length;\n\n\n// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (let i = 0; i < count; i++) {\n  // 循环遍历每一条记录\n  // 为每条记录创建一个新的对象\n  const newObject = {\n    Rank: inputData[0].json.Rank[i],\n    Name: inputData[0].json.Name[i],\n    'Profile Link': inputData[0].json.Link[i],\n    \"Net Worth\": inputData[0].json[\"Net Worth\"][i], // 注意 \"Net Worth\" 中间有空格，需要用方括号\n    Category: inputData[0].json.Category[i],\n  };\n  // 将新对象添加到结果数组中\n  results.push(newObject);\n}\n\n\n// 返回格式化后的结果数组\n// n8n 会将这个数组的每个元素作为独立的item输出\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        640,
+        0
+      ],
+      "id": "f0490a70-a3c4-4a71-9873-5eafcf592ff5",
+      "name": "Code",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json['Profile Link'] }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1080,
+        140
+      ],
+      "id": "964cc3b3-c21b-4588-a4b2-dea296d251aa",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        860,
+        0
+      ],
+      "id": "e489d8e5-ec34-498a-8c38-b8f888432647",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "operation": "extractHtmlContent",
+        "extractionValues": {
+          "values": [
+            {
+              "key": "name",
+              "cssSelector": "h1.listuser-header__name"
+            },
+            {
+              "key": "headline",
+              "cssSelector": ".listuser-header__headline--title"
+            },
+            {
+              "key": "imageUrl",
+              "cssSelector": ".listuser-image-container img",
+              "returnValue": "attribute",
+              "attribute": "src"
+            },
+            {
+              "key": "photoCredit",
+              "cssSelector": ".listuser-photo__credit"
+            },
+            {
+              "key": "realTimeWorth",
+              "cssSelector": ".profile-info__item:first-of-type .profile-info__item-value"
+            },
+            {
+              "key": "realTimeRank",
+              "cssSelector": ".profile-info__billionaire-rank"
+            },
+            {
+              "key": "listWorth",
+              "cssSelector": ".profile-info__item:nth-of-type(2) .profile-info__item-value"
+            },
+            {
+              "key": "listName",
+              "cssSelector": "a.list-name--type"
+            },
+            {
+              "key": "bioPoints",
+              "cssSelector": ".listuser-content__bio--content li"
+            },
+            {
+              "key": "forbesRanks",
+              "cssSelector": ".ranking .listuser-item__list--rank"
+            },
+            {
+              "key": "forbesLists",
+              "cssSelector": ".ranking .listuser-item__list--title"
+            },
+            {
+              "key": "statTitles",
+              "cssSelector": ".person-stats dt"
+            },
+            {
+              "key": "statValues",
+              "cssSelector": ".person-stats dd"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        1300,
+        140
+      ],
+      "id": "b5c3d6e6-a009-45e8-aa91-1d2d0aad5aee",
+      "name": "HTML2"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1080,
+        -100
+      ],
+      "id": "784306b8-b73c-4c8d-b85c-e073f119a679",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/files/Forbes_SG_TOP50.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1300,
+        -100
+      ],
+      "id": "8f3004d8-eed0-4c6d-827f-acb8f43a736f",
+      "name": "Read/Write Files from Disk"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML": {
+      "main": [
+        [
+          {
+            "node": "HTML1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML1": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "HTML2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "12354f8c-69d6-442c-acf2-7b7e2999e28d",
+  "meta": {
+    "instanceId": "0f62b513b2ea7ea7bbc5ac29f6b9ec200d1ae01150208b52638d6795557bab1c"
+  },
+  "id": "em1DZxoNpWDnHaZG",
+  "tags": []
+}

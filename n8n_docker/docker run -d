@@ -1,0 +1,12 @@
+docker run -d `
+  --name n8n `
+  -p 5678:5678 `
+  --memory 24g --memory-swap 32g `
+  --cpus 8 `
+  -e NODE_OPTIONS="--max_old_space_size=18432" `
+  -e OPENBLAS_NUM_THREADS=8 `
+  -e OMP_NUM_THREADS=8 `
+  -v "G:/My Drive/NUS MSBA SEM2/UOB/files:/data/pdfs" `
+  -v "C:/Users/22601/Downloads/downloads:/data/output" `
+  -v "C:/Users/22601/.n8n:/home/node/.n8n" `
+  yl/n8n-alpine-python:20250626

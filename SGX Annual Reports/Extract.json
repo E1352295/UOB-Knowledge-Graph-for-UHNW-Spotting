@@ -1,0 +1,481 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -360
+      ],
+      "id": "47f48f9a-acc4-446f-8051-fa58455c0cca",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "directoryPath": "/files/files/extracted_key_personnel_pages",
+        "showType": "both",
+        "sortDirection": "desc",
+        "maxRecords": 5000
+      },
+      "type": "n8n-nodes-klib.fsUtils",
+      "typeVersion": 1,
+      "position": [
+        660,
+        -260
+      ],
+      "id": "77327c8e-93d4-43bb-819d-ecc8dacf92a5",
+      "name": "列出所有提取好关键人页的文件",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        1320,
+        -360
+      ],
+      "id": "e555a665-cec6-4ba4-a988-425deaee0154",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "woaedciA5eYtzk6P",
+          "mode": "list",
+          "cachedResultName": "SGX_PDF_Sub"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        2160,
+        -40
+      ],
+      "id": "d5e4dead-3123-48da-a150-98674a543243",
+      "name": "Sub‑WF"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        -360
+      ],
+      "id": "2ce497fd-9662-4fe7-8702-2739644ae97e",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "84199169-2ceb-4515-a44d-7ee7d75eb751",
+              "name": "isTestOnlyVentureCorporationLimited",
+              "value": true,
+              "type": "boolean"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        -360
+      ],
+      "id": "10dde339-7cd4-4d9d-aa52-9158261ce332",
+      "name": "SetTestOnlyVentureCorporationLimited"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "fa714914-ef80-45ee-8e4e-800f768f8054",
+              "leftValue": "={{ $json.isTestOnlyVentureCorporationLimited }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        -360
+      ],
+      "id": "c6534cf4-23ac-4903-badb-93d3140e1350",
+      "name": "If"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        880,
+        -360
+      ],
+      "id": "02c8101d-d462-42a6-8ace-0c03183810c5",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    \"name\": \"838420_Annual_Report_2024_keep_only_key_personnel.pdf\",\n    \"path\": \"/files/files/extracted_key_personnel_pages/838420_Annual_Report_2024_keep_only_key_personnel.pdf\",\n    \"parent\": \"/files/files/extracted_key_personnel_pages\",\n    \"type\": \"file\",\n    \"size\": 1468999,\n    \"mtime\": \"2025-06-27T02:03:43.373Z\",\n    \"depth\": 1,\n    \"hasSubDirs\": false\n  }\n]"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        -460
+      ],
+      "id": "2ba9bbed-e34c-4594-8907-88277a1a5298",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    \"original\": {\n      \"reportYear\": 2024,\n      \"entities\": [\n        {\n          \"entityId\": \"COMPANY_1\",\n          \"type\": \"Company\",\n          \"canonicalName\": \"Venture Corporation Limited\",\n          \"mentions\": [\n            \"Venture Corporation Limited\",\n            \"Venture\",\n            \"Venture Group\"\n          ],\n          \"NER_Confidence\": 0.95,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_1\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Kuok Oon Kwong\",\n          \"mentions\": [\n            \"Ms Kuok Oon Kwong\"\n          ],\n          \"NER_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_2\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Wong Ngit Liong\",\n          \"mentions\": [\n            \"Mr Wong Ngit Liong\",\n            \"WONG NGIT LIONG\"\n          ],\n          \"NER_Confidence\": 0.98,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_3\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Tan Seok Hoong @Mrs Audrey Liow\",\n          \"mentions\": [\n            \"Ms Tan Seok Hoong @Mrs Audrey Liow\",\n            \"Mrs Liow\"\n          ],\n          \"NER_Confidence\": 0.97,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_4\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Han Thong Kwang\",\n          \"mentions\": [\n            \"Mr Han Thong Kwang\"\n          ],\n          \"NER_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_5\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Wong Yew Meng\",\n          \"mentions\": [\n            \"Mr Wong Yew Meng\"\n          ],\n          \"NER_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_6\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Chua Kee Lock\",\n          \"mentions\": [\n            \"Mr Chua Kee Lock\"\n          ],\n          \"NER_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_7\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Chong Siak Ching\",\n          \"mentions\": [\n            \"Ms Chong Siak Ching\"\n          ],\n          \"NER_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_8\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Wong Chee Kheong\",\n          \"mentions\": [\n            \"Mr Wong Chee Kheong\",\n            \"WONG CHEE KHEONG\"\n          ],\n          \"NER_Confidence\": 0.98,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"PERSON_9\",\n          \"type\": \"Person\",\n          \"canonicalName\": \"Anthea Ng\",\n          \"mentions\": [\n            \"Ms Anthea Ng\",\n            \"ANTHEA NG\"\n          ],\n          \"NER_Confidence\": 0.98,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"COMPANY_2\",\n          \"type\": \"Company\",\n          \"canonicalName\": \"Agilent Technologies\",\n          \"mentions\": [\n            \"Agilent Technologies\"\n          ],\n          \"NER_Confidence\": 0.85,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"COMPANY_3\",\n          \"type\": \"Company\",\n          \"canonicalName\": \"Hewlett Packard\",\n          \"mentions\": [\n            \"Hewlett Packard\"\n          ],\n          \"NER_Confidence\": 0.85,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"COMPANY_4\",\n          \"type\": \"Company\",\n          \"canonicalName\": \"Unisys Corporation\",\n          \"mentions\": [\n            \"Unisys Corporation\"\n          ],\n          \"NER_Confidence\": 0.85,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"entityId\": \"COMPANY_5\",\n          \"type\": \"Company\",\n          \"canonicalName\": \"Chartered Industries Singapore\",\n          \"mentions\": [\n            \"Chartered Industries Singapore\"\n          ],\n          \"NER_Confidence\": 0.85,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        }\n      ],\n      \"relationships\": [\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"C-Suite\",\n            \"details\": \"Executive Chairman\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.95,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_8\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"C-Suite\",\n            \"details\": \"Group Chief Executive Officer\"\n          },\n          \"effectiveDate\": \"2023-06\",\n          \"RED_Confidence\": 0.97,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_9\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"C-Suite\",\n            \"details\": \"Chief Financial Officer\"\n          },\n          \"effectiveDate\": \"2014\",\n          \"RED_Confidence\": 0.97,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": \"1989-01-20\",\n          \"RED_Confidence\": 0.96,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": \"2018-11-01\",\n          \"RED_Confidence\": 0.96,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_6\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": \"2021-10-01\",\n          \"RED_Confidence\": 0.96,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_7\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": \"2024-06-01\",\n          \"RED_Confidence\": 0.96,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_1\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_5\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_4\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_6\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_7\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P12\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Executive Chairman\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.95,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Nominating Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Chairman, Investment Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_2\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Chairman, Science, Technology & Innovation Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Independent Non-Executive Director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Lead Independent Director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Chairperson, Audit & Risk Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_3\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Remuneration Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_6\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Independent Non-Executive Director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_6\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Audit & Risk Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_6\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Investment Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_7\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Independent Non-Executive Director\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_7\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Audit & Risk Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        },\n        {\n          \"sourceEntityId\": \"PERSON_7\",\n          \"targetEntityId\": \"COMPANY_1\",\n          \"role\": {\n            \"category\": \"Director\",\n            \"details\": \"Member, Nominating Committee\"\n          },\n          \"effectiveDate\": null,\n          \"RED_Confidence\": 0.9,\n          \"source\": \"files/Venture Corporation Limited/838420_Annual_Report_2024.pdf/P170\"\n        }\n      ]\n    },\n    \"processed\": {\n      \"reportYear\": 2024,\n      \"companyInfo\": {\n        \"name\": \"Venture Corporation Limited\",\n        \"entityId\": \"COMPANY_1\"\n      },\n      \"executives\": [\n        {\n          \"name\": \"Kuok Oon Kwong\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.9\n        },\n        {\n          \"name\": \"Wong Ngit Liong\",\n          \"role\": \"Executive Chairman\",\n          \"category\": \"C-Suite\",\n          \"confidence\": 0.98\n        },\n        {\n          \"name\": \"Tan Seok Hoong @Mrs Audrey Liow\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.97\n        },\n        {\n          \"name\": \"Han Thong Kwang\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.9\n        },\n        {\n          \"name\": \"Wong Yew Meng\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.9\n        },\n        {\n          \"name\": \"Chua Kee Lock\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.9\n        },\n        {\n          \"name\": \"Chong Siak Ching\",\n          \"role\": \"director\",\n          \"category\": \"Director\",\n          \"confidence\": 0.9\n        },\n        {\n          \"name\": \"Wong Chee Kheong\",\n          \"role\": \"Group Chief Executive Officer\",\n          \"category\": \"C-Suite\",\n          \"confidence\": 0.98\n        },\n        {\n          \"name\": \"Anthea Ng\",\n          \"role\": \"Chief Financial Officer\",\n          \"category\": \"C-Suite\",\n          \"confidence\": 0.98\n        }\n      ],\n      \"totalEntities\": 14,\n      \"totalRelationships\": 28\n    },\n    \"isValid\": true,\n    \"timestamp\": \"2025-06-27T06:44:32.114Z\"\n  }\n]"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2160,
+        -240
+      ],
+      "id": "d7e506f0-18fe-49a3-a872-f0a658a479bb",
+      "name": "FixedLlmOutputForVentureCorporationLimited"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "fa714914-ef80-45ee-8e4e-800f768f8054",
+              "leftValue": "={{ $json.isUseFixedLLMOutput }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1940,
+        -140
+      ],
+      "id": "8b3b19fb-95d9-4554-8d38-c7a14212c29b",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "84199169-2ceb-4515-a44d-7ee7d75eb751",
+              "name": "isUseFixedLLMOutput",
+              "value": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1720,
+        -140
+      ],
+      "id": "8a54f57f-2c56-4ab7-b912-df6fb290e688",
+      "name": "SetUseFixedLLMOutput"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2380,
+        -40
+      ],
+      "id": "e483fdd2-b101-4e00-9610-f0b6a34d0a82",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{\n  json: {\n    reportYear: $input.first().json.processed.reportYear,\n    company: $input.first().json.processed.companyInfo,\n    execs: parsed.processed.executives\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1860,
+        -520
+      ],
+      "id": "6c1a654e-2a1f-49f7-9366-6a5b6e9fcb95",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5a88c5a2-8834-4390-9602-cd2f49154280",
+              "leftValue": "={{ $json.isValid }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1540,
+        -460
+      ],
+      "id": "fb515bb8-0607-4066-9fa2-ac7bf8fa967c",
+      "name": "If2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "SetTestOnlyVentureCorporationLimited",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "列出所有提取好关键人页的文件": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "SetUseFixedLLMOutput",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sub‑WF": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SetTestOnlyVentureCorporationLimited": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "列出所有提取好关键人页的文件",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SetUseFixedLLMOutput": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "FixedLlmOutputForVentureCorporationLimited",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sub‑WF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "FixedLlmOutputForVentureCorporationLimited": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "7ee07bd2-97a0-4c1c-9a17-b1b2db39a5cc",
+  "meta": {
+    "instanceId": "70232b1931410b16ff30066cebf27f070772e4fb9654f8dda3bb39f2d0a7022c"
+  },
+  "id": "28tWF2g3pjilbjlm",
+  "tags": []
+}
