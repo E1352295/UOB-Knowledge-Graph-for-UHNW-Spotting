@@ -1,26 +1,45 @@
+
 #!/usr/bin/env python3
 """load_graph.py – Ingest three UHNW‑related datasets into Neo4j Aura.
 
-* SGX annual‑report export            → ingest_neo4j_query_table()
-* Simplified Wikidata JSON            → ingest_wikidata_json()
-* MAS personnel workflow (n8n .json) → ingest_mas_json()
+* SGX annual‑report export (Cypher JSON)     → ingest_neo4j_query_table()
+* Simplified Wikidata JSON                   → ingest_wikidata_json()
+* MAS personnel list (CSV)                  → ingest_mas_csv()
 
 This version automatically flattens non‑primitive properties, handles missing
-files gracefully, and skips the MAS step if the workflow definition does not
-contain direct personnel rows.
+files gracefully, and supports the new MAS CSV layout exported from the
+Monetary Authority of Singapore Financial Institutions Directory.
+
+CSV expectations
+────────────────
+The MAS_Personnel_merged.csv file bundled in this repo contains **at least**
+these case‑insensitive columns
+
+    Company Name, Person Name, Person Title
+
+Additional columns such as “href[0]” are ignored.  Only rows that have both
+*Person Name* and *Company Name* are ingested.
+
+Environment
+────────────
+Set the three variables below to override Neo4j connection settings; otherwise
+defaults are fine for local testing:
+
+    NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 """
 
 import os, json, csv, argparse
 from pathlib import Path
 from typing import Dict, Any, Optional
+
 from neo4j import GraphDatabase
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Config – environment variables fall back to sensible defaults for dev use
 # ──────────────────────────────────────────────────────────────────────────────
 
-NEO4J_URI      = os.getenv("NEO4J_URI", "neo4j+s://d8d4e86b.databases.neo4j.io")
-NEO4J_USER     = os.getenv("NEO4J_USER", "neo4j")
+NEO4J_URI      = os.getenv("NEO4J_URI",      "neo4j+s://d8d4e86b.databases.neo4j.io")
+NEO4J_USER     = os.getenv("NEO4J_USER",     "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "IVVi_p1Rl2ca-O5g5ULkd5KHtg2uSXkLaj1So_oHL4Q")
 
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
@@ -49,6 +68,7 @@ def merge_person(tx, id: str, name: str, props: Dict[str, Any]):
         safe_props=safe_props,
     )
 
+
 def merge_company(tx, id: str, name: str, props: Dict[str, Any]):
     safe_props = flatten_props(props)
     tx.run(
@@ -60,6 +80,7 @@ def merge_company(tx, id: str, name: str, props: Dict[str, Any]):
         name=name,
         safe_props=safe_props,
     )
+
 
 def merge_role(
     tx,
@@ -85,6 +106,7 @@ def merge_role(
         source=source,
     )
 
+
 def merge_family(tx, src_id: str, dst_id: str, relation: str, source: str):
     tx.run(
         """
@@ -103,7 +125,7 @@ def merge_family(tx, src_id: str, dst_id: str, relation: str, source: str):
 # ──────────────────────────────────────────────────────────────────────────────
 
 def ingest_neo4j_query_table(path: Path):
-    data = json.loads(path.read_text(encoding="utf-8"))
+    data = json.loads(path.read_text(encoding="utf‑8"))
     with driver.session() as session:
         for rec in data:
             p_node = rec["n"]
@@ -140,7 +162,7 @@ def ingest_neo4j_query_table(path: Path):
 # ──────────────────────────────────────────────────────────────────────────────
 
 def ingest_wikidata_json(path: Path):
-    persons = json.loads(path.read_text(encoding="utf-8"))["persons"]
+    persons = json.loads(path.read_text(encoding="utf‑8"))["persons"]
     with driver.session() as session:
         # Pass‑1: nodes
         for p in persons:
@@ -161,60 +183,52 @@ def ingest_wikidata_json(path: Path):
                     session.execute_write(merge_family, src_id, dst_id, relation, "wikidata_json")
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Ingest – MAS personnel workflow (.json)
+# Ingest – MAS personnel list (CSV)
 # ──────────────────────────────────────────────────────────────────────────────
 
-def ingest_mas_json(path: Path):
-    """Walk an n8n workflow export and ingest any objects that contain the
-    three target keys (Person Name, Person Title, Company Name). If none are
-    found we log a warning and exit gracefully so the rest of the pipeline
-    keeps running.
+def ingest_mas_csv(path: Path):
+    """Parse the MAS_Personnel_merged.csv exported from MAS FID.
+
+    We look only for three *case‑insensitive* headers:
+
+        Company Name, Person Name, Person Title
+
+    Rows missing *Person Name* **or** *Company Name* are silently skipped.
     """
-    data = json.loads(path.read_text(encoding="utf-8"))
-
-    def extract_records(obj):
-        if isinstance(obj, dict):
-            keys_lower = {k.lower().strip() for k in obj}
-            if {"person name", "person title", "company name"} <= keys_lower:
-                yield obj
-            for v in obj.values():
-                if isinstance(v, (dict, list)):
-                    yield from extract_records(v)
-        elif isinstance(obj, list):
-            for item in obj:
-                yield from extract_records(item)
-
-    records = list(extract_records(data))
-    if not records:
-        print(f"[ingest_mas_json] WARNING: no personnel rows inside {path.name}; skipping MAS import.")
+    if not path.exists():
+        print(f"[ingest_mas_csv] WARNING: {path} not found; skipping MAS import.")
         return
 
-    with driver.session() as session:
-        for row in records:
-            # Handle arbitrary capitalisation
-            person_name  = row.get("Person Name")  or row.get("person name")
-            company_name = row.get("Company Name") or row.get("company name")
-            role         = row.get("Person Title") or row.get("person title")
+    with path.open(newline="", encoding="utf‑8‑sig") as handle:
+        reader = csv.DictReader(handle)
+        with driver.session() as session:
+            for row in reader:
+                # normalise keys
+                row_norm = {k.lower().strip(): (v.strip() if isinstance(v, str) else v) for k, v in row.items()}
+                person_name  = row_norm.get("person name")
+                company_name = row_norm.get("company name")
+                role         = row_norm.get("person title", "")
+                if not (person_name and company_name):
+                    continue
 
-            if not (person_name and company_name and role):
-                continue
+                pid = f"mas:{person_name.lower().replace(' ', '_')}"
+                cid = f"mas:{company_name.lower().replace(' ', '_')}"
 
-            pid = f"mas:{person_name.lower().replace(' ', '_')}"
-            cid = f"mas:{company_name.lower().replace(' ', '_')}"
-
-            session.execute_write(merge_person,  pid, person_name,  {})
-            session.execute_write(merge_company, cid, company_name, {})
-            session.execute_write(merge_role, pid, cid, role, None, None, "MAS_scrape")
+                session.execute_write(merge_person,  pid, person_name,  {})
+                session.execute_write(merge_company, cid, company_name, {})
+                session.execute_write(merge_role, pid, cid, role, None, None, "MAS_csv")
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Entrypoint
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main(args):
+    # Uncomment the lines you need – they are left off by default for faster iteration.
     # ingest_neo4j_query_table(Path(args.neo4j_export))
     # ingest_wikidata_json(Path(args.wikidata_json))
-    ingest_mas_json(Path(args.mas_personnel_csv))
+    ingest_mas_csv(Path(args.mas_personnel_csv))
     driver.close()
+
 
 if __name__ == "__main__":
     argp = argparse.ArgumentParser(description="Load UHNW datasets into Neo4j Aura")
@@ -231,6 +245,6 @@ if __name__ == "__main__":
     argp.add_argument(
         "--mas_personnel_csv",
         default="G:/My Drive/NUS MSBA SEM2/UOB/MAS/MAS_Personnel_merged.csv",
-        help="MAS personnel n8n workflow file (.json)",
+        help="MAS personnel list (CSV, exported from MAS FID)",
     )
     main(argp.parse_args())

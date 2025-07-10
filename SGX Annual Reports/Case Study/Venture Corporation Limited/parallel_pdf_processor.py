@@ -13,8 +13,36 @@ import os
 from tqdm import tqdm
 import spacy
 
-# --- Configuration ---
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# --- Logging Configuration ---
+def setup_logging():
+    """Detects the environment and configures logging accordingly."""
+    try:
+        # Check for IPython kernel, which is used by Jupyter
+        from IPython import get_ipython
+        shell = get_ipython().__class__.__name__
+        if 'ZMQInteractiveShell' in shell:
+            # Jupyter notebook or qtconsole
+            print("Running in a notebook environment. Configuring logger for stdout.")
+            logger = logging.getLogger()
+            # Remove existing handlers to avoid duplicate messages in notebooks
+            if logger.handlers:
+                for handler in logger.handlers[:]: # Iterate over a copy
+                    logger.removeHandler(handler)
+            logging.basicConfig(
+                level=logging.INFO, 
+                format='%(asctime)s - %(levelname)s - %(message)s',
+                stream=sys.stdout, # Force output to cell
+                force=True # Override any existing root logger config
+            )
+            return
+    except (NameError, ImportError):
+        # Not in an IPython environment
+        pass
+
+    # Standard script execution
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+setup_logging() # Initialize logging
 
 # --- NLP Model Loading ---
 try:
@@ -59,7 +87,7 @@ CONFIDENCE_RULES = {"annual report": 50, "financial statements": 20, "sgx": 15, 
 def extract_person_names(doc) -> Set[str]:
     """Extract unique person names, filtering out common false positives."""
     persons = set()
-    false_positives = {'singapore', 'malaysia', 'china', 'asia', 'group', 'limited', 'ltd', 'pte', 'corp', 'inc'}
+    false_positives = {'singapore', 'malaysia', 'china', 'asia', 'group', 'limited', 'ltd', 'pte', 'corp', 'inc', 'corporation'}
     
     for ent in doc.ents:
         if ent.label_ == "PERSON":
@@ -79,6 +107,38 @@ def extract_organizations(doc) -> Set[str]:
             if len(org_name) > 2:
                 orgs.add(org_name)
     return orgs
+
+def extract_main_company_from_early_pages(text: str, nlp_model) -> Optional[str]:
+    """Extract the main company name from the text of the first few pages."""
+    if not text:
+        return None
+
+    doc = nlp_model(text)
+    org_entities = [ent.text.strip() for ent in doc.ents if ent.label_ == 'ORG']
+
+    if not org_entities:
+        return None
+
+    # Heuristics to find the most likely company name
+    from collections import Counter
+    # Filter out short names and generic terms
+    candidate_orgs = [
+        org for org in org_entities 
+        if len(org) > 3 and 'group' not in org.lower()
+    ]
+
+    if not candidate_orgs:
+        return None
+
+    # Prioritize names with corporate suffixes
+    suffixes = ['limited', 'ltd', 'corporation', 'inc', 'bhd']
+    for org in candidate_orgs:
+        if any(suffix in org.lower() for suffix in suffixes):
+            return org
+
+    # Fallback to the most common organization name
+    most_common_org = Counter(candidate_orgs).most_common(1)[0][0]
+    return most_common_org
 
 def has_personnel_context(text: str) -> bool:
     """Check if text contains personnel-related context indicators."""
@@ -261,17 +321,14 @@ def extract_company_name(pdf_path: Path) -> str:
         return pdf_path.parent.name
     return pdf_path.stem
 
-def save_extracted_content(pdf_path: Path, page_content_dict: Dict[int, str], metadata_extras: Dict[str, Any]) -> Optional[Path]:
+def save_extracted_content(pdf_path: Path, page_content_dict: Dict[int, str], metadata_extras: Dict[str, Any], json_file_path: Path) -> Optional[Path]:
+    """Saves the extracted page content and metadata to a JSON file."""
     if not page_content_dict: 
         return None
     try:
-        extracted_content_dir = pdf_path.parent / "ExtractedContent"
-        extracted_content_dir.mkdir(exist_ok=True)
-        json_filename = pdf_path.stem + "_extracted.json"
-        json_file_path = extracted_content_dir / json_filename
-        if json_file_path.exists():
-            logging.info(f"Skipping '{pdf_path.name}' as output already exists.")
-            return None
+        # Ensure the target directory exists before writing
+        json_file_path.parent.mkdir(exist_ok=True)
+
         metadata = {
             "source_pdf": pdf_path.name, 
             "extraction_date_utc": pd.Timestamp.now(tz='UTC').isoformat(), 
@@ -289,10 +346,29 @@ def save_extracted_content(pdf_path: Path, page_content_dict: Dict[int, str], me
         return None
 
 def process_pdf_file(pdf_path: Path) -> Optional[Dict[str, Any]]:
+    # --- Pre-computation Check: Skip if output already exists ---
+    try:
+        extracted_content_dir = pdf_path.parent / "ExtractedContent"
+        json_filename = pdf_path.stem + "_extracted.json"
+        json_file_path = extracted_content_dir / json_filename
+
+        if json_file_path.exists():
+            logging.info(f"Skipping '{pdf_path.name}' as its output file already exists.")
+            return None  # Skip processing entirely
+    except Exception as e:
+        # This check should not fail, but if it does, log it and continue
+        logging.warning(f"Pre-check failed for {pdf_path.name}: {e}")
+
     try:
         reader = PdfReader(pdf_path)
-        early_pages_text = "".join((reader.pages[i].extract_text() or "") + "\n" for i in range(min(3, len(reader.pages))))
+        # Read first 4 pages for metadata and company name extraction
+        early_pages_text = "".join((reader.pages[i].extract_text() or "") + "\n" for i in range(min(4, len(reader.pages))))
         report_meta = analyze_report_metadata(early_pages_text, pdf_path.name)
+
+        # Extract company name from early pages, fallback to old method
+        company_name = extract_main_company_from_early_pages(early_pages_text, NLP)
+        if not company_name:
+            company_name = extract_company_name(pdf_path)
 
         # if report_meta.get("report_year") != "2024":
         #     logging.info(f"Skipping ({pdf_path.name}): Report year is '{report_meta.get('report_year')}', not 2024.")
@@ -304,8 +380,7 @@ def process_pdf_file(pdf_path: Path) -> Optional[Dict[str, Any]]:
             logging.info(f"Skipped ({pdf_path.name}): No relevant personnel pages found in this report.")
             return None
         
-        json_file_path = save_extracted_content(pdf_path, page_content_dict, report_meta)
-        company_name = extract_company_name(pdf_path)
+        saved_path = save_extracted_content(pdf_path, page_content_dict, report_meta, json_file_path)
         total_content_length = sum(len(content) for content in page_content_dict.values())
         
         return {
@@ -315,7 +390,7 @@ def process_pdf_file(pdf_path: Path) -> Optional[Dict[str, Any]]:
             'ar_confidence': report_meta['ar_confidence'],
             'board_pages': ','.join(map(str, [p + 1 for p in board_pages_indices])),
             'total_board_pages': len(board_pages_indices),
-            'extracted_json_file': json_file_path.name if json_file_path else None,
+            'extracted_json_file': saved_path.name if saved_path else None,
             'content_length': total_content_length
         }
     except Exception as e:
