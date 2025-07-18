@@ -158,17 +158,32 @@ SET r.reference_type=$source_type,
     r.reference_file=$source_file
 """
 
+# ---------------- Global state ----------------
+
+DRY_RUN = False
+
 # ---------------- Write helpers ----------------
 
 def write_person(tx, entry: PersonEntry, source_type: str, source_file: str):
-    tx.run(MERGE_PERSON, id=entry["id"], name=entry["canonical"], alias=sorted(entry["aliases"]), qid=entry.get("qid"), today=TODAY, source_type=source_type, source_file=source_file)
+    today = datetime.date.today().isoformat()
+    if DRY_RUN:
+        print(f"[DRY RUN] MERGE Person: id={entry['id']}, name={entry['canonical']}")
+        return
+    tx.run(MERGE_PERSON, id=entry["id"], name=entry["canonical"], alias=sorted(entry["aliases"]), qid=entry.get("qid"), today=today, source_type=source_type, source_file=source_file)
 
 
 def write_company(tx, cid: str, name: str, source_type: str, source_file: str):
-    tx.run(MERGE_COMPANY, id=cid, name=name, today=TODAY, source_type=source_type, source_file=source_file)
+    today = datetime.date.today().isoformat()
+    if DRY_RUN:
+        print(f"[DRY RUN] MERGE Company: id={cid}, name={name}")
+        return
+    tx.run(MERGE_COMPANY, id=cid, name=name, today=today, source_type=source_type, source_file=source_file)
 
 
 def write_role(tx, pid: str, cid: str, role: str, start: Optional[str], end: Optional[str], source_type: str, source_file: str):
+    if DRY_RUN:
+        print(f"[DRY RUN] MERGE Role: person={pid}, company={cid}, role={role}")
+        return
     tx.run(MERGE_ROLE, pid=pid, cid=cid, role=role, start=start, end=end, source_type=source_type, source_file=source_file)
 
 
@@ -176,6 +191,9 @@ def write_family(tx, sid: str, did: str, rel: str, source_type: str, source_file
     """Create a person‑to‑person FAMILY edge **unless** it is a self‑loop."""
     if sid == did:
         return  # ← self‑loop detected; skip
+    if DRY_RUN:
+        print(f"[DRY RUN] MERGE Family: source={sid}, dest={did}, relation={rel}")
+        return
     tx.run(MERGE_FAMILY, src=sid, dst=did, rel=rel, source_type=source_type, source_file=source_file)
 
 # ───────────────────────────── Parsers ─────────────────────────────
@@ -286,62 +304,58 @@ def ingest_mas(csv_path: Path):
 
 # Annual‑report (NER/RED) parser is unchanged apart from the self‑loop guard living in write_role
 
-def ingest_annual(path: Path):
-    """Ingest annual reports from a json file"""
-    # logging.info(f"Ingesting annual reports from {path}")
-    # connect to the database
-    driver = GraphDatabase.driver(
-        NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+def ingest_annual(dir: Path, limit: Optional[int] = None):
+    """Ingest annual report NER/RED JSON files."""
+    source_type = "annual_report"
 
-    # Ingest documents
-    docs = []
-    files_to_process = []
-    if path.is_dir():
-        files_to_process.extend(path.glob("*.json"))
-    elif path.is_file():
-        files_to_process.append(path)
-    else:
-        logging.error(f"Path {path} is not a valid file or directory.")
+    def process_docs(doc, source_file):
+        ents = {e["entityId"]: e for e in doc["original"]["entities"]}
+        # Nodes
+        for e in ents.values():
+            if e["type"] == "Person":
+                pid, entry = get_or_create_person(e["canonicalName"], canonical=e["canonicalName"], extras=e.get("mentions", []))
+                s.execute_write(write_person, entry, source_type, source_file)
+            elif e["type"] == "Company":
+                cid = get_or_create_company(e["canonicalName"])
+                s.execute_write(write_company, cid, e["canonicalName"], source_type, source_file)
+        # Roles
+        for rel in doc["original"]["relationships"]:
+            src = ents.get(rel["sourceEntityId"])
+            tgt = ents.get(rel["targetEntityId"])
+            if not src or not tgt:
+                continue
+            if src["type"] == "Person" and tgt["type"] == "Company":
+                pid, _ = get_or_create_person(src["canonicalName"], canonical=src["canonicalName"])
+                cid = get_or_create_company(tgt["canonicalName"])
+                role = rel["role"]["details"] if rel.get("role") else None
+                start = rel.get("effectiveDate")
+                if pid != cid:
+                    s.execute_write(write_role, pid, cid, role, start, None, source_type, source_file)
+
+    files_to_process = sorted([p for p in dir.glob("**/*.json") if p.is_file()], key=lambda p: p.stat().st_mtime, reverse=True)
+    if not files_to_process:
+        print(f"[INFO] No JSON files found in {dir}")
         return
 
+    processed_count = 0
     for file_path in files_to_process:
+        if limit is not None and processed_count >= limit:
+            print(f"[INFO] Reached processing limit of {limit} files.")
+            break
+
         if file_path.name in processed_annual_reports:
             print(f"[INFO] Skipping already processed annual report: {file_path.name}")
             continue
         try:
             docs = json.loads(file_path.read_text(encoding='utf-8'))
             process_docs(docs, file_path.name)
+            processed_count += 1
         except json.JSONDecodeError as e:
-            logging.error(f"Error decoding JSON from {file_path}: {e}")
+            print(f"Error decoding JSON from {file_path}: {e}")
         except Exception as e:
-            logging.error(f"Error reading file {file_path}: {e}")
+            print(f"Error reading file {file_path}: {e}")
 
-def process_docs(docs: List[Dict[str, Any]], source_file: str):
-    source_type = "annual_report"
-    with driver.session() as s:
-        for doc in docs:
-            ents = {e["entityId"]: e for e in doc["original"]["entities"]}
-            # Nodes
-            for e in ents.values():
-                if e["type"] == "Person":
-                    pid, entry = get_or_create_person(e["canonicalName"], canonical=e["canonicalName"], extras=e.get("mentions", []))
-                    s.execute_write(write_person, entry, source_type, source_file)
-                elif e["type"] == "Company":
-                    cid = get_or_create_company(e["canonicalName"])
-                    s.execute_write(write_company, cid, e["canonicalName"], source_type, source_file)
-            # Roles
-            for rel in doc["original"]["relationships"]:
-                src = ents.get(rel["sourceEntityId"])
-                tgt = ents.get(rel["targetEntityId"])
-                if not src or not tgt:
-                    continue
-                if src["type"] == "Person" and tgt["type"] == "Company":
-                    pid, _ = get_or_create_person(src["canonicalName"], canonical=src["canonicalName"])
-                    cid = get_or_create_company(tgt["canonicalName"])
-                    role = rel["role"]["details"] if rel.get("role") else None
-                    start = rel.get("effectiveDate")
-                    if pid != cid:
-                        s.execute_write(write_role, pid, cid, role, start, None, source_type, source_file)
+    print(f"[INFO] Processed {processed_count} annual reports.")
 
 # ───────────────────────── Pre-load Registry ──────────────────────────
 
@@ -388,7 +402,14 @@ def main():
     ap.add_argument("--wikidata_json", default="C:/Users/22601/Downloads/downloads/wikiData/data.json", help="Simplified Wikidata JSON")
     ap.add_argument("--mas_csv", default="G:/My Drive/NUS MSBA SEM2/UOB/MAS/MAS_Personnel_merged.csv", help="MAS personnel merged CSV")
     ap.add_argument("--annual_json", default="C:/Users/22601/Downloads/downloads/files/NER_RED", help="Annual‑report NER/RED JSON (authoritative)")
+    ap.add_argument("--dry-run", action="store_true", help="Simulate the run without writing to the database")
+    ap.add_argument("--limit", type=int, default=None, help="Limit the number of new annual reports to process")
     args = ap.parse_args()
+
+    global DRY_RUN
+    DRY_RUN = args.dry_run
+    if DRY_RUN:
+        print("[INFO] Performing a dry run. No data will be written to Neo4j.")
 
     preload_registries()
 
@@ -397,7 +418,7 @@ def main():
     # if args.wikidata_json:
     #     ingest_wikidata(Path(args.wikidata_json))
     if args.annual_json:
-        ingest_annual(Path(args.annual_json))
+        ingest_annual(Path(args.annual_json), limit=args.limit)
     # if args.mas_csv:
     #     ingest_mas(Path(args.mas_csv))
 
