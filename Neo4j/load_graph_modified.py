@@ -223,9 +223,9 @@ def ingest_mas_csv(path: Path):
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main(args):
-    # Uncomment the lines you need – they are left off by default for faster iteration.
+    # Uncomment the lines you need – they are left off by default for faster iteration.
     # ingest_neo4j_query_table(Path(args.neo4j_export))
-    # ingest_wikidata_json(Path(args.wikidata_json))
+    ingest_wikidata_json(Path(args.wikidata_json))
     ingest_mas_csv(Path(args.mas_personnel_csv))
     driver.close()
 

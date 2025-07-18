@@ -11,9 +11,6 @@ import sys, os, json, argparse
 from pathlib import Path
 from collections import defaultdict
 
-# ---------------------------------------------------------------------------
-# CLI & 路径解析
-# ---------------------------------------------------------------------------
 prs = argparse.ArgumentParser(add_help=False)
 prs.add_argument('--reset', action='store_true')
 prs.add_argument('--state-file')
@@ -21,13 +18,16 @@ prs.add_argument('--data-file')
 args, _ = prs.parse_known_args()
 
 STATE_FILE = Path(args.state_file or os.getenv('WD_STATE_FILE', './shared_state.json')).expanduser().resolve()
-DATA_FILE  = Path(args.data_file  or os.getenv('WD_DATA_FILE',  './data.json'        )).expanduser().resolve()
+DATA_FILE  = Path(args.data_file  or os.getenv('WD_DATA_FILE',  './data.json')).expanduser().resolve()
 
-# ---------------------------------------------------------------------------
-# 读取 / 保存 state
-# ---------------------------------------------------------------------------
+# ------------------------------------------------------------------
+# helpers: load / save state
+# ------------------------------------------------------------------
 def _load_state():
-    if args.reset or not STATE_FILE.exists():
+    if args.reset:
+        _save_state({'seen': {}})  # Overwrite with a fresh, empty state
+
+    if not STATE_FILE.exists():
         return {'seen': {}}
     try:
         return json.loads(STATE_FILE.read_text())
@@ -41,13 +41,17 @@ def _save_state(state: dict):
     tmp.write_text(json.dumps(state, indent=2, ensure_ascii=False))
     tmp.replace(STATE_FILE)
 
-# ---------------------------------------------------------------------------
-# 读取 / 保存 data
-# ---------------------------------------------------------------------------
+# ------------------------------------------------------------------
+# helpers: load / save data
+# ------------------------------------------------------------------
 def _load_data():
-    if args.reset or not DATA_FILE.exists():
-        return {'persons': [], 'edges': []}
+    if args.reset:
+        # Overwrite with a fresh, empty data file
+        empty_data = {'persons': [], 'edges': []}
+        DATA_FILE.write_text(json.dumps(empty_data, indent=2, ensure_ascii=False))
 
+    if not DATA_FILE.exists():
+        return {'persons': [], 'edges': []}
     raw = json.loads(DATA_FILE.read_text())
     for p in raw.get('persons', []):
         for fld in ('props', 'attributes'):
@@ -149,17 +153,16 @@ def _add_person(pool: dict, uri: str | None, row: dict, rel_label_key: str | Non
     rel_name  = _get_value(row.get(label_key))
     if rel_name and rel_name not in node['props']['name']:
         node['props']['name'].append(rel_name)
-    if rel_name and rel_name not in node['attributes'][label_key]:
-        node['attributes'][label_key].append(rel_name)
     return node
 
 # ---------------------------------------------------------------------------
 # 主流程
 # ---------------------------------------------------------------------------
 def main():
-    state        = _load_state()
-    seen         = state.setdefault('seen', {})
-    data         = _load_data()
+    state = _load_state()
+    seen  = state.setdefault('seen', {})
+    data  = _load_data()
+
     persons_pool = {p['id']: {'id': p['id'],
                               'props': defaultdict(list, p['props']),
                               'attributes': defaultdict(list, p['attributes'])}
@@ -184,7 +187,7 @@ def main():
             continue
 
         for row in bindings:
-            seed_uri  = _get_value(row.get('person'))
+            seed_uri = _get_value(row.get('person'))
             seed_node = _add_person(persons_pool, seed_uri, row, None)
             if not seed_node:
                 continue
@@ -205,6 +208,9 @@ def main():
                 if not tgt:
                     continue
 
+                if seed_node['id'] == tgt['id']:
+                    continue
+
                 edges.append({'seed': seed_node['id'],
                               'rel' : tgt['id'],
                               'relType': typ})
@@ -220,8 +226,9 @@ def main():
 
     next_q = [{'qid': q} for q, done in seen.items() if not done]
 
-    json.dump({'payload': {'persons': list(persons_pool.values()),
-                           'edges'  : edges},
+    json.dump({
+        # 'payload': {'persons': list(persons_pool.values()),
+        #                    'edges'  : edges},
                'next'   : next_q},
               sys.stdout, indent=2, ensure_ascii=False)
 

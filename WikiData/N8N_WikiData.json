@@ -146,13 +146,13 @@
     {
       "parameters": {
         "executeOnce": false,
-        "command": "=python3 /files/wikidata/process_wd_full_clean.py --state-file /files/wikidata/shared_state.json --data-file  /files/wikidata/data.json << \"EOF\"\n{{ JSON.stringify($input.all().map(i => i.json)) }}\nEOF\n\n#--reset"
+        "command": "=python3 /files/wikidata/process_wd_full_clean_v6.py --state-file /files/wikidata/shared_state.json --data-file  /files/wikidata/data.json << \"EOF\"\n{{ JSON.stringify($input.all().map(i => i.json)) }}\nEOF\n\n#--reset"
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
-        -280,
-        -1000
+        280,
+        -1420
       ],
       "id": "47a4c833-7c88-4f09-955c-fd1ff6aabb35",
       "name": "Execute Command",
@@ -165,8 +165,8 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        160,
-        -1005
+        720,
+        -1420
       ],
       "id": "dfe750f8-c012-4b75-b532-0124dde9ac73",
       "name": "Parse to JSON"
@@ -198,25 +198,11 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -60,
-        -1005
+        500,
+        -1420
       ],
       "id": "4636c14b-8ee1-42f0-96fc-a44cc04fc897",
       "name": "Python process_wd Success"
-    },
-    {
-      "parameters": {
-        "jsCode": "const out = [];\nfor (const n of $json.next) {\n  out.push({ json: n });   // 每个 n = { qid: \"Qxxxx\" }\n}\nreturn out;"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        380,
-        -930
-      ],
-      "id": "e99b1a49-db8a-4915-8c31-e2639d3a17bc",
-      "name": "Expand next",
-      "alwaysOutputData": true
     },
     {
       "parameters": {
@@ -253,15 +239,15 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        -940,
-        -930
+        -780,
+        -1000
       ],
       "id": "9e64a139-d1de-4065-a4c2-0efabff1cca1",
       "name": "Loop Over Items"
     },
     {
       "parameters": {
-        "jsCode": "return [\n  { \"name\": \"Eduardo Saverin\",                     \"qid\": \"Q312663\" },\n  { \"name\": \"Robert Ng\",                           \"qid\": \"Q126488\" },\n  { \"name\": \"Philip Ng Chee Tat\",                  \"qid\": \"Q8968777\" },\n  { \"name\": \"Li Xiting\",                           \"qid\": \"Q60539018\" },\n  { \"name\": \"Kwek Leng Beng\",                      \"qid\": \"Q8963128\" },\n  { \"name\": \"Goh Cheng Liang\",                     \"qid\": \"Q18921786\" },\n  { \"name\": \"Khoo Teck Puat\",                      \"qid\": \"Q1387731\",   \"note\": \"represents Khoo family\" },\n  { \"name\": \"Wee Cho Yaw\",                         \"qid\": \"Q2484368\",  \"note\": \"represents Wee family\" },\n  { \"name\": \"Kwee Liong Tek\",                      \"qid\": \"Q106932598\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Kwee Liong Keng\",                     \"qid\": \"Q106932765\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Leo KoGuan\",                          \"qid\": \"Q18234353\" },\n  { \"name\": \"Zhang Yong\",                          \"qid\": \"Q18234033\", \"note\": \"Haidilao co-founder\" },\n  { \"name\": \"Shu Ping\",                            \"qid\": null,        \"note\": \"Haidilao co-founder—no item yet\" },\n  { \"name\": \"Forrest Li\",                          \"qid\": \"Q61974364\" },\n  { \"name\": \"Kuok Khoon Hong\",                     \"qid\": \"Q16149275\" },\n  { \"name\": \"Robert Friedland\",                    \"qid\": \"Q7344541\" },\n  { \"name\": \"Raj Kumar\",                           \"qid\": null,        \"note\": \"patriarch of RB Capital—no item\" },\n  { \"name\": \"Kishin RK\",                           \"qid\": \"Q106957661\"},\n  { \"name\": \"Gang Ye\",                             \"qid\": null,        \"note\": \"Sea Ltd COO—no item\" },\n  { \"name\": \"Lien family\",                         \"qid\": null },\n  { \"name\": \"Richard Chandler\",                    \"qid\": \"Q323506\"    },\n  { \"name\": \"Choo Chong Ngen\",                     \"qid\": null },\n  { \"name\": \"Ho family\",                           \"qid\": null },\n  { \"name\": \"Sam Goi\",                             \"qid\": \"Q18377911\" },\n  { \"name\": \"Arvind Tiku\",                         \"qid\": null },\n  { \"name\": \"Ji Qi\",                               \"qid\": null },\n  { \"name\": \"Liang Xinjun\",                        \"qid\": null },\n  { \"name\": \"Oei Hong Leong\",                      \"qid\": null },\n  { \"name\": \"Peter Lim\",                           \"qid\": \"Q7210804\"  },\n  { \"name\": \"Ong Beng Seng\",                       \"qid\": \"Q2082346\"  },\n  { \"name\": \"Christina Ong\",                       \"qid\": \"Q5102510\"  },\n  { \"name\": \"Asok Kumar Hiranandani\",              \"qid\": null },\n  { \"name\": \"Koh Wee Meng\",                        \"qid\": null },\n  { \"name\": \"Ron Sim\",                             \"qid\": \"Q447463\",   \"note\": \"same-name wrestler—verify before use\" },\n  { \"name\": \"Min-Liang Tan\",                       \"qid\": \"Q6839529\"  },\n  { \"name\": \"Tay family\",                          \"qid\": null },\n  { \"name\": \"Tang Wee Kit\",                        \"qid\": null },\n  { \"name\": \"Binny Bansal\",                        \"qid\": \"Q4743209\"  },\n  { \"name\": \"Chew Gek Khim\",                       \"qid\": null },\n  { \"name\": \"Lim Hock Chee\",                       \"qid\": null },\n  { \"name\": \"Yao Hsiao Tung\",                      \"qid\": null },\n  { \"name\": \"Chua Thian Poh\",                      \"qid\": \"Q5102514\"  },\n  { \"name\": \"Wong brothers\",                       \"qid\": null },\n  { \"name\": \"Michael Kum\",                         \"qid\": null },\n  { \"name\": \"John Lim\",                            \"qid\": null },\n  { \"name\": \"Lim Kaling\",                          \"qid\": null },\n  { \"name\": \"Muhammed Aziz Khan\",                  \"qid\": \"Q16768640\" },\n  { \"name\": \"Lim Chap Huat\",                       \"qid\": null },\n  { \"name\": \"Zhong Sheng Jian\",                    \"qid\": \"Q8068097\"  },\n  { \"name\": \"David Xueling Li\",                    \"qid\": \"Q5336874\"  },\n  { \"name\": \"Saurabh Mittal\",                      \"qid\": \"Q19866937\" },\n  { \"name\": \"George Raymond Zage III\",             \"qid\": null },\n  { \"name\": \"Laurent Junique\",                     \"qid\": null },\n  { \"name\": \"David Chen\",                          \"qid\": null }\n]\n"
+        "jsCode": "return [\n  { \"name\": \"Eduardo Saverin\", \"qid\": \"Q312663\", \"note\": \"Facebook 联合创始人 ─ QID 已核对无误\" },\n  { \"name\": \"Robert Ng\", \"qid\": \"Q126488\", \"note\": \"远东机构与信和集团掌门人\" },\n  { \"name\": \"Philip Ng\", \"qid\": \"Q8968777\", \"note\": \"远东机构与信和集团掌门人\" },\n  { \"name\": \"Li Xiting\", \"qid\": \"Q60539018\", \"note\": \"迈瑞医疗创始人\" },\n  { \"name\": \"Kwek Leng Beng\", \"qid\": \"Q8963128\", \"note\": \"丰隆集团执行主席\" },\n  { \"name\": \"Goh Cheng Liang\", \"qid\": \"Q18921786\", \"note\": \"立时集团创始人\" },\n  { \"name\": \"Khoo Teck Puat family\", \"qid\": \"Q1387731\", \"note\": \"改为已故银行家本人条目，代表其家族\" },\n  { \"name\": \"Wee Cho Yaw family\", \"qid\": \"Q2484368\", \"note\": \"黄祖耀家族\" },\n  { \"name\": \"Kwee Liong Keng\", \"qid\": \"Q106932765\", \"note\": \"Pontiac Land 联合主席 ─ 修正 QID\" },\n  { \"name\": \"Kwee Liong Tek\", \"qid\": \"Q106932598\", \"note\": \"Pontiac Land 主席 ─ 修正 QID\" },\n  { \"name\": \"Kwee Liong Seen\", \"qid\": null, \"note\": \"暂无个人条目（2025-07-10）；建议新建\" },\n  { \"name\": \"Kwee Liong Phing\", \"qid\": null, \"note\": \"暂无个人条目（2025-07-10）；建议新建\" },\n  { \"name\": \"Leo KoGuan\", \"qid\": null, \"note\": \"Wikidata 尚无条目；待创建（廖凯原，SHI International 创始人）\" },\n  { \"name\": \"Zhang Yong\", \"qid\": \"Q18234033\", \"note\": \"海底捞联合创始人 ─ 更正 QID\" },\n  { \"name\": \"Shu Ping\", \"qid\": null, \"note\": \"海底捞联合创始人；Wikidata 暂缺\" },\n  { \"name\": \"Forrest Li\", \"qid\": \"Q61974364\", \"note\": \"Sea Ltd 创始人\" },\n  { \"name\": \"Kuok Khoon Hong\", \"qid\": \"Q16149275\", \"note\": \"丰益国际联合创始人\" },\n  { \"name\": \"Robert Friedland\", \"qid\": \"Q7344541\", \"note\": \"Ivanhoe Mines 创始人 ─ 更正 QID\" },\n  { \"name\": \"Raj Kumar Hiranandani\", \"qid\": null, \"note\": \"Royal Holdings 创始人；尚无条目\" },\n  { \"name\": \"Kishin RK Hiranandani\", \"qid\": \"Q106957661\", \"note\": \"RB Capital 创始人 ─ 更新 QID\" },\n  { \"name\": \"Gang Ye\", \"qid\": \"Q65030737\", \"note\": \"Sea Ltd COO\" },\n  { \"name\": \"Lien Ying Chow family\", \"qid\": \"Q16907369\", \"note\": \"连瀛洲家族\" },\n  { \"name\": \"Richard Chandler\", \"qid\": null, \"note\": \"Clermont Group 创始人；Wikidata 暂无富豪本人条目，避免误用古籍学者 Q323506\" },\n  { \"name\": \"Choo Chong Ngen\", \"qid\": \"Q65030736\", \"note\": \"Hotel 81 创始人\" },\n  { \"name\": \"Ho Sim Guan family\", \"qid\": null, \"note\": \"何心源家族，Wikidata 无条目\" },\n  { \"name\": \"Sam Goi\", \"qid\": \"Q65030738\", \"note\": \"“薄饼王” Tee Yih Jia 主席\" },\n  { \"name\": \"Arvind Tiku\", \"qid\": \"Q4792476\", \"note\": \"AT Capital 创始人\" },\n  { \"name\": \"Ji Qi\", \"qid\": \"Q11065365\", \"note\": \"华住酒店集团创始人\" },\n  { \"name\": \"Liang Xinjun\", \"qid\": \"Q11113686\", \"note\": \"复星国际联合创始人\" },\n  { \"name\": \"Oei Hong Leong\", \"qid\": \"Q7078491\", \"note\": \"投资人，黄鸿年\" },\n  { \"name\": \"Peter Lim\", \"qid\": \"Q1343765\", \"note\": \"投资人，新加坡「白衣骑士」\" },\n  { \"name\": \"Ong Beng Seng\", \"qid\": \"Q7093339\", \"note\": \"HPL 集团董事总经理\" },\n  { \"name\": \"Christina Ong\", \"qid\": \"Q5111326\", \"note\": \"COMO 集团创始人\" },\n  { \"name\": \"Asok Kumar Hiranandani\", \"qid\": \"Q106957648\", \"note\": \"Royal Group 创始人 ─ 更新 QID\" },\n  { \"name\": \"Koh Wee Meng\", \"qid\": null, \"note\": \"飞龙集团创始人；Wikidata 暂缺\" },\n  { \"name\": \"Ron Sim\", \"qid\": \"Q16221763\", \"note\": \"OSIM 创始人\" },\n  { \"name\": \"Min-Liang Tan\", \"qid\": \"Q16236203\", \"note\": \"Razer 联合创始人兼 CEO\" },\n  { \"name\": \"Tay Tee Peng family\", \"qid\": null, \"note\": \"郑志平家族；无条目\" },\n  { \"name\": \"Tang Wee Kit\", \"qid\": \"Q106312613\", \"note\": \"董伟奇 ─ 注意条目仅有基本属性，待补充\" },\n  { \"name\": \"Tang Choon Keng\", \"qid\": \"Q5065094\", \"note\": \"董俊竞 (C.K. Tang)\" },\n  { \"name\": \"Binny Bansal\", \"qid\": \"Q16198947\", \"note\": \"Flipkart 联合创始人\" },\n  { \"name\": \"Chew Gek Khim\", \"qid\": \"Q5094589\", \"note\": \"海峡商行执行主席\" },\n  { \"name\": \"Tan Chin Tuan\", \"qid\": \"Q7682054\", \"note\": \"华侨银行前主席\" },\n  { \"name\": \"Lim Hock Chee\", \"qid\": \"Q105572019\", \"note\": \"昇菘集团总裁\" },\n  { \"name\": \"Yao Hsiao Tung\", \"qid\": \"Q106312616\", \"note\": \"赫比国际创始人 ─ 条目存在但信息稀缺\" },\n  { \"name\": \"Chua Thian Poh\", \"qid\": \"Q5114948\", \"note\": \"和美置地创始人\" },\n  { \"name\": \"Charles Wong\", \"qid\": \"Q106312620\", \"note\": \"Charles & Keith 联合创始人 ─ 条目存在但需补全\" },\n  { \"name\": \"Keith Wong\", \"qid\": \"Q106312618\", \"note\": \"Charles & Keith 联合创始人 ─ 条目存在但需补全\" },\n  { \"name\": \"Michael Kum\", \"qid\": \"Q16731454\", \"note\": \"M&L Hospitality 创始人\" },\n  { \"name\": \"John Lim\", \"qid\": \"Q106312623\", \"note\": \"ARA 资产管理联合创始人 ─ 条目需完善\" },\n  { \"name\": \"Lim Kaling\", \"qid\": \"Q106312624\", \"note\": \"Razer 早期投资人 ─ 条目需完善\" },\n  { \"name\": \"Muhammed Aziz Khan\", \"qid\": \"Q6932788\", \"note\": \"孟加拉 Summit 集团创始人\" },\n  { \"name\": \"Lim Chap Huat\", \"qid\": \"Q106312626\", \"note\": \"Soilbuild 创始人 ─ 条目存在但简陋\" },\n  { \"name\": \"Zhong Sheng Jian\", \"qid\": \"Q8070868\", \"note\": \"仁恒置地集团创始人\" },\n  { \"name\": \"David Xueling Li\", \"qid\": \"Q16210609\", \"note\": \"欢聚集团创始人\" },\n  { \"name\": \"Saurabh Mittal\", \"qid\": \"Q65030740\", \"note\": \"Mission Holdings 主席\" },\n  { \"name\": \"George Raymond Zage III\", \"qid\": \"Q98144703\", \"note\": \"Tiga Investments 创始人\" },\n  { \"name\": \"Laurent Junique\", \"qid\": \"Q108764516\", \"note\": \"TDCX 创始人兼 CEO\" },\n  { \"name\": \"David Chen\", \"qid\": \"Q106312630\", \"note\": \"Sea Ltd 联合创始人 ─ 条目待补充\" }\n]\n"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -295,8 +281,8 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        -900,
-        -1360
+        -560,
+        -1780
       ],
       "id": "f9cb6725-0844-45b1-be86-36eb4b307bfc",
       "name": "Read/Write Files from Disk1"
@@ -309,8 +295,8 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        -680,
-        -1360
+        -340,
+        -1780
       ],
       "id": "b58ffc9f-2bbc-4179-938b-97fd9f9c9534",
       "name": "Extract from File"
@@ -409,7 +395,7 @@
     {
       "parameters": {
         "executeOnce": false,
-        "command": "=ls /files/wikidata/raw/wikidat_raw_{{ $('Loop Over Items1').item.json.qid }}_*.json 1>/dev/null 2>&1 && echo EXISTS\n"
+        "command": "=mkdir /files/wikidata/raw; ls /files/wikidata/raw/wikidat_raw_{{ $('Loop Over Items1').item.json.qid }}_*.json 1>/dev/null 2>&1 && echo EXISTS\n"
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
@@ -506,7 +492,7 @@
             {
               "id": "730d63c5-969b-445b-8014-1b6dd7a28a9e",
               "name": "query",
-              "value": "=#####  Multi-person enrichment  –  kinship + core facts + wealth & roles  #####\n# This query is ready for n8n: inject a space‑separated list of Q‑IDs via {{ $json.qid }}\n# It fetches UHNW‑relevant attributes (net worth, key roles), kinship links, and core facts.\n\nSELECT DISTINCT\n  ?person              ?personLabel\n  ?dateOfBirth\n  ?citizenship         ?citizenshipLabel\n  ?officialWebsite                       # P856 – external home page\n  ?netWorth                              # P2218 – net worth (latest stated value)\n  ?occupation          ?occupationLabel  # P106 – primary occupation(s)\n  ?employer            ?employerLabel    # P108 – main employer / affiliated org\n  ?positionHeld        ?positionHeldLabel # P39 – notable public positions\n  ?spouse              ?spouseLabel      # P26\n  ?father              ?fatherLabel      # P22\n  ?mother              ?motherLabel      # P25\n  ?child               ?childLabel       # P40\n  ?sibling             ?siblingLabel     # P3373\n  ?relative            ?relativeLabel    # P1038 – other relatives\nWHERE {\n  VALUES ?person { wd:{{ $('Loop Over Items').item.json.qid }}}   # <-- injected by n8n\n\n  # ——— core personal facts ———\n  OPTIONAL { ?person wdt:P569  ?dateOfBirth. }\n  OPTIONAL { ?person wdt:P27   ?citizenship. }\n  OPTIONAL { ?person wdt:P856  ?officialWebsite. }\n  OPTIONAL { ?person wdt:P2218 ?netWorth. }\n\n  # ——— professional context ———\n  OPTIONAL { ?person wdt:P106  ?occupation. }\n  OPTIONAL { ?person wdt:P108  ?employer. }\n  OPTIONAL { ?person wdt:P39   ?positionHeld. }\n\n  # ——— kinship network ———\n  OPTIONAL { ?person wdt:P26   ?spouse. }\n  OPTIONAL { ?person wdt:P22   ?father. }\n  OPTIONAL { ?person wdt:P25   ?mother. }\n  OPTIONAL { ?person wdt:P40   ?child. }\n  OPTIONAL { ?person wdt:P3373 ?sibling. }\n  OPTIONAL { ?person wdt:P1038 ?relative. }\n\n  # ——— add human‑readable labels ———\n  SERVICE wikibase:label {\n    bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\".\n  }\n}\n",
+              "value": "=#####  Multi-person enrichment  –  kinship + core facts + wealth & roles  #####\n# This query is ready for n8n: inject a space‑separated list of Q‑IDs via {{ $json.qid }}\n# It fetches UHNW‑relevant attributes (net worth, key roles), kinship links, and core facts.\n\nSELECT DISTINCT\n  ?person              ?personLabel\n  ?dateOfBirth\n  ?citizenship         ?citizenshipLabel\n  ?officialWebsite                       # P856 – external home page\n  ?netWorth                              # P2218 – net worth (latest stated value)\n  ?occupation          ?occupationLabel  # P106 – primary occupation(s)\n  ?employer            ?employerLabel    # P108 – main employer / affiliated org\n  ?positionHeld        ?positionHeldLabel # P39 – notable public positions\n  ?spouse              ?spouseLabel      # P26\n  ?father              ?fatherLabel      # P22\n  ?mother              ?motherLabel      # P25\n  ?child               ?childLabel       # P40\n  ?sibling             ?siblingLabel     # P3373\n  ?relative            ?relativeLabel    # P1038 – other relatives\nWHERE {\n  VALUES ?person { wd:{{ $json.qid }}}   # <-- injected by n8n\n\n  # ——— core personal facts ———\n  OPTIONAL { ?person wdt:P569  ?dateOfBirth. }\n  OPTIONAL { ?person wdt:P27   ?citizenship. }\n  OPTIONAL { ?person wdt:P856  ?officialWebsite. }\n  OPTIONAL { ?person wdt:P2218 ?netWorth. }\n\n  # ——— professional context ———\n  OPTIONAL { ?person wdt:P106  ?occupation. }\n  OPTIONAL { ?person wdt:P108  ?employer. }\n  OPTIONAL { ?person wdt:P39   ?positionHeld. }\n\n  # ——— kinship network ———\n  OPTIONAL { ?person wdt:P26   ?spouse. }\n  OPTIONAL { ?person wdt:P22   ?father. }\n  OPTIONAL { ?person wdt:P25   ?mother. }\n  OPTIONAL { ?person wdt:P40   ?child. }\n  OPTIONAL { ?person wdt:P3373 ?sibling. }\n  OPTIONAL { ?person wdt:P1038 ?relative. }\n\n  # ——— add human‑readable labels ———\n  SERVICE wikibase:label {\n    bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\".\n  }\n}\n",
               "type": "string"
             }
           ]
@@ -516,11 +502,24 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -700,
-        -1000
+        -140,
+        -1420
       ],
       "id": "4367d2a4-41f8-4229-94c7-ae502aa0392a",
       "name": "Set Query1"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  { \"name\": \"Eduardo Saverin\",                     \"qid\": \"Q312663\" },\n  { \"name\": \"Robert Ng\",                           \"qid\": \"Q126488\" },\n  { \"name\": \"Philip Ng Chee Tat\",                  \"qid\": \"Q8968777\" },\n  { \"name\": \"Li Xiting\",                           \"qid\": \"Q60539018\" },\n  { \"name\": \"Kwek Leng Beng\",                      \"qid\": \"Q8963128\" },\n  { \"name\": \"Goh Cheng Liang\",                     \"qid\": \"Q18921786\" },\n  { \"name\": \"Khoo Teck Puat\",                      \"qid\": \"Q1387731\",   \"note\": \"represents Khoo family\" },\n  { \"name\": \"Wee Cho Yaw\",                         \"qid\": \"Q2484368\",  \"note\": \"represents Wee family\" },\n  { \"name\": \"Kwee Liong Tek\",                      \"qid\": \"Q106932598\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Kwee Liong Keng\",                     \"qid\": \"Q106932765\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Leo KoGuan\",                          \"qid\": \"Q18234353\" },\n  { \"name\": \"Zhang Yong\",                          \"qid\": \"Q18234033\", \"note\": \"Haidilao co-founder\" },\n  { \"name\": \"Shu Ping\",                            \"qid\": null,        \"note\": \"Haidilao co-founder—no item yet\" },\n  { \"name\": \"Forrest Li\",                          \"qid\": \"Q61974364\" },\n  { \"name\": \"Kuok Khoon Hong\",                     \"qid\": \"Q16149275\" },\n  { \"name\": \"Robert Friedland\",                    \"qid\": \"Q7344541\" },\n  { \"name\": \"Raj Kumar\",                           \"qid\": null,        \"note\": \"patriarch of RB Capital—no item\" },\n  { \"name\": \"Kishin RK\",                           \"qid\": \"Q106957661\"},\n  { \"name\": \"Gang Ye\",                             \"qid\": null,        \"note\": \"Sea Ltd COO—no item\" },\n  { \"name\": \"Lien family\",                         \"qid\": null },\n  { \"name\": \"Richard Chandler\",                    \"qid\": \"Q323506\"    },\n  { \"name\": \"Choo Chong Ngen\",                     \"qid\": null },\n  { \"name\": \"Ho family\",                           \"qid\": null },\n  { \"name\": \"Sam Goi\",                             \"qid\": \"Q18377911\" },\n  { \"name\": \"Arvind Tiku\",                         \"qid\": null },\n  { \"name\": \"Ji Qi\",                               \"qid\": null },\n  { \"name\": \"Liang Xinjun\",                        \"qid\": null },\n  { \"name\": \"Oei Hong Leong\",                      \"qid\": null },\n  { \"name\": \"Peter Lim\",                           \"qid\": \"Q7210804\"  },\n  { \"name\": \"Ong Beng Seng\",                       \"qid\": \"Q2082346\"  },\n  { \"name\": \"Christina Ong\",                       \"qid\": \"Q5102510\"  },\n  { \"name\": \"Asok Kumar Hiranandani\",              \"qid\": null },\n  { \"name\": \"Koh Wee Meng\",                        \"qid\": null },\n  { \"name\": \"Ron Sim\",                             \"qid\": \"Q447463\",   \"note\": \"same-name wrestler—verify before use\" },\n  { \"name\": \"Min-Liang Tan\",                       \"qid\": \"Q6839529\"  },\n  { \"name\": \"Tay family\",                          \"qid\": null },\n  { \"name\": \"Tang Wee Kit\",                        \"qid\": null },\n  { \"name\": \"Binny Bansal\",                        \"qid\": \"Q4743209\"  },\n  { \"name\": \"Chew Gek Khim\",                       \"qid\": null },\n  { \"name\": \"Lim Hock Chee\",                       \"qid\": null },\n  { \"name\": \"Yao Hsiao Tung\",                      \"qid\": null },\n  { \"name\": \"Chua Thian Poh\",                      \"qid\": \"Q5102514\"  },\n  { \"name\": \"Wong brothers\",                       \"qid\": null },\n  { \"name\": \"Michael Kum\",                         \"qid\": null },\n  { \"name\": \"John Lim\",                            \"qid\": null },\n  { \"name\": \"Lim Kaling\",                          \"qid\": null },\n  { \"name\": \"Muhammed Aziz Khan\",                  \"qid\": \"Q16768640\" },\n  { \"name\": \"Lim Chap Huat\",                       \"qid\": null },\n  { \"name\": \"Zhong Sheng Jian\",                    \"qid\": \"Q8068097\"  },\n  { \"name\": \"David Xueling Li\",                    \"qid\": \"Q5336874\"  },\n  { \"name\": \"Saurabh Mittal\",                      \"qid\": \"Q19866937\" },\n  { \"name\": \"George Raymond Zage III\",             \"qid\": null },\n  { \"name\": \"Laurent Junique\",                     \"qid\": null },\n  { \"name\": \"David Chen\",                          \"qid\": null }\n]"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2040,
+        -1080
+      ],
+      "id": "459d153d-a828-47c0-834c-2363aeb49bdd",
+      "name": "All Names"
     },
     {
       "parameters": {
@@ -563,24 +562,212 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -480,
-        -1000
+        40,
+        -1400
       ],
-      "id": "6927d646-b2ca-4a3f-b604-1e2e40248c15",
-      "name": "Query SPARQL Wikidata"
+      "id": "3a30b78c-9e0f-4a5c-808d-d0d3b1005579",
+      "name": "Query SPARQL Wikidata3"
     },
     {
       "parameters": {
-        "jsCode": "return [\n  { \"name\": \"Eduardo Saverin\",                     \"qid\": \"Q312663\" },\n  { \"name\": \"Robert Ng\",                           \"qid\": \"Q126488\" },\n  { \"name\": \"Philip Ng Chee Tat\",                  \"qid\": \"Q8968777\" },\n  { \"name\": \"Li Xiting\",                           \"qid\": \"Q60539018\" },\n  { \"name\": \"Kwek Leng Beng\",                      \"qid\": \"Q8963128\" },\n  { \"name\": \"Goh Cheng Liang\",                     \"qid\": \"Q18921786\" },\n  { \"name\": \"Khoo Teck Puat\",                      \"qid\": \"Q1387731\",   \"note\": \"represents Khoo family\" },\n  { \"name\": \"Wee Cho Yaw\",                         \"qid\": \"Q2484368\",  \"note\": \"represents Wee family\" },\n  { \"name\": \"Kwee Liong Tek\",                      \"qid\": \"Q106932598\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Kwee Liong Keng\",                     \"qid\": \"Q106932765\",\"note\": \"Kwee brother\" },\n  { \"name\": \"Leo KoGuan\",                          \"qid\": \"Q18234353\" },\n  { \"name\": \"Zhang Yong\",                          \"qid\": \"Q18234033\", \"note\": \"Haidilao co-founder\" },\n  { \"name\": \"Shu Ping\",                            \"qid\": null,        \"note\": \"Haidilao co-founder—no item yet\" },\n  { \"name\": \"Forrest Li\",                          \"qid\": \"Q61974364\" },\n  { \"name\": \"Kuok Khoon Hong\",                     \"qid\": \"Q16149275\" },\n  { \"name\": \"Robert Friedland\",                    \"qid\": \"Q7344541\" },\n  { \"name\": \"Raj Kumar\",                           \"qid\": null,        \"note\": \"patriarch of RB Capital—no item\" },\n  { \"name\": \"Kishin RK\",                           \"qid\": \"Q106957661\"},\n  { \"name\": \"Gang Ye\",                             \"qid\": null,        \"note\": \"Sea Ltd COO—no item\" },\n  { \"name\": \"Lien family\",                         \"qid\": null },\n  { \"name\": \"Richard Chandler\",                    \"qid\": \"Q323506\"    },\n  { \"name\": \"Choo Chong Ngen\",                     \"qid\": null },\n  { \"name\": \"Ho family\",                           \"qid\": null },\n  { \"name\": \"Sam Goi\",                             \"qid\": \"Q18377911\" },\n  { \"name\": \"Arvind Tiku\",                         \"qid\": null },\n  { \"name\": \"Ji Qi\",                               \"qid\": null },\n  { \"name\": \"Liang Xinjun\",                        \"qid\": null },\n  { \"name\": \"Oei Hong Leong\",                      \"qid\": null },\n  { \"name\": \"Peter Lim\",                           \"qid\": \"Q7210804\"  },\n  { \"name\": \"Ong Beng Seng\",                       \"qid\": \"Q2082346\"  },\n  { \"name\": \"Christina Ong\",                       \"qid\": \"Q5102510\"  },\n  { \"name\": \"Asok Kumar Hiranandani\",              \"qid\": null },\n  { \"name\": \"Koh Wee Meng\",                        \"qid\": null },\n  { \"name\": \"Ron Sim\",                             \"qid\": \"Q447463\",   \"note\": \"same-name wrestler—verify before use\" },\n  { \"name\": \"Min-Liang Tan\",                       \"qid\": \"Q6839529\"  },\n  { \"name\": \"Tay family\",                          \"qid\": null },\n  { \"name\": \"Tang Wee Kit\",                        \"qid\": null },\n  { \"name\": \"Binny Bansal\",                        \"qid\": \"Q4743209\"  },\n  { \"name\": \"Chew Gek Khim\",                       \"qid\": null },\n  { \"name\": \"Lim Hock Chee\",                       \"qid\": null },\n  { \"name\": \"Yao Hsiao Tung\",                      \"qid\": null },\n  { \"name\": \"Chua Thian Poh\",                      \"qid\": \"Q5102514\"  },\n  { \"name\": \"Wong brothers\",                       \"qid\": null },\n  { \"name\": \"Michael Kum\",                         \"qid\": null },\n  { \"name\": \"John Lim\",                            \"qid\": null },\n  { \"name\": \"Lim Kaling\",                          \"qid\": null },\n  { \"name\": \"Muhammed Aziz Khan\",                  \"qid\": \"Q16768640\" },\n  { \"name\": \"Lim Chap Huat\",                       \"qid\": null },\n  { \"name\": \"Zhong Sheng Jian\",                    \"qid\": \"Q8068097\"  },\n  { \"name\": \"David Xueling Li\",                    \"qid\": \"Q5336874\"  },\n  { \"name\": \"Saurabh Mittal\",                      \"qid\": \"Q19866937\" },\n  { \"name\": \"George Raymond Zage III\",             \"qid\": null },\n  { \"name\": \"Laurent Junique\",                     \"qid\": null },\n  { \"name\": \"David Chen\",                          \"qid\": null }\n]"
+        "fileSelector": "/files/wikidata/shared_state.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1280,
+        -920
+      ],
+      "id": "fe6fd018-bbed-45d7-93c0-09db8fc725db",
+      "name": "Read/Write Files from Disk2"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        1500,
+        -920
+      ],
+      "id": "95204315-a524-4699-a77e-519d5c172c9c",
+      "name": "Extract from File1"
+    },
+    {
+      "parameters": {
+        "jsCode": "/**\n * 读取 shared_state.json，把 value 为 false 的 QID\n * 整理成 [{ qid: \"Qxxxx\" }, …] 输出\n */\nconst unseen = Object.entries($input.first().json.data.seen || {})\n  .filter(([, done]) => done === false)\n  .map(([qid]) => ({ json: { qid } }));\n\nreturn unseen;"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -2040,
-        -1080
+        1820,
+        -900
       ],
-      "id": "459d153d-a828-47c0-834c-2363aeb49bdd",
-      "name": "All Names"
+      "id": "29081836-3d4d-433e-8442-a18b463d7b19",
+      "name": "Code2"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "destinationFieldName": "",
+        "include": "specifiedFields",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        940,
+        -920
+      ],
+      "id": "4c27569d-5b62-471a-992e-20eb7d396393",
+      "name": "Aggregate1"
+    },
+    {
+      "parameters": {
+        "executeOnce": false,
+        "command": "=python3 /files/wikidata/process_wd_full_clean_v6.py --state-file /files/wikidata/shared_state.json --data-file  /files/wikidata/data.json << \"EOF\"\n{{ JSON.stringify($input.all().map(i => i.json)) }}\nEOF\n\n#--reset"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        3180,
+        -1240
+      ],
+      "id": "c743665a-0231-46a8-8753-6b1deaf953b8",
+      "name": "Execute Command1",
+      "notes": "#echo $'{{ JSON.stringify($input.all().map(i => i.json)) }}' | python3 /files/wikidata/process_wd.py --state-file /files/wikidata/shared_state.json --data-file  /files/wikidata/data.json\n"
+    },
+    {
+      "parameters": {
+        "jsCode": "const out = [];\nfor (const item of items) {\n  try {\n    // 把 stdout 字符串解析成对象\n    const parsed = JSON.parse(item.json.stdout);\n\n    // 继续把解析后的内容放进 item.json，方便后续节点使用\n    out.push({ json: parsed });\n  } catch (err) {\n    // 若解析失败，可选择抛错或跳过\n    throw new Error(`JSON parse error: ${err.message}`);\n  }\n}\nreturn out;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3620,
+        -1240
+      ],
+      "id": "33305fa6-9b8a-46d1-9406-2ae41c721d91",
+      "name": "Parse to JSON1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c9020422-e17c-433b-beed-e10c748f27dd",
+              "leftValue": "={{ $json.exitCode }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3400,
+        -1240
+      ],
+      "id": "2bc3bf28-4d1a-4520-8e76-d9b45e01d0fd",
+      "name": "Python process_wd Success1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        2120,
+        -820
+      ],
+      "id": "8b28e0b5-e965-41da-8d8a-0aa73848fef4",
+      "name": "Loop Over Items2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "730d63c5-969b-445b-8014-1b6dd7a28a9e",
+              "name": "query",
+              "value": "=#####  Multi-person enrichment  –  kinship + core facts + wealth & roles  #####\n# This query is ready for n8n: inject a space‑separated list of Q‑IDs via {{ $json.qid }}\n# It fetches UHNW‑relevant attributes (net worth, key roles), kinship links, and core facts.\n\nSELECT DISTINCT\n  ?person              ?personLabel\n  ?dateOfBirth\n  ?citizenship         ?citizenshipLabel\n  ?officialWebsite                       # P856 – external home page\n  ?netWorth                              # P2218 – net worth (latest stated value)\n  ?occupation          ?occupationLabel  # P106 – primary occupation(s)\n  ?employer            ?employerLabel    # P108 – main employer / affiliated org\n  ?positionHeld        ?positionHeldLabel # P39 – notable public positions\n  ?spouse              ?spouseLabel      # P26\n  ?father              ?fatherLabel      # P22\n  ?mother              ?motherLabel      # P25\n  ?child               ?childLabel       # P40\n  ?sibling             ?siblingLabel     # P3373\n  ?relative            ?relativeLabel    # P1038 – other relatives\nWHERE {\n  VALUES ?person { wd:{{ $json.qid }}}   # <-- injected by n8n\n\n  # ——— core personal facts ———\n  OPTIONAL { ?person wdt:P569  ?dateOfBirth. }\n  OPTIONAL { ?person wdt:P27   ?citizenship. }\n  OPTIONAL { ?person wdt:P856  ?officialWebsite. }\n  OPTIONAL { ?person wdt:P2218 ?netWorth. }\n\n  # ——— professional context ———\n  OPTIONAL { ?person wdt:P106  ?occupation. }\n  OPTIONAL { ?person wdt:P108  ?employer. }\n  OPTIONAL { ?person wdt:P39   ?positionHeld. }\n\n  # ——— kinship network ———\n  OPTIONAL { ?person wdt:P26   ?spouse. }\n  OPTIONAL { ?person wdt:P22   ?father. }\n  OPTIONAL { ?person wdt:P25   ?mother. }\n  OPTIONAL { ?person wdt:P40   ?child. }\n  OPTIONAL { ?person wdt:P3373 ?sibling. }\n  OPTIONAL { ?person wdt:P1038 ?relative. }\n\n  # ——— add human‑readable labels ———\n  SERVICE wikibase:label {\n    bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\".\n  }\n}\n",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2760,
+        -1240
+      ],
+      "id": "2d75bc26-c7c1-4efc-a2e9-839396ed1652",
+      "name": "Set Query2"
+    },
+    {
+      "parameters": {
+        "url": "=https://query.wikidata.org/sparql",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "query",
+              "value": "={{ $json.query }}"
+            },
+            {
+              "name": "format",
+              "value": "json"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "User-Agent: n8n-forbes-sg50/0.1 2260115144@qq.com"
+            },
+            {
+              "name": "Accept",
+              "value": "application/sparql-results+json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true,
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2940,
+        -1220
+      ],
+      "id": "5db637c8-2e51-4af9-ad1c-3d213c49d378",
+      "name": "Query SPARQL Wikidata"
     }
   ],
   "pinData": {},
@@ -589,7 +776,7 @@
       "main": [
         [
           {
-            "node": "All Names",
+            "node": "All QIDs",
             "type": "main",
             "index": 0
           }
@@ -677,17 +864,6 @@
       "main": [
         [
           {
-            "node": "Expand next",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Expand next": {
-      "main": [
-        [
-          {
             "node": "Loop Over Items",
             "type": "main",
             "index": 0
@@ -708,7 +884,13 @@
     },
     "Loop Over Items": {
       "main": [
-        [],
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ],
         [
           {
             "node": "Set Query1",
@@ -877,18 +1059,7 @@
       "main": [
         [
           {
-            "node": "Query SPARQL Wikidata",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Query SPARQL Wikidata": {
-      "main": [
-        [
-          {
-            "node": "Execute Command",
+            "node": "Query SPARQL Wikidata3",
             "type": "main",
             "index": 0
           }
@@ -905,13 +1076,135 @@
           }
         ]
       ]
+    },
+    "Query SPARQL Wikidata3": {
+      "main": [
+        [
+          {
+            "node": "Execute Command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk2": {
+      "main": [
+        [
+          {
+            "node": "Extract from File1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File1": {
+      "main": [
+        [
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Command1": {
+      "main": [
+        [
+          {
+            "node": "Python process_wd Success1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse to JSON1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Python process_wd Success1": {
+      "main": [
+        [
+          {
+            "node": "Parse to JSON1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items2": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Set Query2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Query2": {
+      "main": [
+        [
+          {
+            "node": "Query SPARQL Wikidata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Query SPARQL Wikidata": {
+      "main": [
+        [
+          {
+            "node": "Execute Command1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "7eacc89b-e421-471d-994e-3c0321985106",
+  "versionId": "92ce1dbd-c2e3-46f8-9fa7-fa918546d3ac",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70232b1931410b16ff30066cebf27f070772e4fb9654f8dda3bb39f2d0a7022c"
