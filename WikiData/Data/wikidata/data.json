@@ -1,0 +1,1969 @@
+{
+  "persons": [
+    {
+      "id": "Q312663",
+      "props": {
+        "name": "Eduardo Saverin",
+        "dateOfBirth": "1982-03-19T00:00:00Z",
+        "citizenship": "Brazil",
+        "netWorth": "9700000000",
+        "occupation": "computer scientist"
+      },
+      "attributes": {
+        "spouseLabel": [
+          "Elaine Andriejanssen",
+          "Eduardo Saverin"
+        ]
+      }
+    },
+    {
+      "id": "Q115688870",
+      "props": {
+        "name": "Elaine Andriejanssen"
+      },
+      "attributes": {
+        "spouseLabel": "Eduardo Saverin"
+      }
+    },
+    {
+      "id": "Q126488",
+      "props": {
+        "name": "Robert Ng",
+        "dateOfBirth": "1952-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "businessperson",
+        "employer": "Sino Group",
+        "positionHeld": "chief operating officer"
+      },
+      "attributes": {
+        "fatherLabel": [
+          "Ng Teng Fong",
+          "Robert Ng"
+        ],
+        "motherLabel": "Kim Choo TAN",
+        "childLabel": [
+          "David Ng Win Loong",
+          "Robert Ng"
+        ]
+      }
+    },
+    {
+      "id": "Q718141",
+      "props": {
+        "name": "Ng Teng Fong",
+        "dateOfBirth": "1928-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "entrepreneur"
+      },
+      "attributes": {
+        "childLabel": "Philip Ng Chee Tat"
+      }
+    },
+    {
+      "id": "Q106770090",
+      "props": {
+        "name": "Kim Choo TAN"
+      },
+      "attributes": {
+        "childLabel": "Philip Ng Chee Tat"
+      }
+    },
+    {
+      "id": "Q8968820",
+      "props": {
+        "name": "Nikki Ng Mien Hua",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "fatherLabel": "Robert Ng",
+        "motherLabel": "Yeoh Saw Kheng"
+      }
+    },
+    {
+      "id": "Q8968920",
+      "props": {
+        "name": "Daryl Ng Win Kong, JP",
+        "dateOfBirth": "1978-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "fatherLabel": "Robert Ng",
+        "motherLabel": "Yeoh Saw Kheng"
+      }
+    },
+    {
+      "id": "Q106770235",
+      "props": {
+        "name": "Alexander Ng Win Yew"
+      },
+      "attributes": {
+        "fatherLabel": "Robert Ng",
+        "motherLabel": "Yeoh Saw Kheng"
+      }
+    },
+    {
+      "id": "Q106770232",
+      "props": {
+        "name": "David Ng Win Loong"
+      },
+      "attributes": {
+        "fatherLabel": "Robert Ng",
+        "motherLabel": "Yeoh Saw Kheng"
+      }
+    },
+    {
+      "id": "Q8968777",
+      "props": {
+        "name": "Philip Ng Chee Tat",
+        "dateOfBirth": "1958-09-16T00:00:00Z",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "fatherLabel": "Ng Teng Fong",
+        "motherLabel": "Kim Choo TAN",
+        "childLabel": "Philip Ng Chee Tat"
+      }
+    },
+    {
+      "id": "Q60539018",
+      "props": {
+        "name": "Li Xiting",
+        "dateOfBirth": "1951-01-01T00:00:00Z",
+        "citizenship": "People's Republic of China",
+        "occupation": "chief executive officer"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q8963128",
+      "props": {
+        "name": "Kwek Leng Beng",
+        "dateOfBirth": "1942-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "entrepreneur"
+      },
+      "attributes": {
+        "childLabel": "Kingston Kwek",
+        "siblingLabel": [
+          "Kwek Leng Joo",
+          "Kwek Leng Beng"
+        ]
+      }
+    },
+    {
+      "id": "Q47012408",
+      "props": {
+        "name": "Sherman Kwek",
+        "dateOfBirth": "1975-01-01T00:00:00Z",
+        "occupation": "businessperson",
+        "positionHeld": "chief executive officer"
+      },
+      "attributes": {
+        "motherLabel": "Cecilia KOK Phooi Lin"
+      }
+    },
+    {
+      "id": "Q21501386",
+      "props": {
+        "name": "Kwek Leng Joo",
+        "dateOfBirth": "1954-01-01T00:00:00Z",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "childLabel": "Eik Sheng Kwek",
+        "siblingLabel": "Kwek Leng Beng"
+      }
+    },
+    {
+      "id": "Q104668525",
+      "props": {
+        "name": "Kingston Kwek",
+        "netWorth": "2600000000"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q18921786",
+      "props": {
+        "name": "Goh Cheng Liang",
+        "dateOfBirth": "1927-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "netWorth": "21600000000",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "childLabel": "Goh Hup Jin",
+        "fatherLabel": "Goh Cheng Liang"
+      }
+    },
+    {
+      "id": "Q55955927",
+      "props": {
+        "name": "Goh Hup Jin",
+        "dateOfBirth": "1955-01-01T00:00:00Z",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "fatherLabel": "Goh Cheng Liang"
+      }
+    },
+    {
+      "id": "Q1387731",
+      "props": {
+        "name": "Khoo Teck Puat",
+        "dateOfBirth": "1917-01-13T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "banker"
+      },
+      "attributes": {
+        "fatherLabel": [
+          "Khoo Yang Tin",
+          "Khoo Teck Puat"
+        ],
+        "motherLabel": "Yeo Kim Chiam",
+        "childLabel": [
+          "Mavis Khoo-Oei",
+          "Khoo Teck Puat"
+        ]
+      }
+    },
+    {
+      "id": "Q106945494",
+      "props": {
+        "name": "Khoo Yang Tin"
+      },
+      "attributes": {
+        "childLabel": "Khoo Teck Puat"
+      }
+    },
+    {
+      "id": "Q106945495",
+      "props": {
+        "name": "Yeo Kim Chiam"
+      },
+      "attributes": {
+        "childLabel": "Khoo Teck Puat"
+      }
+    },
+    {
+      "id": "Q3056313",
+      "props": {
+        "name": "Eric Khoo",
+        "dateOfBirth": "1965-03-27T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "screenwriter"
+      },
+      "attributes": {
+        "fatherLabel": "Khoo Teck Puat",
+        "motherLabel": "Rose Marie WEE",
+        "childLabel": "Christopher Khoo"
+      }
+    },
+    {
+      "id": "Q97817681",
+      "props": {
+        "name": "Mavis Khoo-Oei",
+        "dateOfBirth": "1947-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "spouseLabel": "Oei Ing Tjien",
+        "fatherLabel": "Khoo Teck Puat"
+      }
+    },
+    {
+      "id": "Q107009684",
+      "props": {
+        "name": "Khoo Bee See"
+      },
+      "attributes": {
+        "fatherLabel": "Khoo Teck Puat",
+        "childLabel": "Siew Eng Chua"
+      }
+    },
+    {
+      "id": "Q107009727",
+      "props": {
+        "name": "Lucy Khoo Bee Lay"
+      },
+      "attributes": {
+        "fatherLabel": "Khoo Teck Puat",
+        "motherLabel": "TAN Geok Yin"
+      }
+    },
+    {
+      "id": "Q107009731",
+      "props": {
+        "name": "Raymond Khoo Ban Lian"
+      },
+      "attributes": {
+        "fatherLabel": "Khoo Teck Puat",
+        "motherLabel": "?"
+      }
+    },
+    {
+      "id": "Q2484368",
+      "props": {
+        "name": "Wee Cho Yaw",
+        "dateOfBirth": "1929-01-10T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "entrepreneur"
+      },
+      "attributes": {
+        "fatherLabel": [
+          "Wee Kheng Chiang",
+          "Wee Cho Yaw"
+        ],
+        "motherLabel": "Ong Siew Eng",
+        "childLabel": [
+          "Wee Ee Lim",
+          "Wee Cho Yaw"
+        ]
+      }
+    },
+    {
+      "id": "Q16008474",
+      "props": {
+        "name": "Wee Kheng Chiang",
+        "dateOfBirth": "1890-07-22T00:00:00Z",
+        "citizenship": "Malaysia",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "spouseLabel": [
+          "Ong Siew Eng",
+          "Wee Kheng Chiang"
+        ],
+        "childLabel": "Wee Cho Bian"
+      }
+    },
+    {
+      "id": "Q106823209",
+      "props": {
+        "name": "Ong Siew Eng"
+      },
+      "attributes": {
+        "spouseLabel": "Wee Kheng Chiang",
+        "fatherLabel": "Ong Tiang Swee",
+        "motherLabel": "Ah Lui",
+        "childLabel": "Wee Cho Yaw"
+      }
+    },
+    {
+      "id": "Q39050789",
+      "props": {
+        "name": "Wee Ee Cheong",
+        "dateOfBirth": "1953-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "businessperson"
+      },
+      "attributes": {
+        "fatherLabel": "Wee Cho Yaw",
+        "childLabel": "Wee Teng Chuen"
+      }
+    },
+    {
+      "id": "Q106823263",
+      "props": {
+        "name": "Wee Wei Chi",
+        "dateOfBirth": "1950-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "spouseLabel": "David Eu Yee Tat",
+        "fatherLabel": "Wee Cho Yaw",
+        "motherLabel": "Chuang Yong Eng",
+        "childLabel": "Jonathan Eu"
+      }
+    },
+    {
+      "id": "Q106823368",
+      "props": {
+        "name": "Wee Wei Ling",
+        "dateOfBirth": "1952-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "fatherLabel": "Wee Cho Yaw",
+        "motherLabel": "Chuang Yong Eng",
+        "childLabel": "Shin Hui Tan"
+      }
+    },
+    {
+      "id": "Q107012371",
+      "props": {
+        "name": "Wee Ee-Chao",
+        "dateOfBirth": "1955-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "fatherLabel": "Wee Cho Yaw",
+        "motherLabel": "Chuang Yong Eng"
+      }
+    },
+    {
+      "id": "Q107012406",
+      "props": {
+        "name": "Wee Ee Lim",
+        "dateOfBirth": "1962-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "fatherLabel": "Wee Cho Yaw",
+        "motherLabel": "Chuang Yong Eng"
+      }
+    },
+    {
+      "id": "Q106932765",
+      "props": {
+        "name": "Kwee Liong Keng",
+        "dateOfBirth": "1945-02-13T00:00:00Z"
+      },
+      "attributes": {
+        "spouseLabel": "Chua Lee Eng",
+        "fatherLabel": [
+          "Henry Kwee",
+          "Kwee Liong Keng"
+        ],
+        "childLabel": [
+          "Kwee Su-Lin",
+          "Kwee Liong Keng"
+        ]
+      }
+    },
+    {
+      "id": "Q106932766",
+      "props": {
+        "name": "Chua Lee Eng"
+      },
+      "attributes": {
+        "fatherLabel": "Chua Boon Ann",
+        "motherLabel": [
+          "Fong Lai Wah",
+          "Chua Lee Eng"
+        ],
+        "childLabel": "Kwee Su-Lin"
+      }
+    },
+    {
+      "id": "Q106932713",
+      "props": {
+        "name": "Henry Kwee"
+      },
+      "attributes": {
+        "childLabel": "Kwee Liong Seen"
+      }
+    },
+    {
+      "id": "Q106932738",
+      "props": {
+        "name": "Kwee Wei Lin",
+        "citizenship": "Singapore",
+        "occupation": "business executive"
+      },
+      "attributes": {
+        "fatherLabel": "Kwee Liong Keng",
+        "motherLabel": "Chua Lee Eng"
+      }
+    },
+    {
+      "id": "Q106932764",
+      "props": {
+        "name": "Kwee Su-Lin"
+      },
+      "attributes": {
+        "fatherLabel": "Kwee Liong Keng",
+        "motherLabel": "Chua Lee Eng"
+      }
+    },
+    {
+      "id": "Q106932598",
+      "props": {
+        "name": "Kwee Liong Tek",
+        "dateOfBirth": "1946-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "spouseLabel": "Donna Kwee",
+        "fatherLabel": [
+          "Henry Kwee",
+          "Kwee Liong Tek"
+        ],
+        "childLabel": [
+          "Evan Kwee",
+          "Kwee Liong Tek"
+        ]
+      }
+    },
+    {
+      "id": "Q106932705",
+      "props": {
+        "name": "Donna Kwee"
+      },
+      "attributes": {
+        "fatherLabel": "George Aratani",
+        "childLabel": "Evan Kwee",
+        "motherLabel": "Donna Kwee"
+      }
+    },
+    {
+      "id": "Q97817650",
+      "props": {
+        "name": "Melissa Kwee",
+        "dateOfBirth": "1972-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "fatherLabel": "Kwee Liong Tek",
+        "motherLabel": "Donna Kwee"
+      }
+    },
+    {
+      "id": "Q106932587",
+      "props": {
+        "name": "Evan Kwee",
+        "dateOfBirth": "1977-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "spouseLabel": "Claudia Sondakh",
+        "fatherLabel": "Kwee Liong Tek",
+        "motherLabel": "Donna Kwee",
+        "childLabel": "Lucas Kwee"
+      }
+    },
+    {
+      "id": "Q18234033",
+      "props": {
+        "name": "Zhang Yong",
+        "dateOfBirth": "1974-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "entrepreneur",
+        "employer": "Haidilao"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q61974364",
+      "props": {
+        "name": "Forrest Li",
+        "dateOfBirth": "1975-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "occupation": "businessperson"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16149275",
+      "props": {
+        "name": "Kuok Khoon Hong",
+        "dateOfBirth": "1949-01-01T00:00:00Z",
+        "citizenship": "Singapore",
+        "netWorth": "3800000000",
+        "occupation": "businessperson",
+        "positionHeld": "chief executive officer"
+      },
+      "attributes": {
+        "childLabel": "Meng Ru Kuok"
+      }
+    },
+    {
+      "id": "Q105758664",
+      "props": {
+        "name": "Meng Han Kuok"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q105758670",
+      "props": {
+        "name": "Meng Ru Kuok",
+        "dateOfBirth": "1988-06-01T00:00:00Z"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q7344541",
+      "props": {
+        "name": "Robert Friedland",
+        "dateOfBirth": "1950-08-18T00:00:00Z",
+        "citizenship": "United States",
+        "occupation": "financier"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106957661",
+      "props": {
+        "name": "Kishin RK",
+        "dateOfBirth": "1983-01-01T00:00:00Z"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q65030737",
+      "props": {
+        "name": "Bernard Barton",
+        "dateOfBirth": "1951-01-01T00:00:00Z",
+        "occupation": "barrister"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16907369",
+      "props": {
+        "name": "Lien Ying Chow",
+        "dateOfBirth": "1906-08-02T00:00:00Z",
+        "citizenship": "Republic of China",
+        "positionHeld": "member of the National Political Assembly"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q65030736",
+      "props": {
+        "name": "Ingólfur Jónsson",
+        "dateOfBirth": "1952-10-17T00:00:00Z",
+        "citizenship": "Iceland",
+        "occupation": "cross-country skier"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q65030738",
+      "props": {
+        "name": "Q65030738"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q4792476",
+      "props": {
+        "name": "Arma Mountains"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q11065365",
+      "props": {
+        "name": "Q11065365"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q11113686",
+      "props": {
+        "name": "Liang Xinjun",
+        "dateOfBirth": "1968-01-01T00:00:00Z",
+        "citizenship": "People's Republic of China",
+        "occupation": "entrepreneur"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q7078491",
+      "props": {
+        "name": "Oediblemma"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q1343765",
+      "props": {
+        "name": "Trinitatiskirche"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q7093339",
+      "props": {
+        "name": "One Washington Park"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q5111326",
+      "props": {
+        "name": "Christmas Concerto"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106957648",
+      "props": {
+        "name": "Asok Kumar Hiranandani",
+        "dateOfBirth": "1954-01-01T00:00:00Z"
+      },
+      "attributes": {
+        "childLabel": "Bobby Hiranandani"
+      }
+    },
+    {
+      "id": "Q106957654",
+      "props": {
+        "name": "Bobby Hiranandani"
+      },
+      "attributes": {
+        "spouseLabel": "Shaila Tanwani"
+      }
+    },
+    {
+      "id": "Q16221763",
+      "props": {
+        "name": "Chandima Gunaratne",
+        "dateOfBirth": "1982-02-24T00:00:00Z",
+        "citizenship": "Sri Lanka",
+        "occupation": "cricketer"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16236203",
+      "props": {
+        "name": "Jordan Holt",
+        "dateOfBirth": "1994-05-04T00:00:00Z",
+        "citizenship": "United Kingdom",
+        "occupation": "association football manager"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312613",
+      "props": {
+        "name": "Neoechinorhynchus baueri"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q5065094",
+      "props": {
+        "name": "Certificate of Initial Mastery"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16198947",
+      "props": {
+        "name": "Hugh de Giffard"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q5094589",
+      "props": {
+        "name": "Cheyenne Mountain Division"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q7682054",
+      "props": {
+        "name": "Q7682054"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q105572019",
+      "props": {
+        "name": "sexual consent in law"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312616",
+      "props": {
+        "name": "Q106312616"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q5114948",
+      "props": {
+        "name": "Chrysosporium"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312620",
+      "props": {
+        "name": "Fasanenweg"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312618",
+      "props": {
+        "name": "Erlengrund"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16731454",
+      "props": {
+        "name": "Kenneth Lewis",
+        "dateOfBirth": "1930-01-01T00:00:00Z"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312623",
+      "props": {
+        "name": "Hauptstraße"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312624",
+      "props": {
+        "name": "Hege"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q6932788",
+      "props": {
+        "name": "Category:1817 deaths"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312626",
+      "props": {
+        "name": "Hollit"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q8070868",
+      "props": {
+        "name": "Zhivko Boyadzhiev",
+        "dateOfBirth": "1976-11-06T00:00:00Z",
+        "citizenship": "Bulgaria",
+        "occupation": "association football player"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q16210609",
+      "props": {
+        "name": "Cassie Stocks",
+        "citizenship": "Canada",
+        "occupation": "novelist"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q65030740",
+      "props": {
+        "name": "Q65030740"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q98144703",
+      "props": {
+        "name": "Q98144703"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q108764516",
+      "props": {
+        "name": "Marktplatz"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106312630",
+      "props": {
+        "name": "Neoechinorhynchus brayi"
+      },
+      "attributes": {}
+    },
+    {
+      "id": "Q106770084",
+      "props": {
+        "name": "Yeoh Saw Kheng"
+      },
+      "attributes": {
+        "motherLabel": "Yeoh Saw Kheng"
+      }
+    },
+    {
+      "id": "Q106708098",
+      "props": {
+        "name": "Cecilia KOK Phooi Lin"
+      },
+      "attributes": {
+        "motherLabel": "Cecilia KOK Phooi Lin"
+      }
+    },
+    {
+      "id": "Q106708262",
+      "props": {
+        "name": "Eik Sheng Kwek"
+      },
+      "attributes": {
+        "childLabel": "Eik Sheng Kwek"
+      }
+    },
+    {
+      "id": "Q107009574",
+      "props": {
+        "name": "Rose Marie WEE"
+      },
+      "attributes": {
+        "motherLabel": "Rose Marie WEE"
+      }
+    },
+    {
+      "id": "Q107009566",
+      "props": {
+        "name": "Christopher Khoo"
+      },
+      "attributes": {
+        "childLabel": "Christopher Khoo"
+      }
+    },
+    {
+      "id": "Q107009589",
+      "props": {
+        "name": "Oei Ing Tjien"
+      },
+      "attributes": {
+        "spouseLabel": "Oei Ing Tjien"
+      }
+    },
+    {
+      "id": "Q107009682",
+      "props": {
+        "name": "Siew Eng Chua"
+      },
+      "attributes": {
+        "childLabel": "Siew Eng Chua"
+      }
+    },
+    {
+      "id": "Q107009749",
+      "props": {
+        "name": "TAN Geok Yin"
+      },
+      "attributes": {
+        "motherLabel": "TAN Geok Yin"
+      }
+    },
+    {
+      "id": "Q107009739",
+      "props": {
+        "name": "?"
+      },
+      "attributes": {
+        "motherLabel": "?"
+      }
+    },
+    {
+      "id": "Q106823205",
+      "props": {
+        "name": "Wee Hood Teck"
+      },
+      "attributes": {
+        "childLabel": "Wee Hood Teck"
+      }
+    },
+    {
+      "id": "Q107012046",
+      "props": {
+        "name": "Wee Bee Siok"
+      },
+      "attributes": {
+        "childLabel": "Wee Bee Siok"
+      }
+    },
+    {
+      "id": "Q107012309",
+      "props": {
+        "name": "Wee Cho Bian"
+      },
+      "attributes": {
+        "childLabel": "Wee Cho Bian"
+      }
+    },
+    {
+      "id": "Q29378419",
+      "props": {
+        "name": "Ong Tiang Swee"
+      },
+      "attributes": {
+        "fatherLabel": "Ong Tiang Swee"
+      }
+    },
+    {
+      "id": "Q107012075",
+      "props": {
+        "name": "Ah Lui"
+      },
+      "attributes": {
+        "motherLabel": "Ah Lui"
+      }
+    },
+    {
+      "id": "Q106823294",
+      "props": {
+        "name": "Wee Teng Wen"
+      },
+      "attributes": {
+        "childLabel": "Wee Teng Wen"
+      }
+    },
+    {
+      "id": "Q107012223",
+      "props": {
+        "name": "Grace Wee Jingsi"
+      },
+      "attributes": {
+        "childLabel": "Grace Wee Jingsi"
+      }
+    },
+    {
+      "id": "Q107012219",
+      "props": {
+        "name": "Wee Teng Chuen"
+      },
+      "attributes": {
+        "childLabel": "Wee Teng Chuen"
+      }
+    },
+    {
+      "id": "Q106823257",
+      "props": {
+        "name": "David Eu Yee Tat"
+      },
+      "attributes": {
+        "spouseLabel": "David Eu Yee Tat"
+      }
+    },
+    {
+      "id": "Q106823268",
+      "props": {
+        "name": "Chuang Yong Eng"
+      },
+      "attributes": {
+        "motherLabel": "Chuang Yong Eng"
+      }
+    },
+    {
+      "id": "Q106823252",
+      "props": {
+        "name": "Alexandra Eu"
+      },
+      "attributes": {
+        "childLabel": "Alexandra Eu"
+      }
+    },
+    {
+      "id": "Q106823259",
+      "props": {
+        "name": "Jonathan Eu"
+      },
+      "attributes": {
+        "childLabel": "Jonathan Eu"
+      }
+    },
+    {
+      "id": "Q106823358",
+      "props": {
+        "name": "Shin Hui Tan"
+      },
+      "attributes": {
+        "childLabel": "Shin Hui Tan"
+      }
+    },
+    {
+      "id": "Q106932768",
+      "props": {
+        "name": "Chua Boon Ann"
+      },
+      "attributes": {
+        "fatherLabel": "Chua Boon Ann"
+      }
+    },
+    {
+      "id": "Q106932769",
+      "props": {
+        "name": "Fong Lai Wah"
+      },
+      "attributes": {
+        "motherLabel": "Fong Lai Wah"
+      }
+    },
+    {
+      "id": "Q106933182",
+      "props": {
+        "name": "Kwee Liong Phing"
+      },
+      "attributes": {
+        "childLabel": "Kwee Liong Phing"
+      }
+    },
+    {
+      "id": "Q106933181",
+      "props": {
+        "name": "Kwee Liong Seen"
+      },
+      "attributes": {
+        "childLabel": "Kwee Liong Seen"
+      }
+    },
+    {
+      "id": "Q15989368",
+      "props": {
+        "name": "George Aratani"
+      },
+      "attributes": {
+        "fatherLabel": "George Aratani"
+      }
+    },
+    {
+      "id": "Q106932584",
+      "props": {
+        "name": "Claudia Sondakh"
+      },
+      "attributes": {
+        "spouseLabel": "Claudia Sondakh"
+      }
+    },
+    {
+      "id": "Q106932570",
+      "props": {
+        "name": "Lucas Kwee"
+      },
+      "attributes": {
+        "childLabel": "Lucas Kwee"
+      }
+    },
+    {
+      "id": "Q106957668",
+      "props": {
+        "name": "Shaila Tanwani"
+      },
+      "attributes": {
+        "spouseLabel": "Shaila Tanwani"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "seed": "Q312663",
+      "rel": "Q115688870",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q115688870",
+      "rel": "Q312663",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q718141",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q718141",
+      "rel": "Q126488",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q106770090",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770090",
+      "rel": "Q126488",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q8968820",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q8968820",
+      "rel": "Q126488",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q8968920",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q8968920",
+      "rel": "Q126488",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q106770235",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106770235",
+      "rel": "Q126488",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q126488",
+      "rel": "Q106770232",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106770232",
+      "rel": "Q126488",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q8968777",
+      "rel": "Q718141",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q718141",
+      "rel": "Q8968777",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q8968777",
+      "rel": "Q106770090",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770090",
+      "rel": "Q8968777",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q8963128",
+      "rel": "Q47012408",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q47012408",
+      "rel": "Q8963128",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q8963128",
+      "rel": "Q21501386",
+      "relType": "is sibling of"
+    },
+    {
+      "seed": "Q21501386",
+      "rel": "Q8963128",
+      "relType": "is sibling of"
+    },
+    {
+      "seed": "Q8963128",
+      "rel": "Q104668525",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q104668525",
+      "rel": "Q8963128",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q18921786",
+      "rel": "Q55955927",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q55955927",
+      "rel": "Q18921786",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q106945494",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106945494",
+      "rel": "Q1387731",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q106945495",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106945495",
+      "rel": "Q1387731",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q3056313",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q3056313",
+      "rel": "Q1387731",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q97817681",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q97817681",
+      "rel": "Q1387731",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q107009684",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q107009684",
+      "rel": "Q1387731",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q107009727",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q107009727",
+      "rel": "Q1387731",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q1387731",
+      "rel": "Q107009731",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q107009731",
+      "rel": "Q1387731",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q16008474",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q16008474",
+      "rel": "Q2484368",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q106823209",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q2484368",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q39050789",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q39050789",
+      "rel": "Q2484368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q106823263",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106823263",
+      "rel": "Q2484368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q106823368",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106823368",
+      "rel": "Q2484368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q107012371",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q107012371",
+      "rel": "Q2484368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q2484368",
+      "rel": "Q107012406",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q107012406",
+      "rel": "Q2484368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932765",
+      "rel": "Q106932766",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932766",
+      "rel": "Q106932765",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932765",
+      "rel": "Q106932713",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932713",
+      "rel": "Q106932765",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932765",
+      "rel": "Q106932738",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932738",
+      "rel": "Q106932765",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932765",
+      "rel": "Q106932764",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932764",
+      "rel": "Q106932765",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932598",
+      "rel": "Q106932705",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932705",
+      "rel": "Q106932598",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932598",
+      "rel": "Q106932713",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932713",
+      "rel": "Q106932598",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932598",
+      "rel": "Q97817650",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q97817650",
+      "rel": "Q106932598",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932598",
+      "rel": "Q106932587",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932587",
+      "rel": "Q106932598",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q16149275",
+      "rel": "Q105758664",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q105758664",
+      "rel": "Q16149275",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q16149275",
+      "rel": "Q105758670",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q105758670",
+      "rel": "Q16149275",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106957648",
+      "rel": "Q106957654",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106957654",
+      "rel": "Q106957648",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q8968820",
+      "rel": "Q106770084",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770084",
+      "rel": "Q8968820",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q8968920",
+      "rel": "Q106770084",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770084",
+      "rel": "Q8968920",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106770235",
+      "rel": "Q106770084",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770084",
+      "rel": "Q106770235",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106770232",
+      "rel": "Q106770084",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106770084",
+      "rel": "Q106770232",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q47012408",
+      "rel": "Q106708098",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106708098",
+      "rel": "Q47012408",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q21501386",
+      "rel": "Q106708262",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106708262",
+      "rel": "Q21501386",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q3056313",
+      "rel": "Q107009574",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107009574",
+      "rel": "Q3056313",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q3056313",
+      "rel": "Q107009566",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107009566",
+      "rel": "Q3056313",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q97817681",
+      "rel": "Q107009589",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q107009589",
+      "rel": "Q97817681",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q107009684",
+      "rel": "Q107009682",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107009682",
+      "rel": "Q107009684",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107009727",
+      "rel": "Q107009749",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107009749",
+      "rel": "Q107009727",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q107009731",
+      "rel": "Q107009739",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107009739",
+      "rel": "Q107009731",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q16008474",
+      "rel": "Q106823209",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q16008474",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q16008474",
+      "rel": "Q106823205",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823205",
+      "rel": "Q16008474",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q16008474",
+      "rel": "Q107012046",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012046",
+      "rel": "Q16008474",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q16008474",
+      "rel": "Q107012309",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012309",
+      "rel": "Q16008474",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q29378419",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q29378419",
+      "rel": "Q106823209",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q107012075",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107012075",
+      "rel": "Q106823209",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q106823205",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823205",
+      "rel": "Q106823209",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q107012046",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012046",
+      "rel": "Q106823209",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823209",
+      "rel": "Q107012309",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012309",
+      "rel": "Q106823209",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q39050789",
+      "rel": "Q106823294",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823294",
+      "rel": "Q39050789",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q39050789",
+      "rel": "Q107012223",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012223",
+      "rel": "Q39050789",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q39050789",
+      "rel": "Q107012219",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q107012219",
+      "rel": "Q39050789",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823263",
+      "rel": "Q106823257",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106823257",
+      "rel": "Q106823263",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106823263",
+      "rel": "Q106823268",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823268",
+      "rel": "Q106823263",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106823263",
+      "rel": "Q106823252",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823252",
+      "rel": "Q106823263",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823263",
+      "rel": "Q106823259",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823259",
+      "rel": "Q106823263",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823368",
+      "rel": "Q106823268",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823268",
+      "rel": "Q106823368",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106823368",
+      "rel": "Q106823358",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106823358",
+      "rel": "Q106823368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q107012371",
+      "rel": "Q106823268",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823268",
+      "rel": "Q107012371",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q107012406",
+      "rel": "Q106823268",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106823268",
+      "rel": "Q107012406",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106932766",
+      "rel": "Q106932768",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932768",
+      "rel": "Q106932766",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932766",
+      "rel": "Q106932769",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932769",
+      "rel": "Q106932766",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106932766",
+      "rel": "Q106932738",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106932738",
+      "rel": "Q106932766",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932766",
+      "rel": "Q106932764",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106932764",
+      "rel": "Q106932766",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932713",
+      "rel": "Q106933182",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106933182",
+      "rel": "Q106932713",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932713",
+      "rel": "Q106933181",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106933181",
+      "rel": "Q106932713",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932705",
+      "rel": "Q15989368",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q15989368",
+      "rel": "Q106932705",
+      "relType": "is father of"
+    },
+    {
+      "seed": "Q106932705",
+      "rel": "Q97817650",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q97817650",
+      "rel": "Q106932705",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932705",
+      "rel": "Q106932587",
+      "relType": "is mother of"
+    },
+    {
+      "seed": "Q106932587",
+      "rel": "Q106932705",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106932587",
+      "rel": "Q106932584",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932584",
+      "rel": "Q106932587",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106932587",
+      "rel": "Q106932570",
+      "relType": "is parent of"
+    },
+    {
+      "seed": "Q106932570",
+      "rel": "Q106932587",
+      "relType": "is child of"
+    },
+    {
+      "seed": "Q106957654",
+      "rel": "Q106957668",
+      "relType": "is spouse of"
+    },
+    {
+      "seed": "Q106957668",
+      "rel": "Q106957654",
+      "relType": "is spouse of"
+    }
+  ]
+}
