@@ -1,0 +1,123 @@
+[
+    {
+        "head":
+        {
+            "vars":
+            [
+                "person",
+                "personLabel",
+                "dateOfBirth",
+                "citizenship",
+                "citizenshipLabel",
+                "officialWebsite",
+                "netWorth",
+                "occupation",
+                "occupationLabel",
+                "employer",
+                "employerLabel",
+                "positionHeld",
+                "positionHeldLabel",
+                "spouse",
+                "spouseLabel",
+                "father",
+                "fatherLabel",
+                "mother",
+                "motherLabel",
+                "child",
+                "childLabel",
+                "sibling",
+                "siblingLabel",
+                "relative",
+                "relativeLabel"
+            ]
+        },
+        "results":
+        {
+            "bindings":
+            [
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q447463"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1958-05-15T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q30"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q13474373"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Ron Simmons"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "United States"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "professional wrestler"
+                    }
+                },
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q447463"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1958-05-15T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q30"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q19204627"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Ron Simmons"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "United States"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "American football player"
+                    }
+                }
+            ]
+        }
+    }
+]

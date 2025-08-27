@@ -1,0 +1,53 @@
+[
+    {
+        "head":
+        {
+            "vars":
+            [
+                "person",
+                "personLabel",
+                "dateOfBirth",
+                "citizenship",
+                "citizenshipLabel",
+                "officialWebsite",
+                "netWorth",
+                "occupation",
+                "occupationLabel",
+                "employer",
+                "employerLabel",
+                "positionHeld",
+                "positionHeldLabel",
+                "spouse",
+                "spouseLabel",
+                "father",
+                "fatherLabel",
+                "mother",
+                "motherLabel",
+                "child",
+                "childLabel",
+                "sibling",
+                "siblingLabel",
+                "relative",
+                "relativeLabel"
+            ]
+        },
+        "results":
+        {
+            "bindings":
+            [
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q6839529"
+                    },
+                    "personLabel":
+                    {
+                        "type": "literal",
+                        "value": "Q6839529"
+                    }
+                }
+            ]
+        }
+    }
+]

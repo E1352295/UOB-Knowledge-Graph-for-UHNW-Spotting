@@ -1,0 +1,249 @@
+[
+    {
+        "head":
+        {
+            "vars":
+            [
+                "person",
+                "personLabel",
+                "dateOfBirth",
+                "citizenship",
+                "citizenshipLabel",
+                "officialWebsite",
+                "netWorth",
+                "occupation",
+                "occupationLabel",
+                "employer",
+                "employerLabel",
+                "positionHeld",
+                "positionHeldLabel",
+                "spouse",
+                "spouseLabel",
+                "father",
+                "fatherLabel",
+                "mother",
+                "motherLabel",
+                "child",
+                "childLabel",
+                "sibling",
+                "siblingLabel",
+                "relative",
+                "relativeLabel"
+            ]
+        },
+        "results":
+        {
+            "bindings":
+            [
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q323506"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1738-01-01T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q174193"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q3621491"
+                    },
+                    "sibling":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q47516449"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Richard Chandler"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "United Kingdom of Great Britain and Ireland"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "archaeologist"
+                    },
+                    "siblingLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Christopher Chandler"
+                    }
+                },
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q323506"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1738-01-01T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q161885"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q3621491"
+                    },
+                    "sibling":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q47516449"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Richard Chandler"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Kingdom of Great Britain"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "archaeologist"
+                    },
+                    "siblingLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Christopher Chandler"
+                    }
+                },
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q323506"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1738-01-01T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q174193"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q1792450"
+                    },
+                    "sibling":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q47516449"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Richard Chandler"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "United Kingdom of Great Britain and Ireland"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "art historian"
+                    },
+                    "siblingLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Christopher Chandler"
+                    }
+                },
+                {
+                    "person":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q323506"
+                    },
+                    "dateOfBirth":
+                    {
+                        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "type": "literal",
+                        "value": "1738-01-01T00:00:00Z"
+                    },
+                    "citizenship":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q161885"
+                    },
+                    "occupation":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q1792450"
+                    },
+                    "sibling":
+                    {
+                        "type": "uri",
+                        "value": "http://www.wikidata.org/entity/Q47516449"
+                    },
+                    "personLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Richard Chandler"
+                    },
+                    "citizenshipLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Kingdom of Great Britain"
+                    },
+                    "occupationLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "art historian"
+                    },
+                    "siblingLabel":
+                    {
+                        "xml:lang": "en",
+                        "type": "literal",
+                        "value": "Christopher Chandler"
+                    }
+                }
+            ]
+        }
+    }
+]

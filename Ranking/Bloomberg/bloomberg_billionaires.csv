@@ -1,0 +1,501 @@
+﻿Rank,Name,NetWorth,LastChange,YTDChange,Country,Industry
+1,Elon Musk,373B,+2.59B,-59.4B,United States,Technology
+2,Larry Ellison,289B,+28.4B,+96.8B,United States,Technology
+3,Jeff Bezos,249B,-1.68B,+9.95B,United States,Technology
+4,Mark Zuckerberg,248B,-2.79B,+40.5B,United States,Technology
+5,Steve Ballmer,173B,-1.50B,+27.0B,United States,Technology
+6,Larry Page,172B,+882M,+3.57B,United States,Technology
+7,Sergey Brin,161B,+844M,+2.79B,United States,Technology
+8,Bernard Arnault,155B,-104M,-21.3B,France,Consumer
+9,Jensen Huang,146B,-3.75B,+31.2B,United States,Technology
+10,Warren Buffett,143B,+735M,+1.32B,United States,Diversified
+11,Michael Dell,131B,-3.32B,+7.36B,United States,Technology
+12,Bill Gates,123B,-20.6M,-35.3B,United States,Technology
+13,Jim Walton,120B,+207M,+7.45B,United States,Retail
+14,Rob Walton,117B,+181M,+7.48B,United States,Retail
+15,Alice Walton,116B,+214M,+7.37B,United States,Retail
+16,Amancio Ortega,105B,+553M,+3.42B,Spain,Retail
+17,Mukesh Ambani,102B,-1.34B,+11.6B,India,Energy
+18,Carlos Slim,98.5B,-984M,+19.1B,Mexico,Diversified
+19,Francoise Bettencourt Meyers,91.9B,+1.61B,+17.4B,France,Consumer
+20,Gautam Adani,83.4B,-1.44B,+4.70B,India,Industrial
+21,Julia Flesher Koch & family,80.7B,+342M,+7.74B,United States,Industrial
+22,Thomas Peterffy,74.5B,+294M,+21.4B,United States,Finance
+23,Charles Koch,73.4B,+313M,+7.69B,United States,Industrial
+24,Zhong Shanshan,67.3B,+1.24B,+12.3B,China,Diversified
+25,Jeff Yass,63.6B,-228M,+17.8B,United States,Finance
+26,Changpeng Zhao,59.7B,+2.41B,+6.37B,Canada,Finance
+27,Zhang Yiming,59.6B,0,+15.7B,China,Technology
+28,Ma Huateng,58.4B,+389M,+10.2B,China,Technology
+29,Stephen Schwarzman,54.9B,+660M,+1.52B,United States,Finance
+30,Giovanni Ferrero & family,52.3B,+814M,+16.5B,Italy,Food & Beverage
+31,Jacqueline Badger Mars,49.8B,+770M,+6.71B,United States,Food & Beverage
+32,John Mars,49.8B,+770M,+6.71B,United States,Food & Beverage
+33,Ken Griffin,48.3B,0,+6.91B,United States,Finance
+34,Lei Jun,47.7B,+145M,+18.0B,China,Technology
+35,Tadashi Yanai,46.9B,+354M,-4.03B,Japan,Retail
+36,Alain Wertheimer,44.1B,+447M,-297M,France,Consumer
+37,Gerard Wertheimer,44.1B,+422M,-322M,France,Consumer
+38,William Ding,44.0B,+621M,+15.2B,China,Technology
+39,Abigail Johnson,43.2B,+256M,+1.47B,United States,Finance
+40,Zeng Yuqun,43.1B,+1.00B,+4.43B,Hong Kong,Industrial
+41,German Larrea,42.8B,+674M,+10.0B,Mexico,Commodities
+42,MacKenzie Scott,42.2B,-265M,+2.05B,United States,Technology
+43,Lukas Walton,41.3B,+51.7M,+2.61B,United States,Retail
+44,Jack Ma,41.0B,+91.8M,+6.79B,China,Technology
+45,Klaus-Michael Kuehne,40.7B,+282M,+2.16B,Germany,Industrial
+46,Dieter Schwarz,40.6B,+883M,+8.99B,Germany,Retail
+47,Colin Huang,40.5B,+1.19B,+6.36B,China,Technology
+48,Len Blavatnik,39.0B,+316M,-204M,United States,Diversified
+49,Eduardo Saverin,38.1B,-436M,+6.31B,Brazil,Technology
+50,Miriam Adelson,37.9B,+122M,+682M,United States,Entertainment
+51,Eric Schmidt,36.7B,+148M,+480M,United States,Technology
+52,Shiv Nadar,36.2B,-225M,-6.92B,India,Technology
+53,Phil Knight & family,35.6B,+443M,+1.24B,United States,Consumer
+54,Iris Fontbona & family,35.4B,+277M,+6.91B,Chile,Commodities
+55,Prajogo Pangestu,35.1B,-1.06B,+5.39B,Indonesia,Energy
+56,Rodolphe Saade & family,35.1B,+410M,+5.27B,France,Services
+57,Dan Gilbert,34.8B,+1.40B,+8.69B,United States,Real Estate
+58,He Xiangjian,34.7B,+200M,+1.97B,China,Consumer
+59,Li Ka-shing,34.2B,+479M,+4.37B,Hong Kong,Real Estate
+60,Shapoor Mistry,33.5B,-58.4M,-5.09B,India,Industrial
+61,Ernesto Bertarelli & family,33.0B,+248M,+6.31B,Switzerland,Diversified
+62,Savitri Jindal,32.6B,-98.0M,+304M,India,Commodities
+63,Hasso Plattner,32.3B,-212M,+6.50B,Germany,Technology
+64,Mark Mateschitz,32.0B,+416M,+11.2B,Austria,Food & Beverage
+65,Thomas Frist,31.8B,-943M,+4.10B,United States,Health Care
+66,Zhang Bo,30.9B,+609M,+10.7B,China,Industrial
+67,Eyal Ofer,30.2B,-2.50M,+3.76B,Monaco,Diversified
+68,Vladimir Potanin,30.2B,+44.4M,+2.34B,Russian Federation,Commodities
+69,Susanne Klatten,30.2B,-14.5M,+5.87B,Germany,Industrial
+70,Gianluigi Aponte,29.8B,-116M,+2.43B,Switzerland,Services
+71,Idan Ofer,29.6B,+8.24M,+1.08B,Israel,Energy
+72,Gina Rinehart,28.5B,+1.19B,+3.46B,Australia,Commodities
+73,Aliko Dangote,28.4B,+27.7M,+333M,Nigeria,Industrial
+74,Sunil Mittal,28.2B,-70.2M,+4.36B,India,Media & Telecom
+75,Azim Premji,27.9B,-67.3M,-3.03B,India,Technology
+76,Elaine Marshall,27.4B,+118M,+2.65B,United States,Industrial
+77,Jorge Paulo Lemann,27.2B,+255M,+5.99B,Brazil,Food & Beverage
+78,Low Tuck Kwong,26.6B,+279M,-1.30B,Indonesia,Energy
+79,Henry Cheng,26.4B,+228M,+7.38B,Hong Kong,Retail
+80,Robert Pera,26.3B,-450M,+5.98B,United States,Technology
+81,Dilip Shanghvi,26.0B,-247M,-3.47B,India,Health Care
+82,Lakshmi Mittal,26.0B,+96.1M,+6.33B,India,Commodities
+83,Wang Chuan-Fu,25.9B,+551M,+4.74B,China,Consumer
+84,Alexey Mordashov,25.6B,+194M,+2.37B,Russian Federation,Industrial
+85,Stefan Quandt,25.5B,-70.2M,+4.65B,Germany,Industrial
+86,Vagit Alekperov,25.5B,+143M,+158M,Russian Federation,Energy
+87,Andrea Pignataro,25.5B,+35.7M,+4.79B,Italy,Finance
+88,Andy Bechtolsheim,25.3B,-335M,+313M,Germany,Technology
+89,Rick Cohen,25.1B,+81.3M,+10.7B,United States,Consumer
+90,Andrew Forrest,23.9B,+522M,+1.85B,Australia,Commodities
+91,Leonid Mikhelson,23.9B,+57.4M,+1.52B,Russian Federation,Energy
+92,Philip Anschutz,23.6B,+52.3M,+2.63B,United States,Diversified
+93,Lyndal Stephens Greth,23.5B,+201M,-1.24B,United States,Energy
+94,Sherry Brydson,23.5B,+19.4M,+4.32B,Canada,Media & Telecom
+95,Vicky Safra,23.5B,+69.5M,+3.08B,Greece,Finance
+96,Henry Samueli,23.5B,-690M,-180M,United States,Technology
+97,Manuel Villar,23.4B,+60.9M,+829M,Philippines,Diversified
+98,Takemitsu Takizaki,23.3B,-237M,-717M,Japan,Technology
+99,Stan Kroenke,23.2B,0,+2.48B,United States,Real Estate
+100,Peter Thiel,22.9B,-220M,+6.84B,United States,Finance
+101,Masayoshi Son,22.5B,+848M,+6.72B,Japan,Technology
+102,Vladimir Lisin,22.5B,+149M,-3.31B,Russian Federation,Industrial
+103,Zhang Zhidong,22.3B,+117M,+3.10B,China,Technology
+104,Ernie Garcia,22.2B,-13.6M,+7.21B,United States,Consumer
+105,David Tepper,22.1B,+25.0M,+915M,United States,Finance
+106,Andrey Melnichenko,22.1B,+889M,+1.91B,Russian Federation,Industrial
+107,Dietmar Hopp,21.3B,-163M,+4.76B,Germany,Technology
+108,Francois Pinault,21.2B,+407M,-344M,France,Consumer
+109,John Menard,20.9B,+350M,-2.11B,United States,Retail
+110,Zhong Huijuan,20.6B,+140M,+10.4B,China,Health Care
+111,Wang Ning,20.5B,+417M,+12.9B,China,Consumer
+112,Kumar Birla,20.5B,-2.32M,+1.53B,India,Industrial
+113,George Roberts,20.5B,+59.4M,+354M,United States,Finance
+114,Huang Shilin,20.1B,+460M,+2.00B,China,Industrial
+115,Qin Yinglin,19.8B,+421M,+5.32B,China,Food & Beverage
+116,Donald Newhouse,19.7B,+108M,+1.07B,United States,Media & Telecom
+117,Henry Kravis,19.6B,+78.2M,+573M,United States,Finance
+118,Xu Yangtian,19.5B,0,-1.95B,China,Retail
+119,Stefan Persson,19.5B,+178M,+2.95B,Sweden,Retail
+120,Liu Yongxing,19.5B,+308M,+5.75B,China,Industrial
+121,Budi Hartono,19.4B,-118M,-3.20B,Indonesia,Diversified
+122,Christy Walton,19.2B,+25.9M,+1.67B,United States,Retail
+123,Jan Koum,19.2B,+25.0M,+1.73B,United States,Technology
+124,Robert Kuok,19.1B,+25.0M,+1.71B,Malaysia,Diversified
+125,Lin Bin,19.0B,+59.4M,+7.00B,United States,Technology
+126,Bob Duggan,18.6B,+121M,+5.28B,United States,Health Care
+127,Jim Goodnight,18.5B,-418M,+3.00B,United States,Technology
+128,Harry Triguboff,18.4B,0,+600M,Australia,Real Estate
+129,James Dyson,18.4B,-53.6M,-851M,United Kingdom,Consumer
+130,Radhakishan Damani,18.3B,+25.8M,+1.99B,India,Retail
+131,K P Singh,18.1B,-168M,+280M,India,Real Estate
+132,Michael Hartono,17.9B,-113M,-3.04B,Indonesia,Diversified
+133,Charles Butt & family,17.9B,0,+2.62B,United States,Retail
+134,Brad Jacobs,17.6B,+176M,+10.7B,United States,Services
+135,Donald Bren,17.4B,0,0,United States,Real Estate
+136,Steve Cohen,17.4B,+1.39M,+2.54B,United States,Finance
+137,Charlene de Carvalho-Heineken,17.2B,+228M,+3.90B,Netherlands,Food & Beverage
+138,Anthoni Salim,17.2B,-119M,+4.29B,Indonesia,Diversified
+139,Renata Kellnerova,17.2B,+13.7M,+3.35B,Czech Republic,Diversified
+140,Brian Armstrong,17.1B,-373M,+6.33B,United States,Technology
+141,Alwaleed Bin Talal,17.1B,-212M,+1.16B,Saudi Arabia,Diversified
+142,Diane Hendricks,17.0B,+581M,+3.07B,United States,Services
+143,Alejandro Santo Domingo & family,17.0B,+89.7M,+3.28B,Colombia,Food & Beverage
+144,Jay Chaudhry,17.0B,-153M,+5.99B,United States,Technology
+145,Paolo Rocca & family,16.8B,+150M,+2.19B,Italy,Commodities
+146,Ludwig Merckle,16.8B,-53.1M,+6.80B,Germany,Industrial
+147,Alisher Usmanov,16.7B,+4.04M,+3.50B,Russian Federation,Diversified
+148,Jerry Jones,16.7B,+68.7M,+802M,United States,Entertainment
+149,Lv Xiang-yang,16.7B,+353M,+3.52B,China,Consumer
+150,Reinhold Wuerth,16.5B,+263M,-4.81B,Germany,Industrial
+151,Melinda French Gates,16.4B,+67.0M,+1.50B,United States,Diversified
+152,Uday Kotak,16.4B,-17.1M,+2.43B,India,Finance
+153,Jim Ratcliffe,16.4B,+139M,+3.13B,United Kingdom,Industrial
+154,Michal Strnad,16.4B,-147M,+7.21B,Czech Republic,Industrial
+155,Arthur Dantchik,16.2B,-94.1M,+5.89B,United States,Finance
+156,Theo Albrecht Jr,16.2B,-88.9M,+1.36B,Germany,Retail
+157,Johann Rupert & family,16.1B,+151M,+2.46B,South Africa,Diversified
+158,Cyrus Poonawalla,16.0B,-153M,-576M,India,Health Care
+159,Ray Dalio,16.0B,0,-190M,United States,Finance
+160,Micky Arison,16.0B,+33.6M,+1.28B,United States,Entertainment
+161,Charles Schwab,16.0B,-60.1M,+2.77B,United States,Finance
+162,Les Wexner,16.0B,+114M,+3.62B,United States,Retail
+163,Martin Viessmann & family,16.0B,+82.6M,+2.92B,Germany,Industrial
+164,Tom Gores,15.6B,+25.0M,+830M,United States,Finance
+165,Thomas Struengmann,15.6B,+135M,+225M,Germany,Health Care
+166,Sammy Lee,15.5B,+73.4M,+1.48B,Hong Kong,Consumer
+167,Zhang Xuexin,15.5B,+434M,+2.51B,China,Industrial
+168,Andreas Struengmann,15.5B,+160M,+74.8M,Germany,Health Care
+169,Mikhail Prokhorov,15.4B,0,+553M,Russian Federation,Diversified
+170,Stephen Ross,15.4B,+10.3M,+2.60B,United States,Real Estate
+171,Orlando Bravo,15.3B,+25.2M,-196M,United States,Finance
+172,Carl Cook,15.1B,+24.7M,+2.72B,United States,Health Care
+173,Andy Beal,15.0B,-79.7M,+1.25B,United States,Finance
+174,Mike Sabel,14.9B,-108M,-9.77B,United States,Commodities
+175,Bob Pender,14.9B,-108M,-9.77B,United States,Commodities
+176,Jeffery Hildebrand,14.7B,+146M,-3.72B,United States,Energy
+177,Alex Gerko,14.6B,-96.3M,+4.34B,United Kingdom,Finance
+178,Izzy Englander,14.6B,+3.51M,+1.15B,United States,Finance
+179,Peter Thomson,14.5B,+16.8M,+2.65B,Canada,Media & Telecom
+180,Taylor Thomson,14.5B,+16.8M,+2.65B,Canada,Media & Telecom
+181,David Thomson,14.5B,+13.1M,+2.65B,Canada,Media & Telecom
+182,Sukanto Tanoto,14.5B,+48.5M,-5.91B,Indonesia,Commodities
+183,Peter Woo,14.5B,+11.7M,+914M,Hong Kong,Real Estate
+184,Dave Duffield,14.4B,+230M,-1.73B,United States,Technology
+185,Hansjoerg Wyss,14.4B,+127M,+2.79B,Switzerland,Health Care
+186,Pavel Durov,14.3B,0,+3.27B,Russian Federation,Technology
+187,Anthony Bamford & family,14.2B,+239M,+2.59B,United Kingdom,Industrial
+188,Raymond Kwok,14.2B,+61.6M,+2.03B,Hong Kong,Real Estate
+189,Barry Lam,14.2B,-385M,+1.11B,Taiwan,Technology
+190,Ralph Lauren,14.2B,+14.9M,+1.98B,United States,Consumer
+191,John Fredriksen,14.1B,+149M,+2.85B,Cyprus,Industrial
+192,Elizabeth Johnson,13.9B,+70.5M,+327M,United States,Finance
+193,Ned Johnson IV,13.9B,+69.2M,+324M,United States,Finance
+194,Martin Lorentzon,13.9B,-598M,+4.39B,Sweden,Technology
+195,Nancy Laurie,13.9B,+21.6M,+909M,United States,Retail
+196,Francis Lui,13.9B,-23.1M,+1.51B,Hong Kong,Diversified
+197,Mikhail Fridman,13.7B,-20.3M,-1.04B,Russian Federation,Diversified
+198,Torstein Hagen,13.7B,-132M,+3.53B,Norway,Services
+199,Tony Ressler,13.7B,-35.0M,+884M,United States,Finance
+200,Wang Wei,13.6B,+40.6M,+3.52B,China,Services
+201,Kenneth Dart,13.6B,+119M,+4.37B,Cayman Islands,Finance
+202,Thomas Kwok,13.5B,+33.5M,+1.71B,Hong Kong,Real Estate
+203,Ravi Jaipuria,13.5B,-105M,-3.74B,India,Consumer
+204,David Sun,13.5B,-200M,-312M,United States,Technology
+205,John Tu,13.5B,-200M,-312M,United States,Technology
+206,Alex Karp,13.5B,-208M,+6.22B,United States,Technology
+207,Mark Walter,13.5B,-14.4M,+869M,United States,Finance
+208,Todd Graves,13.4B,+8.02M,+3.67B,United States,Consumer
+209,Pierre Omidyar,13.4B,+25.6M,+1.25B,United States,Technology
+210,Karl Albrecht Jr,13.3B,+204M,-453M,Germany,Retail
+211,Beate Heister,13.3B,+204M,-453M,Germany,Retail
+212,Jaime Gilinski,13.3B,-66.0M,+4.44B,Colombia,Finance
+213,Li Xiting,13.3B,+10.6M,-793M,Singapore,Health Care
+214,Hussain Sajwani,13.2B,-73.3k,+9.92B,United Arab Emirates,Real Estate
+215,Friedhelm Loh,13.2B,-107M,+2.77B,Germany,Diversified
+216,Rupert Murdoch,13.1B,+65.4M,+1.33B,United States,Media & Telecom
+217,Ralph Sonnenberg,13.1B,+54.6M,+2.27B,Netherlands,Consumer
+218,Sun Piaoyang,13.1B,-117M,+2.65B,China,Health Care
+219,Terry Pegula,13.0B,+25.6M,+669M,United States,Energy
+220,Martin Lee,13.0B,+33.5M,+1.18B,Hong Kong,Real Estate
+221,Peter Lee,13.0B,+33.5M,+1.18B,Hong Kong,Real Estate
+222,Richard Kinder,13.0B,-36.0M,-35.5M,United States,Energy
+223,Li Shu Fu,13.0B,+309M,-304M,China,Industrial
+224,Tilman Fertitta,13.0B,+15.6M,-2.26B,United States,Entertainment
+225,Zhu Yi,12.9B,+368M,+5.10B,China,Health Care
+226,Otto Toto Sugiri,12.9B,+5.15M,+10.9B,Indonesia,Technology
+227,Hugh Grosvenor,12.9B,+72.0M,-249M,United Kingdom,Real Estate
+228,Leon Black,12.8B,+49.2M,-1.91B,United States,Finance
+229,Adam Foroughi,12.8B,-583M,+677M,United States,Technology
+230,Charoen Sirivadhanabhakdi,12.7B,-79.0M,-97.6M,Thailand,Food & Beverage
+231,Nicky Oppenheimer,12.6B,+25.0M,+1.10B,South Africa,Diversified
+232,David Velez,12.6B,-93.8M,+2.33B,Colombia,Finance
+233,Mangal Prabhat Lodha,12.6B,-64.6M,+386M,India,Real Estate
+234,Xavier Niel,12.6B,+300M,+4.61B,France,Technology
+235,Sandra Ortega Mera,12.6B,+90.4M,+663M,Spain,Retail
+236,Josh Harris,12.6B,+33.6M,+551k,United States,Finance
+237,Ann Kroenke,12.6B,+21.6M,+809M,United States,Retail
+238,Anthony Pratt,12.6B,+133M,+811M,Australia,Industrial
+239,Goh Cheng Liang,12.5B,+275M,+2.64B,Singapore,Industrial
+240,Marijke Mars,12.4B,+192M,+1.67B,United States,Food & Beverage
+241,Victoria Mars,12.4B,+192M,+1.67B,United States,Food & Beverage
+242,Pamela Mars-Wright,12.4B,+192M,+1.67B,United States,Food & Beverage
+243,Valerie Mars,12.4B,+192M,+1.67B,United States,Food & Beverage
+244,Leo Koguan,12.4B,+153M,-2.00B,United States,Technology
+245,Prince Hans-Adam II,12.4B,+161M,+2.18B,Liechtenstein,Finance
+246,Scott Farquhar,12.4B,+198M,-2.29B,Australia,Technology
+247,Harold Hamm,12.4B,+295M,+121M,United States,Energy
+248,Tom Morris,12.3B,-6.18M,+5.15B,United Kingdom,Retail
+249,John Albert Sobrato,12.3B,0,+946M,United States,Real Estate
+250,Mike Cannon-Brookes,12.2B,+207M,-2.37B,Australia,Technology
+251,Qi Shi,12.2B,+95.1M,-894M,China,Finance
+252,Antonia Axson Johnson,12.1B,+126M,+2.39B,Sweden,Industrial
+253,Gennady Timchenko,12.1B,+45.2M,+1.07B,Russian Federation,Diversified
+254,Lin Muqin,12.0B,-144M,+2.06B,China,Consumer
+255,Laurene Powell Jobs,12.0B,+6.09M,+23.3M,United States,Media & Telecom
+256,Daniel Kretinsky,12.0B,+152M,+5.06B,Czech Republic,Energy
+257,Sarath Ratanavadi,11.9B,-245M,-2.96B,Thailand,Energy
+258,Michael Platt,11.9B,0,+2.12B,United Kingdom,Finance
+259,Patrick Ryan,11.8B,+47.1M,+439M,United States,Services
+260,Gong Hongjia,11.8B,+55.6M,+542M,China,Technology
+261,Zhou Qunfei,11.7B,-42.4M,+1.32B,China,Technology
+262,Ken Fisher,11.7B,+25.0M,+5.83B,United States,Finance
+263,Marcel Telles,11.7B,+91.2M,+2.23B,Brazil,Food & Beverage
+264,Enrique Razon,11.7B,-2.48M,+2.34B,Philippines,Services
+265,Dustin Moskovitz,11.7B,+50.7M,-16.6B,United States,Technology
+266,Patrick Soon-Shiong,11.6B,+19.5M,+1.29B,United States,Health Care
+267,Jay Y. Lee,11.5B,-203M,+3.07B,"Korea, Republic of",Diversified
+268,Simon Reuben,11.5B,+182k,-1.26M,United Kingdom,Diversified
+269,David Reuben,11.5B,+182k,-1.26M,United Kingdom,Diversified
+270,Giancarlo Devasini,11.5B,0,+3.23B,Italy,Finance
+271,Randa Williams,11.5B,+52.3M,+700M,United States,Energy
+272,Chris Hohn,11.4B,+20.2M,+2.63B,United Kingdom,Finance
+273,Linda Campbell,11.4B,+23.7M,+2.08B,Canada,Media & Telecom
+274,Gaye Farncombe,11.4B,-1.34M,+2.08B,Canada,Media & Telecom
+275,Dannine Avara,11.4B,+27.1M,+666M,United States,Energy
+276,Scott Duncan,11.4B,+27.1M,+666M,United States,Energy
+277,Milane Frantz,11.4B,+27.1M,+691M,United States,Energy
+278,Dang Yanbao,11.4B,+144M,+441M,China,Energy
+279,David Shaw,11.4B,+27.4M,+596M,United States,Finance
+280,David Cheriton,11.3B,-87.5M,+614M,Canada,Technology
+281,Karel Komarek,11.2B,+50.2M,+1.22B,Czech Republic,Diversified
+282,Yu Yong,11.2B,+353M,+2.44B,China,Finance
+283,Pham Nhat Vuong,11.2B,+485M,+5.87B,Viet Nam,Real Estate
+284,Victor Rashnikov,11.2B,+34.6M,+1.64B,Russian Federation,Industrial
+285,Brian Chesky,11.1B,+102M,+450M,United States,Services
+286,Robert Smith,11.1B,0,0,United States,Finance
+287,Murali Divi,11.0B,-130M,+783M,India,Health Care
+288,Thomas Schmidheiny,11.0B,+70.9M,+2.59B,Switzerland,Industrial
+289,Pei Zhenhua,11.0B,+246M,+1.14B,China,Industrial
+290,Stan Druckenmiller,11.0B,0,0,United States,Finance
+291,Rahul Bhatia,10.9B,+103M,+2.26B,India,Consumer
+292,Arthur Blank,10.9B,+110M,-160M,United States,Entertainment
+293,Marc Rowan,10.9B,+58.0M,-7.50M,United States,Finance
+294,Mark Stevens,10.8B,-161M,+1.54B,United States,Technology
+295,Tobi Lutke,10.8B,-386M,+1.50B,Canada,Technology
+296,Xu Gaoming,10.8B,-157M,+7.70B,China,Retail
+297,Michael Kadoorie,10.8B,+56.4M,+411M,Hong Kong,Energy
+298,Graeme Hart,10.8B,+157M,-478M,New Zealand,Finance
+299,Leonid Fedun,10.8B,+20.3M,+705M,Russian Federation,Energy
+300,Ernest Garcia III,10.8B,-10.2M,+4.45B,United States,Consumer
+301,Wang Liping,10.7B,+343M,+3.65B,China,Industrial
+302,Dan Friedkin,10.7B,+104M,-763M,United States,Retail
+303,Laurent Dassault,10.7B,-23.3M,+2.38B,France,Diversified
+304,Marie-Helene Habert-Dassault,10.7B,-24.2M,+2.38B,France,Diversified
+305,Thierry Dassault,10.7B,-24.2M,+2.38B,France,Diversified
+306,Terry Gou,10.7B,-73.3M,+778M,Taiwan,Industrial
+307,Ronda Stryker,10.7B,+133M,+630M,United States,Health Care
+308,Peter Mallouk,10.7B,0,+1.68B,United States,Finance
+309,Cen Junda,10.7B,-48.6M,+3.76B,China,Health Care
+310,Steven Rales,10.7B,+53.9M,-637M,United States,Industrial
+311,Nusli Wadia,10.6B,+22.6M,+1.27B,India,Diversified
+312,Sulaiman Al Habib,10.6B,-127M,-907M,Saudi Arabia,Health Care
+313,Marcos Galperin,10.5B,+20.1M,+2.60B,Argentina,Technology
+314,Carl Bennet,10.5B,-9.09M,+2.03B,Sweden,Finance
+315,Piero Ferrari,10.5B,-98.4M,+1.64B,Italy,Consumer
+316,Andrey Guryev,10.5B,-33.9M,+1.70B,Russian Federation,Industrial
+317,Viktor Vekselberg,10.5B,-60.7M,+3.20B,Russian Federation,Industrial
+318,Steven Spielberg,10.5B,0,+775M,United States,Entertainment
+319,Forrest Li,10.5B,-32.2M,+3.32B,Singapore,Technology
+320,Marc Benioff,10.4B,+29.7M,-1.22B,United States,Technology
+321,Kjeld Kirk Kristiansen,10.4B,+69.4M,+3.21B,Denmark,Consumer
+322,Shari Arison,10.4B,+25.0M,+1.68B,Israel,Diversified
+323,Shahid Khan,10.4B,+62.6M,+643M,United States,Consumer
+324,George Kaiser,10.3B,+1.08M,-4.06B,United States,Energy
+325,Abdullah Al Ghurair,10.3B,+10.7M,+1.20B,United Arab Emirates,Diversified
+326,Vincent Bollore,10.3B,-30.1M,+593M,France,Diversified
+327,Eric Smidt,10.3B,+235M,+1.67B,United States,Retail
+328,Wang Xing,10.2B,-98.6M,-1.20B,China,Technology
+329,Agnete Kirk Thinggaard,10.2B,+94.4M,+3.16B,Denmark,Consumer
+330,Thomas Kirk Kristiansen,10.2B,+69.4M,+3.16B,Denmark,Consumer
+331,John Malone,10.2B,+33.8M,+653M,United States,Media & Telecom
+332,Wei Jianjun,10.2B,-46.3M,-1.16B,China,Consumer
+333,Rafael Del Pino,10.1B,-90.6M,+2.01B,Spain,Industrial
+334,Zhang Hongchao,10.0B,+264M,+6.00B,China,Food & Beverage
+335,Zhang Hongfu,10.0B,+263M,+5.98B,China,Food & Beverage
+336,Natie Kirsh,10.0B,-74.8M,+675M,South Africa,Food & Beverage
+337,Chen Tianshi,10.0B,+201M,-877M,China,Technology
+338,Suleiman Kerimov,9.89B,-75.0M,+2.85B,Russian Federation,Commodities
+339,Frank Lowy,9.85B,+50.0M,+1.35B,Australia,Real Estate
+340,Sofie Kirk Kristiansen,9.80B,+87.2M,+2.94B,Denmark,Consumer
+341,Nassef Sawiris,9.77B,+25.4M,+1.08B,Egypt,Industrial
+342,Andre Esteves,9.75B,-57.8M,+3.14B,Brazil,Finance
+343,Vikram Lal,9.75B,-193M,+995M,India,Industrial
+344,Jude Reyes,9.69B,0,+570M,United States,Consumer
+345,Chris Reyes,9.69B,0,+570M,United States,Consumer
+346,Jon Gray,9.68B,+118M,+146M,United States,Finance
+347,Pang Kang,9.65B,+177M,-1.64B,China,Food & Beverage
+348,Richard White,9.64B,+170M,+330M,Australia,Technology
+349,Magdalena Martullo,9.63B,+70.1M,+1.76B,Switzerland,Industrial
+350,Lynn Schusterman,9.61B,+34.5M,+554M,United States,Energy
+351,Marina Budiman,9.58B,+3.88M,+8.13B,Indonesia,Technology
+352,Tammy Gustavson,9.50B,+125M,+215M,United States,Services
+353,Alejandro Bailleres,9.50B,+43.0M,+3.46B,Mexico,Commodities
+354,Dmitry Rybolovlev,9.44B,+26.7M,-1.53B,Russian Federation,Diversified
+355,Nathan Blecharczyk,9.40B,+84.6M,+546M,United States,Services
+356,Ray Lee Hunt,9.39B,+37.4M,+519M,United States,Energy
+357,Patrick Collison,9.37B,0,+2.20B,Ireland,Technology
+358,John Collison,9.37B,0,+2.20B,Ireland,Technology
+359,Woody Johnson,9.31B,+30.6M,+536M,United States,Diversified
+360,Ma Jianrong,9.26B,+107M,+225M,China,Consumer
+361,Ivan Glasenberg,9.25B,+203M,+569M,Switzerland,Commodities
+362,John Sall,9.24B,-209M,+1.50B,United States,Technology
+363,Georg Nemetschek,9.22B,-89.1M,+3.17B,Germany,Technology
+364,Michael Kim,9.21B,0,+66.2M,United States,Finance
+365,John Doerr,9.20B,+42.5M,+192M,United States,Finance
+366,Maria Angelicoussis,9.18B,0,+2.57B,Greece,Industrial
+367,Michael Saylor,9.15B,+2.40M,+2.79B,United States,Technology
+368,Rahel Blocher,9.15B,+70.5M,+1.66B,Switzerland,Industrial
+369,Daniel Ek,9.14B,-388M,+2.34B,Sweden,Technology
+370,Joseph Tsai,9.13B,+14.5M,+2.12B,Canada,Technology
+371,David Geffen,9.10B,0,0,United States,Entertainment
+372,George Lucas,9.08B,+33.2M,+710M,United States,Entertainment
+373,Giorgio Armani,9.06B,+107M,+1.13B,Italy,Consumer
+374,David Steward,9.03B,+112M,-895M,United States,Technology
+375,Robert Kraft,9.02B,+22.5M,+239M,United States,Entertainment
+376,Naguib Sawiris,9.00B,+74.2M,+2.11B,Egypt,Media & Telecom
+377,Pankaj Patel,8.99B,-127M,-176M,India,Health Care
+378,Todd Boehly,8.94B,+4.73M,+1.49B,United States,Diversified
+379,Samuel Yin,8.86B,-58.1M,+604M,Taiwan,Diversified
+380,Michael Rubin,8.83B,0,-1.03B,United States,Retail
+381,Carlos Sicupira,8.82B,+33.3M,+1.62B,Brazil,Food & Beverage
+382,Don Hankey,8.76B,+68.5M,+2.77B,United States,Finance
+383,Benu Bangur,8.75B,+204M,+1.70B,India,Commodities
+384,Clive Calder,8.75B,+25.0M,+750M,United Kingdom,Entertainment
+385,Mike Dorrell,8.75B,0,0,Australia,Finance
+386,Zhang Congyuan,8.72B,+240M,-2.73B,Taiwan,Industrial
+387,Frank Wang,8.70B,-203M,+4.38B,China,Technology
+388,Yasumitsu Shigeta,8.69B,+35.0M,+1.66B,Japan,Media & Telecom
+389,Jimmy Haslam,8.66B,0,-107M,United States,Consumer
+390,Cho Jung-Ho,8.65B,-141M,+1.49B,"Korea, Republic of",Finance
+391,Joe Gebbia,8.63B,+56.6M,+343M,United States,Services
+392,Nik Storonsky,8.63B,0,+25.0M,United Kingdom,Finance
+393,Henry Laufer,8.63B,0,+575M,United States,Finance
+394,Mark Cuban,8.60B,0,+741M,United States,Technology
+395,John Brown,8.58B,+182M,+804M,United States,Technology
+396,Min Kao,8.57B,+28.4M,+775M,United States,Technology
+397,Luis Sarmiento,8.57B,-21.4M,+1.76B,Colombia,Finance
+398,Pat Stryker,8.56B,+72.1M,+467M,United States,Health Care
+399,Ken Xie,8.53B,-168M,+894M,United States,Technology
+400,Dennis Washington,8.53B,+31.0M,+721M,United States,Industrial
+401,Francesco Gaetano Caltagirone,8.51B,-16.4M,+2.66B,Italy,Diversified
+402,Liu Yonghao,8.50B,+104M,+1.03B,China,Diversified
+403,Joe Lewis,8.49B,+45.6M,+647M,United Kingdom,Diversified
+404,Ding Shizhong,8.49B,+19.9M,+1.26B,China,Consumer
+405,German Khan,8.48B,+2.51M,+516M,Russian Federation,Diversified
+406,Tony James,8.43B,+42.2M,+478M,United States,Finance
+407,Alain Merieux,8.42B,+59.8M,+1.73B,France,Health Care
+408,Kerry Stokes,8.40B,+150M,+1.41B,Australia,Industrial
+409,Li Shuirong,8.40B,+200M,+727M,China,Energy
+410,Michael Intrator,8.39B,+311M,+5.47B,United States,Technology
+411,Chip Wilson,8.39B,-51.4M,+98.9M,Canada,Retail
+412,Maria Asuncion Aramburuzabala,8.38B,+25.3M,+747M,Mexico,Diversified
+413,Leaf Hua Li,8.37B,+201M,+4.33B,China,Technology
+414,Mat Ishbia,8.36B,+263M,+2.09B,United States,Finance
+415,Lu Weiding,8.36B,-11.2M,+1.61B,China,Diversified
+416,Joe Ricketts,8.34B,0,+636M,United States,Finance
+417,Trevor Rees-Jones,8.29B,+1.21M,+400M,United States,Energy
+418,Xu Hang,8.29B,+5.61M,-196M,Hong Kong,Health Care
+419,Yeung Kin-Man,8.29B,-118M,+1.31B,Hong Kong,Technology
+420,Bill Ackman,8.28B,+34.6M,+514M,United States,Finance
+421,Bob Rich,8.20B,+82.7M,-537M,United States,Food & Beverage
+422,Cai Haoyu,8.18B,-58.2M,+877M,China,Entertainment
+423,Blair Parry-Okeden,8.16B,+56.5M,-115M,United States,Media & Telecom
+424,Jim Kennedy,8.16B,+56.5M,-115M,United States,Media & Telecom
+425,Scott Cook,8.15B,+19.5M,+1.10B,United States,Technology
+426,Liz Mohn,8.12B,+130M,+1.49B,Germany,Media & Telecom
+427,Juan Roig,8.12B,+42.1M,+2.01B,Spain,Food & Beverage
+428,Andre Hoffmann,8.11B,+20.9M,+1.33B,Switzerland,Health Care
+429,Yi Zheng,8.10B,+151M,+104M,China,Finance
+430,Ding Shijia,8.09B,+19.0M,+1.19B,China,Consumer
+431,Jorge Moll & family,8.08B,-66.8M,+2.28B,Brazil,Health Care
+432,Remon Vos,8.07B,+77.9M,+2.34B,Netherlands,Real Estate
+433,Kelcy Warren,8.07B,+27.2M,-333M,United States,Energy
+434,Riley Bechtel,8.02B,0,+5.07B,United States,Services
+435,Leonard Stern,7.98B,0,+350M,United States,Real Estate
+436,Geoffrey Kwok,7.95B,+26.3M,+1.04B,Hong Kong,Real Estate
+437,Edward Roski,7.95B,0,+626M,United States,Real Estate
+438,Jim Davis,7.93B,+117M,+1.63B,United States,Consumer
+439,Ron Wanek,7.92B,+180M,-150M,United States,Retail
+440,Roman Abramovich,7.90B,-25.0M,+989M,Russian Federation,Diversified
+441,Marian Ilitch,7.89B,+158M,+1.62B,United States,Food & Beverage
+442,Jeffrey Lurie,7.89B,0,+1.81B,United States,Entertainment
+443,Gayle Benson,7.88B,0,0,United States,Entertainment
+444,Vladimir Kim,7.87B,+4.67M,+817M,Kazakhstan,Commodities
+445,Patrick Drahi,7.87B,+43.6M,+2.29B,France,Media & Telecom
+446,Gary Rollins,7.86B,+20.2M,+1.01B,United States,Industrial
+447,Jim Davis,7.83B,+102M,+2.59B,United States,Services
+448,Denise York,7.83B,0,+1.54B,United States,Entertainment
+449,Rakesh Gangwal,7.80B,+39.0M,+1.07B,India,Consumer
+450,David Filo,7.80B,0,+675M,United States,Technology
+451,Jeff Skoll,7.80B,0,+575M,United States,Technology
+452,Richard Tsai,7.80B,-50.7M,+362M,Taiwan,Finance
+453,Willi Liebherr,7.77B,+120M,+2.10B,Germany,Industrial
+454,Isolde Liebherr,7.77B,+120M,+2.10B,Germany,Industrial
+455,John Grayken,7.77B,+21.5M,-2.69B,Ireland,Finance
+456,Ivar Tollefsen,7.75B,+51.0M,+2.19B,Norway,Real Estate
+457,Dan Cathy,7.73B,+81.8M,-276M,United States,Food & Beverage
+458,Bubba Cathy,7.73B,+81.8M,-276M,United States,Food & Beverage
+459,Gwendolyn Sontheim Meyer,7.70B,+261M,+1.13B,United States,Commodities
+460,Pauline Keinath,7.70B,+261M,+1.13B,United States,Commodities
+461,Sudhir Mehta,7.70B,-72.9M,+163M,India,Health Care
+462,Samir Mehta,7.70B,-72.9M,+163M,India,Health Care
+463,Margot Perot & family,7.70B,0,+675M,United States,Diversified
+464,Mike Novogratz,7.69B,+337M,+2.59B,United States,Finance
+465,Dhanin Chearavanont,7.65B,+12.1M,+1.55B,Thailand,Retail
+466,Peter Cancro,7.60B,0,+50.0M,United States,Consumer
+467,Reed Hastings,7.58B,-158M,+1.15B,United States,Technology
+468,Thomas Pritzker,7.57B,+28.9M,+130M,United States,Finance
+469,Daniel Tsai,7.55B,-48.7M,+383M,Taiwan,Finance
+470,Mohammed Al Amoudi,7.53B,+34.2M,-1.32B,Saudi Arabia,Energy
+471,Denise Coates,7.52B,+14.8M,+3.06B,United Kingdom,Entertainment
+472,Robin Li,7.51B,+247M,+760M,China,Technology
+473,James Pattison,7.51B,+74.2M,+192M,Canada,Media & Telecom
+474,Tsai Eng-Meng,7.50B,+56.8M,+1.11B,Taiwan,Food & Beverage
+475,George Soros,7.50B,0,+1.00B,United States,Finance
+476,Alain Bouchard,7.47B,+56.1M,+198M,Canada,Retail
+477,Tatyana Kim,7.44B,+33.0M,+68.8M,Russian Federation,Technology
+478,Tyler Winklevoss,7.42B,+126M,+1.55B,,
+479,Cameron Winklevoss,7.42B,+126M,+1.55B,United States,Technology
+480,Li Ping,7.40B,+167M,+744M,China,Industrial
+481,Stefano Pessina,7.37B,+2.90M,+806M,Monaco,Retail
+482,Mitchell Rales,7.35B,+82.1M,-817M,United States,Industrial
+483,Wu Jianshu,7.35B,-109M,+139M,Hong Kong,Industrial
+484,Pedro Moreira Salles,7.35B,-36.8M,+1.08B,Brazil,Finance
+485,Dmitry Bukhman,7.35B,-55.2M,+1.12B,Israel,Technology
+486,Edward Cadogan,7.33B,0,+250M,United Kingdom,Real Estate
+487,Andreas Halvorsen,7.32B,+19.7M,+2.05B,Norway,Finance
+488,Jason Chang,7.32B,-73.0M,+463M,Singapore,Technology
+489,Igor Bukhman,7.31B,-80.2M,+1.09B,Israel,Technology
+490,Lynsi Snyder,7.30B,+40.1M,-402M,United States,Food & Beverage
+491,Gordon Getty,7.28B,0,+525M,United States,Consumer
+492,Garrett Camp,7.27B,+42.2M,+2.21B,Canada,Technology
+493,Juan Carlos Escotet,7.26B,-35.1M,+2.47B,Venezuela,Finance
+494,Vera Michalski-Hoffmann,7.26B,+20.6M,+1.18B,Switzerland,Health Care
+495,Maja Hoffmann,7.26B,+20.9M,+1.18B,Switzerland,Health Care
+496,Fernando Moreira Salles,7.21B,-38.7M,+930M,Brazil,Finance
+497,Xu Shihui,7.19B,0,-720M,China,Food & Beverage
+498,Zhou Chaonan,7.18B,-187M,-168M,China,Technology
+499,Massimiliana Landini Aleotti,7.16B,+56.3M,+537M,Italy,Health Care
+500,Eric Douglas,7.14B,-14.7M,+662M,Sweden,Diversified
